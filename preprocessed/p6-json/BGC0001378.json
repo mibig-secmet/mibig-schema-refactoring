@@ -1,0 +1,32 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "tiancimycin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KT716443.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001378",
+        "minimal": true,
+        "polyketide": {},
+        "publications": [
+            "pubmed:25019332"
+        ]
+    }
+}

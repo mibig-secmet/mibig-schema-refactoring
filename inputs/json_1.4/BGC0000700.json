@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AJ845083",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000700",
+        "compounds": [
+            {
+                "mol_mass": "318.418",
+                "chem_struct": "CNC1C(CC(C(C1O)OC2C(CCC(O2)CN)N)N)OC",
+                "database_deposited": true,
+                "pubchem_id": 3056186,
+                "compound": "istamycin",
+                "molecular_formula": "C14H30N4O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ]
+    }
+}

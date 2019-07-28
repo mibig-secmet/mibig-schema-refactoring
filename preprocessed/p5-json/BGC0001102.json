@@ -1,0 +1,280 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Gene expression correlated with compound production"
+            ],
+            "accession": "CP000085.1",
+            "start_coord": 2545193,
+            "end_coord": 2580940
+        },
+        "compounds": [
+            {
+                "mol_mass": 306.1831,
+                "chem_struct": "O=C1/C(C=C(C(CC)=O)O1)=C(O)/C(C)=C/CCCCCCC",
+                "mass_ion_type": "None",
+                "compound": "Malleilactone",
+                "molecular_formula": "C18H26O4",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Siderophore"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2553571,
+                    "gene_id": "ABC36203.1",
+                    "gene_annotation": "thiotemplate mechanism natural product synthetase",
+                    "gene_startpos": 2545193,
+                    "not_in_gbk": false,
+                    "gene_name": "malA"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2554189,
+                    "gene_id": "ABC34581.1",
+                    "gene_annotation": "conserved hypothetical protein",
+                    "gene_startpos": 2553671,
+                    "not_in_gbk": false,
+                    "gene_name": "malB"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2555740,
+                    "gene_id": "ABC35239.1",
+                    "gene_annotation": "syringomycin synthesis regulator SyrP, putative",
+                    "gene_startpos": 2554346,
+                    "not_in_gbk": false,
+                    "gene_name": "malC"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2557170,
+                    "gene_id": "ABC35627.1",
+                    "gene_annotation": "adenosylmethionine-8-amino-7-oxononanoate aminotransferase, putative",
+                    "gene_startpos": 2555749,
+                    "not_in_gbk": false,
+                    "gene_name": "malD"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2558576,
+                    "gene_id": "ABC35115.1",
+                    "gene_annotation": "aldehyde dehydrogenase family protein",
+                    "gene_startpos": 2557164,
+                    "not_in_gbk": false,
+                    "gene_name": "malE"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2570779,
+                    "gene_id": "ABC35796.1",
+                    "gene_annotation": "polyketide synthase, putative",
+                    "gene_startpos": 2558633,
+                    "not_in_gbk": false,
+                    "gene_name": "malF"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2571846,
+                    "gene_id": "ABC34926.1",
+                    "gene_annotation": "ketol-acid reductoisomerase",
+                    "gene_startpos": 2570785,
+                    "not_in_gbk": false,
+                    "gene_name": "malG"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2574466,
+                    "gene_id": "ABC34723.1",
+                    "gene_annotation": "diaminopimelate decarboxylase, putative",
+                    "gene_startpos": 2571743,
+                    "not_in_gbk": false,
+                    "gene_name": "malH"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2576364,
+                    "gene_id": "ABC34346.1",
+                    "gene_annotation": "long-chain-fatty-acid--CoA ligase, putative",
+                    "gene_startpos": 2574496,
+                    "not_in_gbk": false,
+                    "gene_name": "malI"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2576868,
+                    "gene_id": "ABC34855.1",
+                    "gene_annotation": "lipoprotein, putative",
+                    "gene_startpos": 2576437,
+                    "not_in_gbk": false,
+                    "gene_name": "malJ"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2577768,
+                    "gene_id": "ABC35574.1",
+                    "gene_annotation": "malonyl CoA-acyl carrier protein transacylase",
+                    "gene_startpos": 2576869,
+                    "not_in_gbk": false,
+                    "gene_name": "malK"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2579653,
+                    "gene_id": "ABC35922.1",
+                    "gene_annotation": "AMP-binding domain protein",
+                    "gene_startpos": 2577785,
+                    "not_in_gbk": false,
+                    "gene_name": "malJ"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2580940,
+                    "gene_id": "ABC35961.1",
+                    "gene_annotation": "auxin efflux carrier, putative",
+                    "gene_startpos": 2580041,
+                    "not_in_gbk": false,
+                    "gene_name": "malM"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001102",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:22765305"
+        ],
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABC35796.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "module_nr": "1",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "2",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABC36203.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thioesterase",
+                                "Ketoreductase"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "Propionyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Polyene",
+            "lin_cycl_pk": "Linear",
+            "pks_release_type": "Reductive release"
+        },
+        "nrp": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "ABC35922.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ABC35796.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "nonprot_adom_spec": "Proprionate",
+                                "aa_type": "Nonproteinogenic"
+                            }
+                        }
+                    ],
+                    "nrps_gene": "ABC36203.1"
+                }
+            ],
+            "subclass": "Beta-lactam",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "bth_ii2088"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

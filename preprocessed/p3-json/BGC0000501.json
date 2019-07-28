@@ -1,0 +1,143 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4816367,
+                    "Accession": "CP001700",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ],
+                    "start_coord": 4809160
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 2398.0599,
+                "mass_ion_type": "[M+H]+",
+                "compound": "catenulipeptin",
+                "molecular_formula": "C99H152N32O34S2",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 4811772,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ACU73103.1",
+                    "gene_annotation": "serine/threonine protein kinase",
+                    "gene_startpos": 4809160,
+                    "not_in_gbk": false,
+                    "gene_name": "aciKC"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 4811933,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ACU73104.1",
+                    "gene_annotation": "precursor",
+                    "gene_startpos": 4811778,
+                    "not_in_gbk": false,
+                    "gene_name": "aciA"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 4812822,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACU73105.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 4812097,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 4814541,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACU73106.1",
+                    "gene_annotation": "ABC transporter related",
+                    "gene_startpos": 4812901,
+                    "not_in_gbk": false,
+                    "gene_name": "aciT1"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 4816367,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACU73107.1",
+                    "gene_annotation": "ABC transporter related",
+                    "gene_startpos": 4814538,
+                    "not_in_gbk": false,
+                    "gene_name": "aciT2"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000501",
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "AA_pos_1": 8,
+                            "AA_pos_2": 11
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "AA_pos_1": 11,
+                            "AA_pos_2": 15
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "AA_pos_1": 22,
+                            "AA_pos_2": 25
+                        },
+                        {
+                            "crosslink_type": "Other",
+                            "AA_pos_1": 19,
+                            "AA_pos_2": 22
+                        }
+                    ],
+                    "cleavage_recogn_site": [
+                        "GS"
+                    ],
+                    "core_pept_aa": [
+                        "GHGGGGDSGLSVTGCNGHSGISLLCDL"
+                    ],
+                    "gene_id": [
+                        "yp_003114945.1"
+                    ],
+                    "lead_pept_len": 24,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "22725258"
+        ]
+    }
+}

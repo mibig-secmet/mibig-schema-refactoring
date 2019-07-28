@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 193.166,
+                "chem_struct": "CN1C2=NC(=O)N(C(=O)C2=NC=N1)C",
+                "pubchem_id": 66541,
+                "compound": "toxoflavin",
+                "molecular_formula": "C7H7N5O2"
+            }
+        ],
+        "loci": {
+            "accession": "EF587764.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000929",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "other": {
+            "other_subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

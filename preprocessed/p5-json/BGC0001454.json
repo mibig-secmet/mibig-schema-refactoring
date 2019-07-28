@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "germicidin"
+            }
+        ],
+        "loci": {
+            "accession": "LT989884.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001454",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "other": {
+            "other_subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

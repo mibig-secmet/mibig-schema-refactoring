@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "160.172",
+                "chem_struct": "C1=CC2=C(C(=C1)O)C(=CC=C2)O",
+                "database_deposited": true,
+                "pubchem_id": 68438,
+                "compound": "1,8-dihydroxynaphthalene",
+                "molecular_formula": "C10H8O2",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AF549411",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001258",
+        "publications": [
+            "12589439"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

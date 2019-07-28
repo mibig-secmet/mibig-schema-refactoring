@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@H]1OC(=O)CCNC(=O)C(CC2=CNC3=C2C=CC=C3)NC(=O)C(CC2=CNC3=C2C=CC=C3)NC(=O)[C@H]1NC(=O)CC1=CC=CC=C1",
+                "compound": "xenematides"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_LN681227.1",
+            "start_coord": 2673982,
+            "end_coord": 2688831,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001825",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28993611"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

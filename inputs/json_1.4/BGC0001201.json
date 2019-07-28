@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "204.357",
+                "chem_struct": "CC1CCC=C2C1(CC(CC2)C(=C)C)C",
+                "database_deposited": true,
+                "pubchem_id": 288227,
+                "compound": "(+)-eremophilene",
+                "molecular_formula": "C15H24",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 11918015,
+                    "Accession": "AM746676",
+                    "start_coord": 11915725
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001201",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "25504914"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "incomplete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "EU290744.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 838.078,
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C3=N[C@@H](CS3)C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)COC(C)(C)C=C)[C@@H](C)OC(C)(C)C=C)CC4=CC=CC=C4)C",
+                "chem_synonyms": [],
+                "pubchem_id": 9811230,
+                "compound": "trunkamide",
+                "molecular_formula": "C43H63N7O8S",
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000482",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:18425112"
+        ],
+        "ripp": {
+            "ripp_subclass": "Cyanobactin",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1,
+                    "cleavage_recogn_site": [
+                        "GVDAS",
+                        "SYD",
+                        "SYDD"
+                    ],
+                    "core_pept_aa": [
+                        "TSIAPFC"
+                    ],
+                    "gene_id": [
+                        "eu290744"
+                    ],
+                    "lead_pept_len": 40,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

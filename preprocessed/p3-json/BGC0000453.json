@@ -1,0 +1,96 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 37802,
+                    "Accession": "DQ174261",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 14516
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 1111.5,
+                "other_chem_act": "Antiviral",
+                "chem_struct": "CC1C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "aba59547.1"
+                        ],
+                        "other_chem_moiety": "D-alpha-hydroxyisovaleric acid"
+                    }
+                ],
+                "compound": "Valinomycin",
+                "molecular_formula": "C54H90N6O18",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "vlm1",
+                        "vlm2"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 29812,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABA59547.1",
+                    "gene_annotation": "NRPS",
+                    "gene_startpos": 19526,
+                    "not_in_gbk": false,
+                    "mut_pheno": "No longer produces valinomycin",
+                    "gene_name": "76884874"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 37802,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABA59548.1",
+                    "gene_annotation": "NRPS",
+                    "gene_startpos": 29835,
+                    "not_in_gbk": false,
+                    "mut_pheno": "No longer produces valinomycin",
+                    "gene_name": "76884875"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000453",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "subclass": "Cyclic depsipeptide",
+            "nrps_release_type": "Unknown"
+        },
+        "publications": [
+            "16511823"
+        ]
+    }
+}

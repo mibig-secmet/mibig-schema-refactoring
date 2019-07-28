@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C1C[C@H]2[C@@H](NC3=C(C=CC=C3O)C(=O)N2C1)C4=CNC5=CC=CC=C54",
+                "compound": "tilivalline"
+            }
+        ],
+        "loci": {
+            "accession": "HG425356.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001805",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28977734"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

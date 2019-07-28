@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "751.011",
+                "chem_struct": "CC[C@H]([C@@H]1[C@H](C[C@H]([C@@]2(O1)C=C[C@H]([C@]3(O2)CC[C@@](O3)(C)[C@H]4CC[C@@]([C@@H](O4)C)(CC)O)O)C)C)C(=O)[C@@H](C)[C@H]([C@H](C)[C@H]5[C@H](CCC(O5)[C@@H](CC)C(=O)O)C)O",
+                "database_deposited": true,
+                "pubchem_id": 72370,
+                "compound": "salinomycin",
+                "molecular_formula": "C42H70O11",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "DQ630728",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000143",
+        "publications": [
+            "18062184"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

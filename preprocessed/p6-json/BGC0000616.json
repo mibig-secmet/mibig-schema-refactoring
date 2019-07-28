@@ -1,0 +1,160 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_synonyms": [
+                    "acn"
+                ],
+                "compound": "amylocyclicin",
+                "database_id": [],
+                "mol_mass": 6381
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75255",
+                    "name": "acnB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75254",
+                    "name": "acnA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75253",
+                    "name": "acnC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75252",
+                    "name": "acnD"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75251",
+                    "name": "acnE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "ABS75250",
+                    "name": "acnF"
+                }
+            ],
+            "extra_genes": [],
+            "operons": [
+                {
+                    "evidence": [
+                        "Unknown"
+                    ],
+                    "genes": [
+                        "rbam_029190",
+                        "rbam_029200",
+                        "rbam_029210",
+                        "rbam_029220",
+                        "rbam_029230",
+                        "rbam_029240"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "CP000560.1",
+            "completeness": "complete",
+            "end_coord": 3048678,
+            "evidence": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 3044506
+        },
+        "mibig_accession": "BGC0000616",
+        "minimal": false,
+        "publications": [
+            "pubmed:24610713"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [],
+            "precursor_genes": [
+                {
+                    "cleavage_recogn_site": [
+                        "ANAE"
+                    ],
+                    "core_sequence": [
+                        "LASTLGISTAAAKKAIDIIDAASTIASIISLIGIVTGAGAISYAIVATAKTMIKKYGKKYAAAW"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Unknown",
+                            "first_AA": 1,
+                            "second_AA": 64
+                        }
+                    ],
+                    "follower_sequence": 64,
+                    "gene_id": "rbam_029230",
+                    "leader_sequence": 48
+                }
+            ],
+            "subclass": "Head-to-tailcyclized peptide"
+        }
+    }
+}

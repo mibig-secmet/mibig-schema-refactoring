@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 346.343,
+                "chem_struct": "C[C@@H]1[C@@H](N/C(=C/2\\C=CC=C(C2=O)O)/O1)C(=O)N(CCC3=CN=CN3)O",
+                "pubchem_id": 5492097,
+                "compound": "acinetobactin ",
+                "molecular_formula": "C16H18N4O5"
+            }
+        ],
+        "loci": {
+            "accession": "AB101202.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000294",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:15289555"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

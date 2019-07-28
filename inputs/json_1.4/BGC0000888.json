@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "270.285",
+                "chem_struct": "C[C@@H](C(=O)OC(=O)[C@H](CC1CCC(=O)[C@H]2[C@@H]1O2)N)N",
+                "database_deposited": true,
+                "pubchem_id": 160175,
+                "compound": "bacilysin",
+                "molecular_formula": "C12H18N2O5",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "GQ889493",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000888",
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "20070370"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

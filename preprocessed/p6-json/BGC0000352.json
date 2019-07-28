@@ -1,0 +1,265 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Siderophore"
+                ],
+                "chem_struct": "O=C(N[C@@H](COC(=O)c1cccc(O)c1O)C(=O)NCCCCN(O)C(C)=O)[C@H]2N=C(OC2)c3cccc(O)c3O",
+                "chem_synonyms": [],
+                "compound": "Fimsbactin A",
+                "database_id": [],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 575.198384,
+                "molecular_formula": "C26H31N4O11"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2778",
+                    "name": "fbsA"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2776",
+                    "name": "fbsB"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2775",
+                    "name": "fbsC"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2774",
+                    "name": "fbsD"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2773",
+                    "name": "fbsE"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2772",
+                    "name": "fbsF"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2771",
+                    "name": "fbsG"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2770",
+                    "name": "fbsH"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "ACIAD2769",
+                    "name": "fbsI"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2768",
+                    "name": "fbsJ"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2767",
+                    "name": "fbsK"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2765",
+                    "name": "fbsM"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2764",
+                    "name": "fbsN"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2763",
+                    "name": "fbsO"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2762",
+                    "name": "fbsP"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": []
+                        }
+                    ],
+                    "id": "ACIAD2761",
+                    "name": "fbsQ"
+                }
+            ],
+            "extra_genes": []
+        },
+        "loci": {
+            "accession": "CR543861.1",
+            "completeness": "complete",
+            "end_coord": 2725713,
+            "evidence": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 2699483
+        },
+        "mibig_accession": "BGC0000352",
+        "minimal": false,
+        "nrp": {
+            "cyclic": false,
+            "nrps_genes": [
+                {
+                    "gene_id": "ACIAD2773",
+                    "modules": [
+                        {
+                            "active": false,
+                            "c_dom_subtype": "Heterocyclization",
+                            "modification_domains": [
+                                "Unknown"
+                            ],
+                            "module_number": "1"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "2"
+                        },
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "proteinogenic": [
+                                    "Serine"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "3"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Unknown"
+            ],
+            "subclass": "NRP siderophore",
+            "thioesterases": []
+        },
+        "publications": [
+            "pubmed:23456955"
+        ]
+    }
+}

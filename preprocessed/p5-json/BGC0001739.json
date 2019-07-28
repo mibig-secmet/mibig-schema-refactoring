@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C(C(=O)O)P(=O)(O)O",
+                "compound": "phosphonoacetic Acid"
+            }
+        ],
+        "loci": {
+            "accession": "NZ_JNXE01000019.1",
+            "start_coord": 94228,
+            "end_coord": 109122,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001739",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28103011"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

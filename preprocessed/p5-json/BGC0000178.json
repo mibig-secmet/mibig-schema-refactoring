@@ -1,0 +1,495 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "accession": "HQ680975.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 589.3524,
+                "chem_struct": "[C@@]1(C)(O)C[C@@](C)(C)C2C1C=C(C)C([H])(/C=C\\C=C\\C=C/C(C(C)C(C/C=C(/C=C/C(O)=O)\\C)O)O)C2C(OC)C1=CC=C(O)C=C1",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Elansolid A1",
+                "molecular_formula": "C37H48O6",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04348.1",
+                    "gene_name": "elaB"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04349.1",
+                    "gene_name": "elaC "
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04351.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaE"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04352.1",
+                    "gene_name": "elaF"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04353.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaG"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04354.1",
+                    "gene_name": "elaH"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04356.1",
+                    "gene_name": "elaJ"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04357.1",
+                    "gene_name": "elaK"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04358.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaL"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04359.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaM"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04359.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaN"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04361.1",
+                    "gene_name": "elaO"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04362.1",
+                    "gene_name": "elaP"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04363.1",
+                    "gene_name": "elaQ"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04364.1",
+                    "gene_name": "elaR"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AEC04365.1",
+                    "not_in_gbk": false,
+                    "gene_name": "elaS"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000178",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:21472917"
+        ],
+        "polyketide": {
+            "pks_te_type": "Type I",
+            "pks_subclass": [
+                "Trans-AT type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AEC04356.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "CoA-ligase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEC04357.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "5",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEC04361.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "6",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "7",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEC04362.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "7",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "8",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "9",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "module_nr": "10",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEC04363.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "module_nr": "10",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "11",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "12",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "13",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEC04364.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "13",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "14",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pks_genes": [],
+            "pks_thioesterase": [
+                "aec04364.1"
+            ],
+            "trans_at": [
+                "aec04349.1",
+                "aec04348.1"
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Hydrolysis"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

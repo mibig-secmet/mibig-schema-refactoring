@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "microvionin"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 40001,
+                    "Accession": "MG673929",
+                    "start_coord": 1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001669",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "minimal": true,
+        "publications": [
+            "29915235"
+        ]
+    }
+}

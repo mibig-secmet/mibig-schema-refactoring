@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 194.146,
+                "chem_struct": "COC1=C(C(=C(C=C1)C(=O)O)[O-])[N+]#N",
+                "pubchem_id": 54704722,
+                "compound": "cremeomycin",
+                "molecular_formula": "C8H6N2O4"
+            }
+        ],
+        "loci": {
+            "accession": "KT381192.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001295",
+        "publications": [
+            "pubmed:26278892"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ],
+        "other": {
+            "other_subclass": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

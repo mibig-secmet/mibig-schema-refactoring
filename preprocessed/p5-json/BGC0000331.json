@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "cyanopeptin"
+            }
+        ],
+        "loci": {
+            "accession": "DQ837301.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000331",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:17921284"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

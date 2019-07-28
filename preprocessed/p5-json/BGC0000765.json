@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "exopolysaccharide"
+            }
+        ],
+        "loci": {
+            "accession": "EF138833.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000765",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:17142402"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

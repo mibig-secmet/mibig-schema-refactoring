@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "loci": {
+            "accession": "CP000088.1",
+            "start_coord": 2172724,
+            "end_coord": 2196882,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000359",
+        "compounds": [
+            {
+                "compound": "fuscachelin"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

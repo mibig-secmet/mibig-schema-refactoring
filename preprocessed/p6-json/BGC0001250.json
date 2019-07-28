@@ -1,0 +1,31 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "compound": "epichloenin A",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "JN132403.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001250",
+        "minimal": true,
+        "publications": [
+            "pubmed:23658520"
+        ]
+    }
+}

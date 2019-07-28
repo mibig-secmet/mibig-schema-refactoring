@@ -1,0 +1,35 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "clifednamide",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "MF893273.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001553",
+        "minimal": true,
+        "ncbi_tax_id": "858632",
+        "organism_name": "Streptomyces sp. JV178",
+        "polyketide": {},
+        "publications": [
+            "pubmed:29249153"
+        ]
+    }
+}

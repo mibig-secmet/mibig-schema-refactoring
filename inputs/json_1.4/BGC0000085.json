@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "833.022",
+                "chem_struct": "C[C@H]1C[C@](C(=O)[C@@H]([C@H]([C@H]([C@H](OC(=O)[C@@H]([C@H]([C@@H]([C@H]1OC2C(C(CC(O2)C)OC)O)C)OC3CC(C(C(O3)C)OC(=O)C)(C)OC)C)C(C)C(C)O)C)OC(=O)C)C)(C)O",
+                "database_deposited": true,
+                "pubchem_id": 122781,
+                "compound": "lankamycin",
+                "molecular_formula": "C42H72O16",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 111152,
+                    "Accession": "AB088224",
+                    "start_coord": 43059
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000085",
+        "publications": [
+            "12791134",
+            "10954087",
+            "10767533",
+            "9836424"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

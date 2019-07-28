@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "ruminococcin A"
+            }
+        ],
+        "loci": {
+            "accession": "AJ276653.2",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000545",
+        "publications": [
+            "pubmed:11741840"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

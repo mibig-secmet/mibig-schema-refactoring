@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "acinetodin"
+            }
+        ],
+        "loci": {
+            "accession": "ATGG01000011.1",
+            "start_coord": 239953,
+            "end_coord": 245137,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001494",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28106375"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

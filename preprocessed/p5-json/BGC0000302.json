@@ -1,0 +1,190 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Enzymatic assays"
+            ],
+            "accession": "GU174493.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 851.019,
+                "chem_struct": "C[C@H]1C(=O)N[C@H](C(=O)NCCCC[C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N1C)CCC2=CC=C(C=C2)O)C)C(C)C)NC(=O)N[C@@H](CCCN=C(N)N)C(=O)O)CC3=CC=CC=C3",
+                "chem_synonyms": [],
+                "pubchem_id": 44558924,
+                "chem_target": [
+                    "protease inhibitor"
+                ],
+                "compound": "anabaenopeptin",
+                "molecular_formula": "C42H62N10O9",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "ureido linkage",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "apta1",
+                        "apta2",
+                        "aptb",
+                        "aptc",
+                        "aptd",
+                        "apte",
+                        "aptf"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000302",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:20338518"
+        ],
+        "nrp": {
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "A0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "None",
+                                "nonprot_adom_spec": "Arginine / Lysine",
+                                "aa_type": "Nonproteinogenic"
+                            }
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "A1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Lysine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACZ55945.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "B0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Tyrosine",
+                                "aa_type": "Nonproteinogenic"
+                            }
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "B1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Lysine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACZ55942.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Valine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "ACZ55943.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "Methylation",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "None",
+                                "nonprot_adom_spec": "N-Methyl-alanine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACZ55944.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Phenylalanine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACZ55946.1"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

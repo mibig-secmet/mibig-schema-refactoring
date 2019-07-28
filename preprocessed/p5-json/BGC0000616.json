@@ -1,0 +1,158 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Sequence-based prediction"
+            ],
+            "accession": "CP000560.1",
+            "start_coord": 3044506,
+            "end_coord": 3048678
+        },
+        "compounds": [
+            {
+                "mol_mass": 6381,
+                "mass_ion_type": "None",
+                "chem_synonyms": [
+                    "acn"
+                ],
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "compound": "amylocyclicin"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "rbam_029190",
+                        "rbam_029200",
+                        "rbam_029210",
+                        "rbam_029220",
+                        "rbam_029230",
+                        "rbam_029240"
+                    ],
+                    "evidence_operon": "Unknown"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 3048106,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABS75255",
+                    "gene_annotation": "",
+                    "gene_startpos": 3048678,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no synthesis of amylocyclicin",
+                    "gene_name": "acnB"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 3047703,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABS75254",
+                    "gene_annotation": "",
+                    "gene_startpos": 3048041,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no synthesis of amylocyclicin",
+                    "gene_name": "acnA"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 3045965,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABS75253",
+                    "gene_startpos": 3047620,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no synthesis of amylocyclicin",
+                    "gene_name": "acnC"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 3045268,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABS75252",
+                    "gene_annotation": "",
+                    "gene_startpos": 3045972,
+                    "not_in_gbk": false,
+                    "gene_name": "acnD"
+                },
+                {
+                    "gene_function": "Resistance/immunity",
+                    "gene_endpos": 3044744,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABS75251",
+                    "gene_annotation": "",
+                    "gene_startpos": 3045193,
+                    "not_in_gbk": false,
+                    "gene_name": "acnE"
+                },
+                {
+                    "gene_function": "Resistance/immunity",
+                    "gene_endpos": 3044506,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABS75250",
+                    "gene_annotation": "",
+                    "gene_startpos": 3044727,
+                    "not_in_gbk": false,
+                    "gene_name": "acnF"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000616",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:24610713"
+        ],
+        "ripp": {
+            "ripp_subclass": "Head-to-tailcyclized peptide",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": 64,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Unknown",
+                            "AA_pos_1": 1,
+                            "AA_pos_2": 64
+                        }
+                    ],
+                    "cleavage_recogn_site": [
+                        "ANAE"
+                    ],
+                    "core_pept_aa": [
+                        "LASTLGISTAAAKKAIDIIDAASTIASIISLIGIVTGAGAISYAIVATAKTMIKKYGKKYAAAW"
+                    ],
+                    "gene_id": [
+                        "rbam_029230"
+                    ],
+                    "lead_pept_len": 48,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

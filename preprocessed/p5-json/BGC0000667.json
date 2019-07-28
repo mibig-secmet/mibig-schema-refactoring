@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 320.341,
+                "chem_struct": "C[C@H]1[C@H]([C@@H]2[C@@H](O2)C3=CC(=O)[C@@]4(CC13C)[C@@](O4)(C)C=O)OC(=O)C",
+                "pubchem_id": 56844124,
+                "compound": "PR toxin",
+                "molecular_formula": "C17H20O6"
+            }
+        ],
+        "loci": {
+            "accession": "HG792016.1",
+            "start_coord": 3342234,
+            "end_coord": 3350182,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000667",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:24239699",
+            "pubmed:27921136"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

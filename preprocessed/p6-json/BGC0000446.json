@@ -1,0 +1,202 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_struct": "C1C[C@H]2[C@@H](NC3=C(C=CC=C3O)C(=O)N2C1)C4=CNC5=CC=CC=C54",
+                "chem_synonyms": [],
+                "compound": "tilivalline",
+                "database_id": [
+                    "pubchem:128363"
+                ],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 333.391,
+                "molecular_formula": "C20H19N3O2"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "O=C1C2=C(C=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
+                "chem_synonyms": [],
+                "compound": "9-deoxy tilivalline",
+                "database_id": [],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 317.1528,
+                "molecular_formula": "C20H19N3O"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5",
+                "chem_synonyms": [],
+                "compound": "dihydroxy tilivalline",
+                "database_id": [],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 349.1426,
+                "molecular_formula": "C20H19N3O3"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "O=C1C2=C(C(O)=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
+                "chem_synonyms": [],
+                "compound": "dehydro tilivallin",
+                "database_id": [],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 331.1321,
+                "molecular_formula": "C20H17N3O2"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5",
+                "chem_synonyms": [],
+                "compound": "dihydroxy-dehydro tilivallin",
+                "database_id": [],
+                "evidence": [
+                    "Mass spectrometry"
+                ],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 347.127,
+                "molecular_formula": "C20H17N3O3"
+            }
+        ],
+        "genes": {
+            "annotations": [],
+            "extra_genes": [
+                {
+                    "id": "CDG76945.1"
+                },
+                {
+                    "id": "CDG76946.1"
+                },
+                {
+                    "id": "CDG76947.1"
+                },
+                {
+                    "id": "No protein ID"
+                },
+                {
+                    "id": "CDG76949.1"
+                },
+                {
+                    "id": "CDG76950.1"
+                },
+                {
+                    "id": "CDG76951.1"
+                },
+                {
+                    "id": "CDG76952.1"
+                },
+                {
+                    "id": "CDG76953.1"
+                },
+                {
+                    "id": "CDG76954.1"
+                },
+                {
+                    "id": "CDG76955.1"
+                },
+                {
+                    "id": "CDG76956.1"
+                },
+                {
+                    "id": "CDG76958.1"
+                },
+                {
+                    "id": "CDG76960.1"
+                },
+                {
+                    "id": "CDG76961.1"
+                },
+                {
+                    "id": "CDG76962.1"
+                }
+            ]
+        },
+        "loci": {
+            "accession": "HG425356.1",
+            "completeness": "complete",
+            "evidence": [
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "mibig_accession": "BGC0000446",
+        "minimal": false,
+        "nrp": {
+            "cyclic": true,
+            "nrps_genes": [
+                {
+                    "gene_id": "CDG76957.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "nonproteinogenic": [
+                                    "2,3-Dihydroxybenzoic acid"
+                                ]
+                            },
+                            "active": false,
+                            "module_number": "0"
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "CDG76959.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "aa_subcluster": [],
+                                "epimerized": false,
+                                "evidence": [
+                                    "Feeding study"
+                                ],
+                                "proteinogenic": [
+                                    "Proline"
+                                ]
+                            },
+                            "active": false,
+                            "c_dom_subtype": "LCL",
+                            "module_number": "1"
+                        }
+                    ]
+                }
+            ],
+            "release_type": [
+                "Reductive release"
+            ],
+            "subclass": "Pyrrolobenzodiazepine",
+            "thioesterases": []
+        },
+        "publications": [
+            "pubmed:25157164",
+            "pubmed:28977734",
+            "pubmed:28972161",
+            "pubmed:29389112"
+        ]
+    }
+}

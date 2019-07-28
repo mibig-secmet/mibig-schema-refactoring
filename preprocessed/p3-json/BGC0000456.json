@@ -1,0 +1,49 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "886.101",
+                "chem_struct": "CCCCCCCCCC1CCCC(=O)NC(C(=O)NC(C(=O)N2CCCC2C(=O)NC(C(=O)NC(C(=O)NC(C(=O)O1)C(C)C)CC3=CC=CC=C3O)CCC(=O)N)C)C(C)O",
+                "database_deposited": true,
+                "pubchem_id": 194619,
+                "compound": "verlamelin",
+                "molecular_formula": "C45H71N7O11",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AB862312",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "AB862313",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "AB862314",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "AB862315",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000456",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "24848421"
+        ]
+    }
+}

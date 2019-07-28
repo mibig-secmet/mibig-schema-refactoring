@@ -1,0 +1,100 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "accession": "FN667742.1",
+            "start_coord": 1902005,
+            "end_coord": 1914421
+        },
+        "compounds": [
+            {
+                "mol_mass": 411.296582,
+                "chem_struct": "CC(C)[C@H]1NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)C(C)C)C(C)C)CC(C)C",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Xenotetrapeptide",
+                "molecular_formula": "C21H39O4N4",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001132",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:24616055"
+        ],
+        "nrp": {
+            "nrps_release_type": "Macrolactamization",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        }
+                    ],
+                    "nrps_gene": "xnc1_2022"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

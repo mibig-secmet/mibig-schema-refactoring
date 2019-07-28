@@ -1,0 +1,147 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4805360,
+                    "Accession": "CP000117",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Heterologous expression"
+                    ],
+                    "start_coord": 4798900
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 332.12,
+                "other_chem_act": "sunscreen",
+                "chem_struct": "O[C@](CC(NCC(O)=O)=C/1OC)(CO)CC1=N/[C@@H](CO)C(O)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "shinorine",
+                "molecular_formula": "C13H20N2O8",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Other"
+                ]
+            },
+            {
+                "mol_mass": 188.07,
+                "other_chem_act": "sunscreen",
+                "chem_struct": "OC1=C(OC)C(C[C@](O)(CO)C1)=O",
+                "mass_ion_type": "[M+Na]+",
+                "compound": "4-deoxygadusol",
+                "molecular_formula": "C8H12O5",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antioxidant",
+                    "Other"
+                ]
+            },
+            {
+                "mol_mass": 245.09,
+                "other_chem_act": "sunscreen",
+                "chem_struct": "O=C1C(OC)=C(NCC(O)=O)C[C@@](O)(CO)C1",
+                "mass_ion_type": "[M+H]+",
+                "compound": "mycosporine glycine",
+                "molecular_formula": "C10H15NO6",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "",
+                    "gene_endpos": 4801566,
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        " Activity assay"
+                    ],
+                    "gene_id": "ABA23460.1",
+                    "gene_annotation": "Amino acid adenylation",
+                    "gene_startpos": 4798900,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 4803099,
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        " Activity assay"
+                    ],
+                    "gene_id": "ABA23461.1",
+                    "gene_annotation": "ATP-grasp enzyme-like protein",
+                    "gene_startpos": 4801723,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 4803953,
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        " Activity assay"
+                    ],
+                    "gene_id": "ABA23462.1",
+                    "gene_annotation": "O-methyltransferase, family 3",
+                    "gene_startpos": 4803114,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 4805360,
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        " Activity assay"
+                    ],
+                    "gene_id": "ABA23463.1",
+                    "gene_annotation": "3-dehydroquinate synthase",
+                    "gene_startpos": 4804128,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000427",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Activity assay",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "N/A"
+                        }
+                    ],
+                    "nrps_gene": "ABA23460.1"
+                }
+            ],
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "ava_3855"
+            ]
+        },
+        "publications": "20813918"
+    }
+}

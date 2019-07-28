@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "OC(=O)C1=CC=CC2=C1N=C(O2)C1=C(O)C=CC=C1",
+                "compound": "caboxamycin"
+            }
+        ],
+        "loci": {
+            "accession": "JJOB01000001.1",
+            "start_coord": 5307572,
+            "end_coord": 5323285,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001538",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28417606"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

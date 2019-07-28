@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "C/C(=C\\COP(=O)(O)OP(=O)(O)O)/CC[C@H]1C(=C)CC[C@@H]2[C@@]1(CCCC2(C)C)C",
+                "compound": "copalyl diphosphate",
+                "database_id": [
+                    "pubchem:5281990"
+                ],
+                "mol_mass": 450.449,
+                "molecular_formula": "C20H36O7P2"
+            }
+        ],
+        "loci": {
+            "accession": "AB254160.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000688",
+        "minimal": true,
+        "publications": [
+            "pubmed:18391465"
+        ]
+    }
+}

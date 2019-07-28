@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "OC1OC(=O)C(=C1CC1=CC=CC=C1)C1=CC=CC=C1",
+                "compound": "microperfuranone",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "BN001306.1",
+            "completeness": "Unknown",
+            "end_coord": 797948,
+            "evidence": [],
+            "start_coord": 790405
+        },
+        "mibig_accession": "BGC0001668",
+        "minimal": true,
+        "publications": [
+            "pubmed:22627757"
+        ]
+    }
+}

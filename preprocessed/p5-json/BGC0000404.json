@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 356.372,
+                "chem_struct": "CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)[O-])C.[Na+]",
+                "pubchem_id": 23668834,
+                "compound": "penicillin",
+                "molecular_formula": "C16H17N2NaO4S"
+            }
+        ],
+        "loci": {
+            "accession": "DQ192518.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000404",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:16713314"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "version": "18",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 15215,
+                    "Accession": "KF551865",
+                    "conn_comp_cluster": [
+                        "Heterologous expression",
+                        "Gene expression correlated with compound production"
+                    ],
+                    "start_coord": 2596
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 368.1035,
+                "chem_struct": "O=C1C2=C(C(C(OC)=O)N1)C3=C(C4=C2C5=CC=CC=C5N4)NC6=CC=CC=C63",
+                "mass_ion_type": "[M-H]-",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group",
+                        "moiety_subcluster": [
+                            "ahe14639.1"
+                        ]
+                    }
+                ],
+                "compound": "erdasporine A",
+                "molecular_formula": "C22H15N3O3",
+                "chem_synonyms": [
+                    "erdasporine"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            },
+            {
+                "mol_mass": "353.381",
+                "chem_struct": "COC(=O)C1=C2C(=CN1)C3=C(C4=C2C5=CC=CC=C5N4)NC6=CC=CC=C63",
+                "database_deposited": true,
+                "pubchem_id": 102584106,
+                "compound": "erdasporine B",
+                "molecular_formula": "C22H15N3O2",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            },
+            {
+                "mol_mass": "369.38",
+                "chem_struct": "COC(=O)C1C2=C3C4=CC=CC=C4NC3=C5C(=C2C(=O)N1)C6=CC=CC=C6N5",
+                "database_deposited": true,
+                "pubchem_id": 102584107,
+                "compound": "erdasporine C",
+                "molecular_formula": "C22H15N3O3",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "",
+                    "gene_endpos": 3654,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14647.1",
+                    "gene_annotation": "O-methyltransferase",
+                    "gene_startpos": 2596,
+                    "not_in_gbk": false,
+                    "gene_name": "espM"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 5391,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14649.1",
+                    "gene_annotation": "FAD-binding monooxygenase",
+                    "gene_startpos": 3739,
+                    "not_in_gbk": false,
+                    "gene_name": "espX"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 6877,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14640.1",
+                    "gene_annotation": "indole-3-pyruvic acid imine synthase EspO",
+                    "gene_startpos": 5378,
+                    "not_in_gbk": false,
+                    "gene_name": "espO"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 10191,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14639.1",
+                    "gene_annotation": "chromopyrrolic acid synthase",
+                    "gene_startpos": 6877,
+                    "not_in_gbk": false,
+                    "gene_name": "espD"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 11629,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14641.1",
+                    "gene_annotation": "cytochrome P450",
+                    "gene_startpos": 10223,
+                    "not_in_gbk": false,
+                    "gene_name": "espP"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 13566,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14650.1",
+                    "gene_annotation": "putative transporter EspT1",
+                    "gene_startpos": 11854,
+                    "not_in_gbk": false,
+                    "gene_name": "espT1"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 15215,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "AHE14642.1",
+                    "gene_annotation": "putative transporter EspT2",
+                    "gene_startpos": 13860,
+                    "not_in_gbk": false,
+                    "gene_name": "espT2"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001336",
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        },
+        "publications": "24171465"
+    }
+}

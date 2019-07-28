@@ -1,0 +1,627 @@
+{
+    "version": "16",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "FJ872523",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Enzymatic assays"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "423.597",
+                "chem_struct": "CCC/C=C/CC1C/C=C\\C=C(/C=C\\C=C/C(C(/C=C(\\C=C/C=C\\C(=O)N1)/C)O)O)\\C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 6439426,
+                "chem_target": "unknown",
+                "compound": "BE-14106",
+                "molecular_formula": "C27H37NO3",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 540,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94452.1",
+                    "gene_annotation": "putative secreted metal-binding protein",
+                    "gene_startpos": 133,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 1178,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94453.1",
+                    "gene_annotation": "putative lipoprotein",
+                    "gene_startpos": 579,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 1797,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94454.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 1363,
+                    "not_in_gbk": false,
+                    "gene_name": "becH"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 6433,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94455.1",
+                    "gene_annotation": "LuxR-type transcriptional regulator",
+                    "gene_startpos": 3578,
+                    "not_in_gbk": false,
+                    "gene_name": "becH"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 23532,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ACO94456.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 6784,
+                    "not_in_gbk": false,
+                    "mut_pheno": "non-producer",
+                    "gene_name": "becA"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 24952,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ACO94457.1",
+                    "gene_annotation": "glycine oxidase/FAD-dependent oxidoreductase",
+                    "gene_startpos": 23864,
+                    "not_in_gbk": false,
+                    "gene_name": "becI"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 27033,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94458.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 24949,
+                    "not_in_gbk": false,
+                    "gene_name": "becC"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 27628,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94459.1",
+                    "gene_annotation": "putative NRPS accessory protein",
+                    "gene_startpos": 27065,
+                    "not_in_gbk": false,
+                    "gene_name": "becU"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 38208,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94460.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 27625,
+                    "not_in_gbk": false,
+                    "gene_name": "becB"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 39872,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94461.1",
+                    "gene_annotation": "putative AMP-dependent acyl-CoA synthetase/ligase",
+                    "gene_startpos": 38274,
+                    "not_in_gbk": false,
+                    "gene_name": "becJ"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 41038,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94462.1",
+                    "gene_annotation": "acyltransferase",
+                    "gene_startpos": 40067,
+                    "not_in_gbk": false,
+                    "gene_name": "becK"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 41290,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94463.1",
+                    "gene_annotation": "peptidyl carrier protein",
+                    "gene_startpos": 41054,
+                    "not_in_gbk": false,
+                    "gene_name": "becS"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 42925,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94464.1",
+                    "gene_annotation": "NRPS adenylation domain protein",
+                    "gene_startpos": 41408,
+                    "not_in_gbk": false,
+                    "gene_name": "becL"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 43504,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94465.1",
+                    "gene_annotation": "TetR-type transcriptional regulator",
+                    "gene_startpos": 42908,
+                    "not_in_gbk": false,
+                    "gene_name": "becM"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 45180,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94466.1",
+                    "gene_annotation": "MFS-type efflux pump",
+                    "gene_startpos": 43606,
+                    "not_in_gbk": false,
+                    "gene_name": "becN"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 46508,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ACO94467.1",
+                    "gene_annotation": "P450 monooxygenase",
+                    "mut_pheno": "produces 8-deoxy BE-14106",
+                    "gene_startpos": 45273,
+                    "not_in_gbk": false,
+                    "tailoring": "Monooxygenation",
+                    "gene_name": "becO"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 56673,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94468.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 46555,
+                    "not_in_gbk": false,
+                    "gene_name": "becD"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 57622,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ACO94469.1",
+                    "gene_annotation": "putative L-amino acid amidase/proline iminopeptidase",
+                    "gene_startpos": 56681,
+                    "not_in_gbk": false,
+                    "gene_name": "becP"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 63685,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94470.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 57725,
+                    "not_in_gbk": false,
+                    "gene_name": "becG"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 73826,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94471.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 63693,
+                    "not_in_gbk": false,
+                    "gene_name": "becF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 78769,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94472.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 73874,
+                    "not_in_gbk": false,
+                    "gene_name": "becE"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 79361,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94473.1",
+                    "gene_annotation": "SimX2-like protein",
+                    "gene_startpos": 79074,
+                    "not_in_gbk": false,
+                    "gene_name": "becT"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 80456,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94474.1",
+                    "gene_annotation": "thioesterase type II",
+                    "gene_startpos": 79683,
+                    "not_in_gbk": false,
+                    "gene_name": "becQ"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 81322,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94475.1",
+                    "gene_annotation": "PlsC-type phospholipid/glycerol acyltransferase",
+                    "gene_startpos": 80609,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 83032,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94476.1",
+                    "gene_annotation": "putative tripeptidylaminopeptidase",
+                    "gene_startpos": 81419,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 83948,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94477.1",
+                    "gene_annotation": "putative urease accessory protein",
+                    "gene_startpos": 83178,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 84640,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94478.1",
+                    "gene_annotation": "putative urease accessory protein",
+                    "gene_startpos": 83945,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 85059,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ACO94479.1",
+                    "gene_annotation": "putative urease accessory protein",
+                    "gene_startpos": 84682,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000029",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "Polyketide": {
+            "pks_te_type": "Type I",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACO94472.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "9",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ACO94471.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "10",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "11",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ACO94470.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T",
+                                "TE"
+                            ],
+                            "module_nr": "12",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ACO94468.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "7",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "8",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ACO94460.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "T",
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "5",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "6",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ACO94456.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "T"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_skip_iter": "Non-elongating",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Other",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactamization"
+        },
+        "publications": "19875084"
+    }
+}

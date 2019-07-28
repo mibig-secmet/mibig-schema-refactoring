@@ -1,0 +1,90 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "accession": "AY192157.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 479.577,
+                "chem_struct": "C/C=C/C=C/C=C/C(=O)N[C@@H](CC(=O)N[C@@H](C(C)C)C(=O)[C@H]1[C@@H](C(=O)NC1=O)C)C2=CC=CC=C2",
+                "chem_synonyms": [],
+                "pubchem_id": 636857,
+                "chem_target": [
+                    "beta-subunit of acetyl-CoA carboxylase"
+                ],
+                "compound": "andrimid",
+                "molecular_formula": "C27H33N3O5",
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000956",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15066985",
+            "pubmed:16910643",
+            "pubmed:17653193",
+            "pubmed:18652473",
+            "pubmed:18768797",
+            "pubmed:21561099"
+        ],
+        "polyketide": {
+            "ketide_length": 8,
+            "pks_subclass": [
+                "Type II"
+            ],
+            "lin_cycl_pk": "Linear",
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Ansamycin",
+            "pks_genes": [
+                "AAO39098.1"
+            ]
+        },
+        "nrp": {
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AdmI"
+                },
+                {
+                    "nrps_gene": "AdmJ"
+                },
+                {
+                    "nrps_gene": "AdmK"
+                },
+                {
+                    "nrps_gene": "AdmO"
+                },
+                {
+                    "nrps_gene": "AdmP"
+                },
+                {
+                    "nrps_gene": "AdmM"
+                }
+            ],
+            "subclass": "Beta-lactam",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "admm"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

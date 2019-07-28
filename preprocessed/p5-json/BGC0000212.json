@@ -1,0 +1,59 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "GG770539.1",
+            "start_coord": 5086070,
+            "end_coord": 5121186
+        },
+        "compounds": [
+            {
+                "chemspider_id": 66267,
+                "chem_struct": "",
+                "chem_synonyms": [],
+                "chem_target": [
+                    "DNA"
+                ],
+                "compound": "Cinerubin B",
+                "molecular_formula": "",
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000212",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24191063"
+        ],
+        "polyketide": {
+            "cyclases": [
+                "SSBG_00488",
+                "SSBG_00497",
+                "SSBG_00505"
+            ],
+            "ketide_length": 10,
+            "pks_subclass": [
+                "Type II"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "starter_unit": "Propionyl-CoA",
+            "pk_subclass": "Anthracycline",
+            "pks_genes": [
+                "ssbg_00494"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

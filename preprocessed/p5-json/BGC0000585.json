@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "microcin C7"
+            }
+        ],
+        "loci": {
+            "accession": "X57583.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000585",
+        "publications": [
+            "pubmed:8522520"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "ripp": {
+            "ripp_subclass": "Microcin"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

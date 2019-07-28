@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "loci": {
+            "accession": "JN852959.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000415",
+        "compounds": [
+            {
+                "mol_mass": 1101.265,
+                "chem_struct": "CC1C(=O)N(C2CSC(C(C(=O)N(C(C(=O)OCC(C(=O)N1)NC(=O)C3=NC4=CC=CC=C4N=C3)C(C)C)C)N(C(=O)C(NC(=O)C(COC(=O)C(N(C2=O)C)C(C)C)NC(=O)C5=NC6=CC=CC=C6N=C5)C)C)SC)C",
+                "pubchem_id": 3197,
+                "compound": "quinomycin",
+                "molecular_formula": "C51H64N12O12S2"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

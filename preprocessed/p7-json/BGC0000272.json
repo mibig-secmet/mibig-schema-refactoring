@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "spore pigment",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "AF293354.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000272",
+        "minimal": true,
+        "ncbi_tax_id": "42684",
+        "organism_name": "Streptomyces collinus",
+        "polyketide": {},
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "154.121",
+                "chem_struct": "CC1=C(C(=O)[C@H]2[C@@H](C1=O)O2)O",
+                "database_deposited": true,
+                "pubchem_id": 91437,
+                "compound": "terreic acid",
+                "molecular_formula": "C7H6O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 116126,
+                    "Accession": "CH476602",
+                    "start_coord": 89034
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000160",
+        "publications": [
+            "25265334"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

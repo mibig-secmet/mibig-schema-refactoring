@@ -1,0 +1,47 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 561.734,
+                "chem_struct": "C/C=C(\\C)/C=C(\\C)/CC(C)C(C(C1C/C=C\\C=C\\C(CC(C(C2=NC(=CS2)/C=C(/C(=O)O1)\\C)CO)O)O)O)O",
+                "pubchem_id": 59317598,
+                "compound": "Cmc-thuggacin A",
+                "molecular_formula": "C30H43NO7S"
+            },
+            {
+                "mol_mass": 561.734,
+                "chem_struct": "C/C=C(\\C)/C=C(\\C)/CC(C)C1C(C(C/C=C\\C=C\\C(CC(C(C2=NC(=CS2)/C=C(/C(=O)O1)\\C)CO)O)O)O)O",
+                "pubchem_id": 59317595,
+                "compound": "Cmc-thuggacin B",
+                "molecular_formula": "C30H43NO7S"
+            }
+        ],
+        "loci": {
+            "accession": "GQ981381.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001342",
+        "publications": [
+            "pubmed:20416506"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "polyketide": {
+            "pks_subclass": [
+                "Modular type I"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

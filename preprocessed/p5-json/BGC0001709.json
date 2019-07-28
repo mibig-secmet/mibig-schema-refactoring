@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "loci": {
+            "accession": "MG742725.1",
+            "start_coord": 1,
+            "end_coord": 119206,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0001709",
+        "compounds": [
+            {
+                "chem_struct": "C[C@H]1/C=C/C=C/CC/C=C/C=C/C=C/C=C/C(CC2C(C(C[C@](O2)(CC(C(CCC(CC(CC(CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O",
+                "compound": "nystatin"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

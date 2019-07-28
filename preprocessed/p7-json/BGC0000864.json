@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "compound": "eicosapentaenoic acid-like compound",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "AB025342.2",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000864",
+        "minimal": true,
+        "ncbi_tax_id": "1202962",
+        "organism_name": "Moritella marina ATCC 15381",
+        "other": {
+            "subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

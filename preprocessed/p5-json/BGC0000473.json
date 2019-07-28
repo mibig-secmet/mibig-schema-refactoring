@@ -1,0 +1,65 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "AM774406.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 582.698,
+                "chem_struct": "CC[C@H](C)[C@H]1C2=NC(=CS2)C(=O)N[C@H](C3=NC(=CS3)C(=O)N[C@H](C4=NC(=C(O4)C)C(=O)N1)C)CC5=CN=CN5C",
+                "chem_synonyms": [
+                    "aerucyclamide"
+                ],
+                "pubchem_id": 10555282,
+                "compound": "microcyclamide",
+                "molecular_formula": "C26H30N8O4S2",
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000473",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:18245249"
+        ],
+        "ripp": {
+            "ripp_subclass": "Cyanobactin",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1,
+                    "cleavage_recogn_site": [
+                        "GLEAS",
+                        "AFDGAEAS",
+                        "AFDGDEA"
+                    ],
+                    "core_pept_aa": [
+                        "MRITPMDKKNILPQQGKPVFRTTTGKLPSYLAELSEEALGGNGLEASHCATICAFDGAEASHCATICAFDGDEA"
+                    ],
+                    "gene_id": [
+                        "cao82085"
+                    ],
+                    "lead_pept_len": 74,
+                    "peptidase": [
+                        "cao82081",
+                        "cao82088"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

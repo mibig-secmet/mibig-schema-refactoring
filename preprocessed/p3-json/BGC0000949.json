@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "molecular_formula": "C24H33N5O12",
+                "chem_struct": "O[C@@H]1[C@H](OC)[C@@]([H])([C@H](C(N)=O)O[C@H]2OC(C(N[C@@H]3C(N[C@H](C)CCC3)=O)=O)=C[C@H](O)[C@@H]2O)O[C@H]1N(C=C4)C(NC4=O)=O",
+                "mol_mass": 583.551,
+                "compound": "A-500359 A"
+            },
+            {
+                "molecular_formula": "C23H31N5O1",
+                "chem_struct": "O[C@@H]1[C@H](OC)[C@@]([H])([C@H](C(N)=O)O[C@H]2OC(C(N[C@@H]3C(NCCCC3)=O)=O)=C[C@H](O)[C@@H]2O)O[C@H]1N(C=C4)C(NC4=O)=O",
+                "mol_mass": 569.52,
+                "compound": "A-500359 B"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AB476988",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000949",
+        "biosyn_class": [
+            "NRP",
+            "Other"
+        ],
+        "minimal": true,
+        "publications": [
+            "19478828"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY541063",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000395",
+        "compounds": [
+            {
+                "mol_mass": "500.464",
+                "chem_struct": "C1[C@@H](C(=O)N1[C@H](C2=CC=C(C=C2)O)C(=O)O)NC(=O)/C(=N/O)/C3=CC=C(C=C3)OCC[C@H](C(=O)O)N",
+                "database_deposited": true,
+                "pubchem_id": 6419429,
+                "compound": "nocardicin A",
+                "molecular_formula": "C23H24N4O9",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ]
+    }
+}

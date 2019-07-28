@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "1255.438",
+                "chem_struct": "CC1C(C(=O)NC(C(=O)N2CCCC2C(=O)N(CC(=O)N(C(C(=O)O1)C(C)C)C)C)C(C)C)NC(=O)C3=C4C(=C(C=C3)C)OC5=C(C(=O)C(=C(C5=N4)C(=O)NC6C(OC(=O)C(N(C(=O)CN(C(=O)C7CCCN7C(=O)C(NC6=O)C(C)C)C)C)C(C)C)C)N)C",
+                "database_deposited": true,
+                "pubchem_id": 2019,
+                "compound": "actinomycin",
+                "molecular_formula": "C62H86N12O16",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "HM038106",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000296",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "10212227",
+            "10780924",
+            "20304989"
+        ]
+    }
+}

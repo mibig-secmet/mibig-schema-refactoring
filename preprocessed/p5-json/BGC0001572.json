@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
+                "compound": "desferrioxamine E"
+            }
+        ],
+        "loci": {
+            "accession": "MH015039.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001572",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

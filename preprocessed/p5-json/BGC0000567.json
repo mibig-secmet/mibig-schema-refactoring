@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "trifolitoxin "
+            }
+        ],
+        "loci": {
+            "accession": "L06719.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000567",
+        "publications": [
+            "pubmed:8509324"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "ripp": {
+            "ripp_subclass": "LAP"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

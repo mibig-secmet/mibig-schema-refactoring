@@ -1,0 +1,369 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O",
+                "chem_synonyms": [
+                    "frangula emodin",
+                    "emodol",
+                    "rheum emodin",
+                    "schuttgelb"
+                ],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "STAT3"
+                    }
+                ],
+                "compound": "emodin",
+                "database_id": [
+                    "pubchem:3220"
+                ],
+                "mol_mass": 270.24,
+                "molecular_formula": "C15H10O5"
+            },
+            {
+                "chem_acts": [],
+                "chem_struct": "CC1=CC(=C(C(=C1)C(=O)O)C(=O)C2=C(C=CC=C2O)O)O",
+                "chem_synonyms": [],
+                "compound": "monodictyphenone ",
+                "database_id": [
+                    "pubchem:16114922"
+                ],
+                "mol_mass": 288.255,
+                "molecular_formula": "C15H12O6"
+            },
+            {
+                "chem_acts": [
+                    "Inhibitor"
+                ],
+                "chem_struct": "CC1=CC2=C(C3=C1OC[C@@H]([C@H]3O)C(=C)C)C(=O)C4=C(C=CC(=C4O2)CC=C(C)C)O",
+                "chem_synonyms": [],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "calmodulin"
+                    }
+                ],
+                "compound": "shamixanthone",
+                "database_id": [
+                    "pubchem:15596091"
+                ],
+                "mol_mass": 406.478,
+                "molecular_formula": "C25H26O5"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90090.1",
+                    "name": "mdpK",
+                    "product": "Baeyer-Villiger oxidase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90092.1",
+                    "name": "mdpJ",
+                    "product": "glutathione-S-transferase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Unknown",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90094.1",
+                    "name": "mdpI",
+                    "product": "acyl-CoA synthase, putative"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90095.1",
+                    "name": "mdpH",
+                    "product": "hypothetical protein",
+                    "tailoring": [
+                        "Decarboxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90097.1",
+                    "name": "mdpG",
+                    "product": "polyketide synthase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90099.1",
+                    "name": "mdpF",
+                    "product": "metallo-beta-lactamase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90101.1",
+                    "name": "mdpE",
+                    "product": "Zn(II)2Cys6 transcription factor"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90103.1",
+                    "name": "mdpD",
+                    "product": "monooxygenase",
+                    "tailoring": [
+                        "Hydroxylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90105.1",
+                    "name": "mdpC",
+                    "product": "phenol reductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90107.1",
+                    "name": "mpdB",
+                    "product": "dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF90109.1",
+                    "name": "mdpA",
+                    "product": "AflJ-like co-activator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF71451.1",
+                    "name": "xptA",
+                    "product": "prenyl-transferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "AN1204",
+                    "name": "xptB",
+                    "product": "prenyl-transferase",
+                    "tailoring": [
+                        "Prenylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "CBF73676.1",
+                    "name": "xptC",
+                    "product": "oxidoreductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                }
+            ],
+            "extra_genes": []
+        },
+        "loci": {
+            "accession": "BN001302.1",
+            "completeness": "complete",
+            "end_coord": 446753,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 441042
+        },
+        "mibig_accession": "BGC0000101",
+        "minimal": false,
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "subclasses": [
+                "Polyphenol"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "CBF90097.1",
+                        "xm_652661"
+                    ],
+                    "iterative": {
+                        "cyclization_type": "C6-C11 first",
+                        "nr_iterations": 7,
+                        "subtype": "Non-reducing"
+                    },
+                    "modules": [
+                        {
+                            "at_specificities": [
+                                "Malonyl-CoA"
+                            ],
+                            "comments": "",
+                            "domains": [
+                                "ACP transacylase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Product Template domain",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "evidence": "Structure-based inference",
+                            "genes": [
+                                "CBF90097.1"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "module_number": "1",
+                            "non_canonical": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "iterated": true,
+                                "non_elongating": false,
+                                "skipped": false
+                            },
+                            "pks_mod_doms": []
+                        }
+                    ],
+                    "subclass": [
+                        "Iterative type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "xm_652661",
+                            "thioesterase_type": "Unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:19448638",
+            "pubmed:20139316",
+            "pubmed:21351751",
+            "pubmed:22730213",
+            "pubmed:22909031",
+            "pubmed:23848338"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY357726",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000750",
+        "compounds": [
+            {
+                "mol_mass": "496.355",
+                "chem_struct": "CCCO[C@@H]1C([C@]([C@H]([C@H](O1)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)(O)OP(=O)(O)O)(O)O",
+                "database_deposited": true,
+                "pubchem_id": 195740,
+                "compound": "capsular polysaccharide",
+                "molecular_formula": "C15H29O16P",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ]
+    }
+}

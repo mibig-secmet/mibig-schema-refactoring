@@ -1,0 +1,219 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "accession": "CR543861.1",
+            "start_coord": 2699483,
+            "end_coord": 2725713
+        },
+        "compounds": [
+            {
+                "mol_mass": 575.198384,
+                "chem_struct": "O=C(N[C@@H](COC(=O)c1cccc(O)c1O)C(=O)NCCCCN(O)C(C)=O)[C@H]2N=C(OC2)c3cccc(O)c3O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Fimsbactin A",
+                "molecular_formula": "C26H31N4O11",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Siderophore"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2778",
+                    "gene_name": "fbsA",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2776",
+                    "gene_name": "fbsB",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2775",
+                    "gene_name": "fbsC",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2774",
+                    "gene_name": "fbsD",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2773",
+                    "gene_name": "fbsE",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2772",
+                    "gene_name": "fbsF",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2771",
+                    "gene_name": "fbsG",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2770",
+                    "gene_name": "fbsH",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ACIAD2769",
+                    "gene_name": "fbsI"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2768",
+                    "gene_name": "fbsJ",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2767",
+                    "gene_name": "fbsK",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2765",
+                    "gene_name": "fbsM",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2764",
+                    "gene_name": "fbsN",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2763",
+                    "gene_name": "fbsO",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2762",
+                    "gene_name": "fbsP",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "ACIAD2761",
+                    "gene_name": "fbsQ",
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ]
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000352",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:23456955"
+        ],
+        "nrp": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "Unknown",
+                            "a_substr_spec": {
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Heterocyclization"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACIAD2773"
+                }
+            ],
+            "subclass": "NRP siderophore",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

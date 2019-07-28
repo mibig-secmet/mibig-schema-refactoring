@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "581.618",
+                "chem_struct": "CC(=O)OCC1(C(CCC2(C1C=C(C3(C2C(=C4C(=CC(OC4=O)C5=CN=CC=C5)O3)O)C)OC(=O)C)C)OC(=O)C)C",
+                "database_deposited": true,
+                "pubchem_id": 54734280,
+                "compound": "pyripyropene A",
+                "molecular_formula": "C31H35NO10",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "FW556769",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001068",
+        "publications": [
+            "21224862"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Terpene",
+            "Polyketide"
+        ]
+    }
+}

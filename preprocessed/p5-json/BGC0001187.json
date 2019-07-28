@@ -1,0 +1,127 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "incomplete",
+            "conn_comp_cluster": [
+                "Heterologous expression",
+                "Gene expression correlated with compound production"
+            ],
+            "accession": "KM603664.1"
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 306.1708,
+                "chem_struct": "CCCCCC/C=C/C=C/C=C/C(O)=C1C(N(O)CC/1=O)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "xenolozoyenone",
+                "molecular_formula": "C17H23NO4",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "akl78824.1",
+                        "akl78825.1"
+                    ],
+                    "evidence_operon": "RACE"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001187",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:26081635"
+        ],
+        "polyketide": {
+            "nr_iterations": 6,
+            "pks_te_type": "None",
+            "iter_cycl_type": "Unknown",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AKL78824.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "Structure-based inference",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Condensation"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Propionyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Highly reducing",
+            "starter_unit": "Propionyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [
+                "akl78824.1"
+            ],
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "lipid_moiety": "(4E,6E,8E)-3-oxopentadeca-4,6,8-trienoic acid",
+            "nrps_release_type": "Unknown",
+            "subclass": "Other lipopeptide",
+            "nrps_thioesterase": [
+                "akl78825.1"
+            ],
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "comments": "",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ],
+                    "nrps_gene": "AKL78825.1"
+                }
+            ],
+            "nrps_te_type": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

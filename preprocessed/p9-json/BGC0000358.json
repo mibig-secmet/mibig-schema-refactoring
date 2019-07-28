@@ -1,0 +1,33 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "compound": "fusaricidin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "EU431181.2",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000358",
+        "minimal": true,
+        "ncbi_tax_id": "886882",
+        "organism_name": "Paenibacillus polymyxa SC2",
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "AF367409.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 343.342,
+                "chem_struct": "C1=CC=C2C(=C1)/C(=C\\3/C=C(NC3=O)C4=CNC5=C4C=C(C=C5)O)/C(=O)N2",
+                "chem_synonyms": [],
+                "pubchem_id": 9928039,
+                "chem_target": [
+                    "TNF-alpha-1"
+                ],
+                "compound": "Violacein",
+                "molecular_formula": "C20H13N3O3",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group",
+                        "moiety_subcluster": [
+                            "tryptophan dimer"
+                        ]
+                    }
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aam21200.1",
+                        "aam21201.1",
+                        "aam21202.1",
+                        "aam21203.1"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 2805,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAM21200.1",
+                    "gene_annotation": "VioA",
+                    "gene_startpos": 1501,
+                    "not_in_gbk": false,
+                    "gene_name": "vioA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 5819,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAM21201.1",
+                    "gene_annotation": "VioB",
+                    "gene_startpos": 2802,
+                    "not_in_gbk": false,
+                    "gene_name": "vioB"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 7110,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAM21202.1",
+                    "gene_annotation": "VioC",
+                    "gene_startpos": 5821,
+                    "not_in_gbk": false,
+                    "tailoring": "Monooxygenation",
+                    "gene_name": "vioC"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 8228,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAM21203.1",
+                    "gene_annotation": "VioD",
+                    "gene_startpos": 7110,
+                    "not_in_gbk": false,
+                    "tailoring": "Monooxygenation",
+                    "gene_name": "vioD"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000830",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:0"
+        ],
+        "other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

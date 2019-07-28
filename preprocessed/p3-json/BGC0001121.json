@@ -1,0 +1,90 @@
+{
+    "version": "16",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 213367,
+                    "Accession": "BN001302.1",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Gene expression correlated with compound production"
+                    ],
+                    "start_coord": 206866
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "chemspider_id": 61385,
+                "mol_mass": "168.148",
+                "chem_struct": "CC1=CC(=CC(=C1C(=O)O)O)O",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 68072,
+                "compound": "orsellinic acid",
+                "molecular_formula": "C8H8O4",
+                "databases_deposited": [
+                    "PubChem",
+                    "ChemSpider"
+                ],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001121",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "Polyketide": {
+            "nr_iterations": 3,
+            "pks_te_type": "Unknown",
+            "iter_cycl_type": "C2-C7 first",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AN7909",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "Sequence-based prediction",
+                            "pks_domains": [
+                                "SAT",
+                                "KS",
+                                "AT",
+                                "PT",
+                                "ACP",
+                                "ACP",
+                                "TE/CLC"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "None"
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Non-reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [
+                "an7909",
+                "xp_681178"
+            ],
+            "pks_release_type": "Hydrolysis"
+        },
+        "publications": [
+            "19666480",
+            "20174687"
+        ]
+    }
+}

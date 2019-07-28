@@ -1,0 +1,35 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "paenibacillin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "JQ728481.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000540",
+        "minimal": true,
+        "publications": [
+            "pubmed:17071789"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

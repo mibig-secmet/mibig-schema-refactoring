@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "loci": {
+            "accession": "FR823394.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0001117",
+        "compounds": [
+            {
+                "compound": "himastatin"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

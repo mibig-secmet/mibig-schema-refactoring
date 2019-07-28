@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "182.175",
+                "chem_struct": "CC12C(C(=C)C(=O)C1(O2)C)C(=O)O",
+                "database_deposited": true,
+                "pubchem_id": 122733,
+                "compound": "methylenomycin",
+                "molecular_formula": "C9H10O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 251017,
+                    "Accession": "AL589148",
+                    "start_coord": 231676
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000914",
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "19054329",
+            "18988741",
+            "12000953",
+            "9573173"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

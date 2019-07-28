@@ -1,0 +1,86 @@
+{
+    "version": "16",
+    "comments": "This is the sequence of the 5811 base-pair region on the right flank of the amphotericin polyketide synthase genes, adjacent to the amphC gene. It contains genes for a discrete thioesterase (amphE), a non-functional homologue of a transcriptional activator (amphRVI), and an amino acid permease (ORF10).",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY636001",
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "incomplete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "924.091",
+                "chem_struct": "C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@H]2[C@@H]([C@H](C[C@](O2)(C[C@H](C[C@H]([C@@H](CC[C@H](C[C@H](CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 5386092,
+                "compound": "Amphotericin B",
+                "molecular_formula": "C47H73NO17",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Other enzymatic",
+                    "gene_endpos": 0,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAV48834.1",
+                    "gene_annotation": "Discrete thioesterase",
+                    "gene_startpos": 0,
+                    "not_in_gbk": false,
+                    "gene_name": "AmphE"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAV48835.1",
+                    "gene_annotation": "Similar to regulatory protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "mut_pheno": "No observable phenotype",
+                    "gene_name": "AmphRVI"
+                },
+                {
+                    "gene_function": "Other",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AAV48836.1",
+                    "gene_annotation": "Amino acid permease",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "ORF10"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000016",
+        "Other": {
+            "other_subclass": "other"
+        },
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": "15563836"
+    }
+}

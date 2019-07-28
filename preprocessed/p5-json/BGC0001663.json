@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "merocyclophane C"
+            },
+            {
+                "compound": "merocyclophane D"
+            }
+        ],
+        "loci": {
+            "accession": "KY379971.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001663",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28252962"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

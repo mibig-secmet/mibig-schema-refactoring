@@ -1,0 +1,134 @@
+{
+    "version": "17",
+    "comments": "This type III PKS containing cluster is involved in the formation of red-brown pigment/melanin, and equivalent clusters have been studied in other organisms, e.g. PMID 10476972; 11723138; 15659395; 15701630; 16291687. The PKS product THN (1,3,6,8-tetrahydroxynaphthalene) of these clusters are variously oxidized/dimerized/polymerized by the action of additional enzymes in the cluster including a cytochrome P450 monooxygenase (RppB) and a monooxygenase of the cupin domain superfamily. The products of these clusters have been shown to provide resistance to UV radiation.",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5991,
+                    "Accession": "AY078067",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 3111
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 352.0794,
+                "chem_struct": "O=C1C=C(O)C(C2=CC(O[C@H]3O[C@H](C)[C@@H](O)[C@H](O)[C@@H]3O)=CC(O)=C21)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Flaviolin rhamnoside",
+                "molecular_formula": "C16H16O9",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": 410.0274,
+                "other_chem_act": "Potential UV protection",
+                "chem_struct": "O=C1C=C(O)C(C2=CC(O)=C(C3=C(O)C=C(C(C(O)=CC4=O)=O)C4=C3O)C(O)=C21)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "3,3'-diflaviolin",
+                "molecular_formula": "C20H10O10",
+                "chem_synonyms": [
+                    "flaviolin dimer"
+                ],
+                "chem_act": [
+                    "Other"
+                ]
+            },
+            {
+                "mol_mass": "206.153",
+                "chem_struct": "C1=C(C=C2C(=C1O)C(=CC(=O)C2=O)O)O",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 160478,
+                "compound": "Flaviolin",
+                "molecular_formula": "C10H6O5",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 4214,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AAL78053.1",
+                    "gene_annotation": "Type III PKS",
+                    "gene_startpos": 3111,
+                    "not_in_gbk": false,
+                    "mut_pheno": "Loss of molecule (pigment) production",
+                    "gene_name": "rppA"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 5416,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "AAL78054.1",
+                    "gene_annotation": "Cytochrome P450 monooxygenase",
+                    "gene_startpos": 4211,
+                    "not_in_gbk": false,
+                    "tailoring": "Oxidation",
+                    "gene_name": "rppB"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 5991,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "AAL78055.1",
+                    "gene_annotation": "Quinone forming monooxygenase",
+                    "gene_startpos": 5452,
+                    "not_in_gbk": false,
+                    "tailoring": "Oxidation",
+                    "gene_name": "ORF3"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000285",
+        "Saccharide": {
+            "gt_genes": [
+                {
+                    "evidence_gt_spec": "structure-based inference",
+                    "gt_gene": "No Gene ID",
+                    "gt_specificity": "L-rhamnose"
+                }
+            ],
+            "saccharide_subclass": "oligosaccharide"
+        },
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "Polyketide": {
+            "ketide_length": 5,
+            "pks_subclass": [
+                "Type III"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Chalcone",
+            "pks_genes": [
+                "aal78053"
+            ]
+        },
+        "publications": [
+            "12028378"
+        ]
+    }
+}

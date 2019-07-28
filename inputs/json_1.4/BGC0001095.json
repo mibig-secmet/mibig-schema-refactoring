@@ -1,0 +1,264 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1931328,
+                    "Accession": "CP000560",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 1968997
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "372.505",
+                "chem_struct": "C[C@]12CCC(=O)C[C@H]1CCC3C2CC[C@]4([C@@]3(CC[C@@H]4C5=CC(=O)OC5)O)C",
+                "chem_synonyms": [
+                    "plipastatin"
+                ],
+                "database_deposited": true,
+                "pubchem_id": 14197,
+                "compound": "fengycin",
+                "molecular_formula": "C23H32O4",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 1961339,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP001421440",
+                    "gene_annotation": "fengycin synthetase A",
+                    "gene_startpos": 1968997,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no fengycin synthesis",
+                    "gene_name": "fenA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 1953616,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001421439",
+                    "gene_annotation": "fengycin synthetase B",
+                    "gene_startpos": 1961313,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "fenB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 1945951,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001421438",
+                    "gene_annotation": "fengycin synthetase C",
+                    "gene_startpos": 1953600,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "fenC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 1935150,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001421437",
+                    "gene_annotation": "fengycin synthetase D",
+                    "gene_startpos": 1945925,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "fenD"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 1931328,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001421436",
+                    "gene_annotation": "fengycin synthetase E",
+                    "gene_startpos": 1935131,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "fenE"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001095",
+        "Other": {
+            "other_subclass": "None"
+        },
+        "biosyn_class": [
+            "Other",
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glutamate",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "evidence_a_spec": "Structure-based inference",
+                                "nonprot_adom_spec": "Ornithine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001421440"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001421439"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glutamate",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001421438"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "8",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glutamate",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "9",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001421437"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "10",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001421436"
+                }
+            ]
+        },
+        "publications": "14762003,17704766"
+    }
+}

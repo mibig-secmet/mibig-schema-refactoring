@@ -1,0 +1,85 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "544.512",
+                "chem_struct": "CC(=O)[C@@H]1[C@H](C2=C(C(=C3C(=O)C=C(C4=C5C(=CC(=O)C6=C(C(=C1C(=C56)C2=C43)OC)O)OC)OC)O)OC)C(=O)C",
+                "database_deposited": true,
+                "pubchem_id": 101523,
+                "compound": "elsinochrome A",
+                "molecular_formula": "C30H24O10",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "EU086466",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU414202",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU414201",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU414200",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU414199",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU414198",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU401707",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU401706",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU401705",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "EU401704",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001259",
+        "publications": [
+            "18321192",
+            "189576"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

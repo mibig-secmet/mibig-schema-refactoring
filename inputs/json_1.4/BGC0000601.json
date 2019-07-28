@@ -1,0 +1,113 @@
+{
+    "version": "14",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 220032,
+                    "Accession": "AL009126",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 213941
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 2781.3023,
+                "mass_ion_type": "M+",
+                "chem_synonyms": [
+                    "skf"
+                ],
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "compound": "sporulation killing factor"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAB11984.1",
+                    "gene_name": "skfA"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAB11985.2",
+                    "gene_name": "skfB"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAX52541.1",
+                    "gene_name": "skfC"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAB11992.2",
+                    "gene_name": "skfH"
+                },
+                {
+                    "mut_pheno": "binding protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Heterologous expression",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "gene_id": "CAB11989.1",
+                    "gene_name": "skfE"
+                },
+                {
+                    "mut_pheno": "permease",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAB11990.2",
+                    "gene_name": "skfF"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "CAB11991.2",
+                    "gene_name": "skfG"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000601",
+        "RiPP": {
+            "ripp_subclass": "Head-to-tailcyclized peptide",
+            "precursor_loci": [
+                {
+                    "lead_pept_len": 29,
+                    "core_pept_aa": "cmgcwasksiamtrvcalphpamrai",
+                    "foll_pept_len": 26,
+                    "peptidase": [],
+                    "gene_id": [
+                        "cab11984.1"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "20805502,12817086"
+    }
+}

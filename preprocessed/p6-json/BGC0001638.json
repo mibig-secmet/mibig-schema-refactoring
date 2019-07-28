@@ -1,0 +1,37 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "klebsazolicin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "LN681175.1",
+            "completeness": "Unknown",
+            "end_coord": 154139,
+            "evidence": [],
+            "start_coord": 148257
+        },
+        "mibig_accession": "BGC0001638",
+        "minimal": true,
+        "publications": [
+            "pubmed:28846667"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Unknown"
+        }
+    }
+}

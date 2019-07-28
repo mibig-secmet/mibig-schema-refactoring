@@ -1,0 +1,105 @@
+{
+    "comments": "Cluster information for Marinophenazine A and B",
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction",
+                "Enzymatic assays"
+            ],
+            "accession": "KJ451627.1"
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "NMR"
+                ],
+                "mol_mass": 364.44,
+                "chem_struct": "C/C(=C\\\\COc1cccc2c1nc1cccc(c1[n+]2[O-])O)/CCC=C(C)C",
+                "mass_ion_type": "Unknown",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "phenazine-1-carboxylic acid",
+                        "moiety_subcluster": [
+                            "ait42116",
+                            "ait42117",
+                            "ait42118",
+                            "ait42119",
+                            "ait42120",
+                            "ait42121",
+                            "ait42135"
+                        ]
+                    }
+                ],
+                "compound": "marinophenazine A",
+                "molecular_formula": "C22N2O3H24",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            },
+            {
+                "evidence_struct": [
+                    "NMR"
+                ],
+                "mol_mass": 348.44,
+                "chem_struct": "C/C(=C\\\\COc1cccc2c1nc1cccc(c1n2)O)/CCC=C(C)C",
+                "mass_ion_type": "Unknown",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "phenazine-1-carboxylic acid",
+                        "moiety_subcluster": [
+                            "ait42116",
+                            "ait42117",
+                            "ait42118",
+                            "ait42119",
+                            "ait42120",
+                            "ait42121",
+                            "ait42135"
+                        ]
+                    }
+                ],
+                "compound": "marinophenazine B",
+                "molecular_formula": "C22N2O2H24",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 4988,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "CnqPT1",
+                    "gene_annotation": "membrane-bound Prenyltransferase",
+                    "gene_startpos": 3984,
+                    "not_in_gbk": false,
+                    "tailoring": "Prenylation",
+                    "gene_name": "cnqPT1"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001221",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:25224759",
+            "pubmed:26319318"
+        ],
+        "other": {
+            "other_subclass": "Phenazine"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

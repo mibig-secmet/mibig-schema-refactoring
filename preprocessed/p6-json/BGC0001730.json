@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "paramagnetoquinone 1",
+                "database_id": []
+            },
+            {
+                "compound": "paramagnetoquinone 2",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KX533975.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001730",
+        "minimal": true,
+        "polyketide": {},
+        "publications": [
+            "pubmed:28218529"
+        ]
+    }
+}

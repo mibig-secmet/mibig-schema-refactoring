@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "amycolamycin A",
+                "database_id": []
+            },
+            {
+                "compound": "amycolamycin B",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "MF990204.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001503",
+        "minimal": true,
+        "polyketide": {},
+        "publications": [
+            "pubmed:29090939"
+        ]
+    }
+}

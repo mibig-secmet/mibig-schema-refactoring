@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "glycopeptidolipid"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY439015",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000365",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "16194230",
+            "16140533"
+        ]
+    }
+}

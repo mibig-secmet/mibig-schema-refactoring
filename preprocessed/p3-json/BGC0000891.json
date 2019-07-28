@@ -1,0 +1,195 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 43745,
+                    "Accession": "AUSV01000133",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Heterologous expression",
+                        "Gene expression correlated with compound production"
+                    ],
+                    "start_coord": 32483
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 547.61,
+                "chem_struct": "C1=C(C=C(C(=C1Br)O)C2=C(C(=C(N2)Br)Br)Br)Br",
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring",
+                        "moiety_subcluster": [
+                            "pl2ta16_01235",
+                            "pl2ta16_01236",
+                            "pl2ta16_01237",
+                            "pl2ta16_01238"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "pl2ta16_01239",
+                            "pl2ta16_01240"
+                        ],
+                        "other_chem_moiety": "Bromophenol"
+                    }
+                ],
+                "chem_target": [
+                    "myosin ATPase",
+                    "IspD"
+                ],
+                "compound": "pentabromopseudilin",
+                "molecular_formula": "C10H4Br5NO",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "",
+                    "gene_endpos": 33730,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90841.1",
+                    "gene_annotation": "Bmp10, Ferredoxin reductase",
+                    "gene_startpos": 32483,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 34062,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90842.1",
+                    "gene_annotation": "Bmp9, Ferredoxin",
+                    "gene_startpos": 33742,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 34663,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "ESP90843.1",
+                    "gene_annotation": "Bmp8",
+                    "gene_startpos": 34073,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 36025,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90844.1",
+                    "gene_annotation": "Bmp1, ACP-TE didomain",
+                    "gene_startpos": 34949,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 37242,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90845.1",
+                    "gene_annotation": "Bmp2, Flavin-dependent pyrrolyl-S-ACP brominase",
+                    "gene_startpos": 36022,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 38427,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90846.1",
+                    "gene_annotation": "Bmp3, Flavin-dependent prolyl-S-ACP dehydrogenase",
+                    "gene_startpos": 37285,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 39980,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90847.1",
+                    "gene_annotation": "Bmp4, prolyl adenylation domain",
+                    "gene_startpos": 38424,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 41639,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90848.1",
+                    "gene_annotation": "Bmp5, Single-component Flavin-dependent p-hydroxybenzoate brominase/decarboxylase",
+                    "gene_startpos": 40092,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 42266,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90849.1",
+                    "gene_annotation": "Bmp6, 4-hydroxybenzoate synthetase (chorismate lyase)",
+                    "gene_startpos": 41658,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 43745,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ESP90850.1",
+                    "gene_annotation": "Bmp 7, cytochrome P450",
+                    "gene_startpos": 42270,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000891",
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        },
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "24974229",
+            "19122661",
+            "24446431",
+            "7600609"
+        ]
+    }
+}

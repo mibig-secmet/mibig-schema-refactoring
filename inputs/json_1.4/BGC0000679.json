@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "462.59",
+                "chem_struct": "CC(=CCC/C(=C/CC/C(=C/CN1C2=CC(=CC(=C2NC3=C(C1=O)C=CC=C3O)O)O)/C)/C)C",
+                "database_deposited": true,
+                "pubchem_id": 9868980,
+                "compound": "diazepinomicin",
+                "molecular_formula": "C28H34N2O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 303913,
+                    "Accession": "KK037233",
+                    "start_coord": 255998
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000679",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "18722414"
+        ]
+    }
+}

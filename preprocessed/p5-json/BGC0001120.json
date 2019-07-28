@@ -1,0 +1,187 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "accession": "CP000086.1",
+            "start_coord": 2543245,
+            "end_coord": 2580940
+        },
+        "compounds": [
+            {
+                "chemspider_id": 28536046,
+                "chem_struct": "",
+                "chem_synonyms": [
+                    "malleilactone"
+                ],
+                "compound": "burkholderic acid",
+                "molecular_formula": "",
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic",
+                    "Siderophore",
+                    "Virulence factor"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "mut_pheno": "Loss of burkholderic acid production",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABC36203",
+                    "gene_name": "burA"
+                },
+                {
+                    "mut_pheno": "Loss of burkholderic acid production",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ABC35796",
+                    "gene_name": "burF"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2573207,
+                    "gene_annotation": "FkbH-like protein",
+                    "gene_startpos": 2571843,
+                    "not_in_gbk": true,
+                    "gene_name": "burH"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001120",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:23055407",
+            "pubmed:22765305"
+        ],
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABC36203",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Hydroxylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "A2",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Inactive",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABC35796",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "B0",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "B1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "B2",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Reductive release"
+        },
+        "nrp": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "A1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "evidence_a_spec": "Unknown",
+                                "aa_type": "Unknown"
+                            }
+                        }
+                    ],
+                    "nrps_gene": "ABC36203"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "B3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "None"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "ABC35796"
+                }
+            ],
+            "subclass": "Unknown",
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

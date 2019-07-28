@@ -1,0 +1,307 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 25722,
+                    "Accession": "KF366381",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Enzymatic assays",
+                        "Heterologous expression"
+                    ],
+                    "start_coord": 4201
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "1290.511",
+                "chem_struct": "CC1=C2C(=O)NCC(=O)NC(C3=NC(=CS3)C4=NC(=CS4)C5=C(C=CC(=N5)C6=NC(=CS6)C7=NC(CO7)C(=O)N8CCCC8C(=O)N)C9=NC(=CS9)C(=O)NC(C3=NC(=C(S3)COC)C(=O)NC(C(=N2)S1)CC(=O)NC)C(C)C)C(C1=CC=CC=C1)O",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 16130335,
+                "chem_target": [
+                    "EF-Tu"
+                ],
+                "compound": "GE2270",
+                "molecular_formula": "C56H55N15O10S6",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "thiazole, pyridine, oxazoline"
+                    }
+                ],
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 5014,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49580.1",
+                    "gene_annotation": "TetR transcriptional regulator",
+                    "gene_startpos": 4301,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtR"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 6891,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49581.1",
+                    "gene_annotation": "cyclodehydratase (oxazoline formation)",
+                    "gene_startpos": 5068,
+                    "not_in_gbk": false,
+                    "mut_pheno": "No oxazoline formation",
+                    "gene_name": "pbtG1"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 9266,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49582.1",
+                    "gene_annotation": "dehydratase",
+                    "gene_startpos": 6888,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtB1"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 10297,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49583.1",
+                    "gene_annotation": "P450 monooxygenase",
+                    "mut_pheno": "No Phe8-hydroxylation",
+                    "gene_startpos": 9263,
+                    "not_in_gbk": false,
+                    "tailoring": "Hydroxylation",
+                    "gene_name": "pbtO"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 11069,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49584.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 10422,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtX"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 12232,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49585.1",
+                    "gene_annotation": "N-methyltransferase",
+                    "mut_pheno": "No Asn3 N-methyl",
+                    "gene_startpos": 11114,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "pbtM1"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 13491,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49586.1",
+                    "gene_annotation": "radical SAM",
+                    "mut_pheno": "No ThzE C-methyl",
+                    "gene_startpos": 12307,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "pbtM2"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 13784,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49587.1",
+                    "gene_annotation": "precursor peptide",
+                    "gene_startpos": 13617,
+                    "not_in_gbk": false,
+                    "mut_pheno": "No production",
+                    "gene_name": "pbtA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 16331,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49588.1",
+                    "gene_annotation": "dehydratase (serine dehydration)",
+                    "gene_startpos": 13842,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 17232,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49589.1",
+                    "gene_annotation": "dehydratase (serine dehydration)",
+                    "gene_startpos": 16324,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 18214,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49590.1",
+                    "gene_annotation": "[4 + 2] cycloaddition",
+                    "gene_startpos": 17213,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtD"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 19584,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49591.1",
+                    "gene_annotation": "azoline-synthesizing dehydrogenase",
+                    "gene_startpos": 18214,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtE"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 21368,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49592.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 19572,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 23104,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AGY49593.1",
+                    "gene_annotation": "cyclodehydratase",
+                    "gene_startpos": 21368,
+                    "not_in_gbk": false,
+                    "gene_name": "pbtG"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 23489,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49594.1",
+                    "gene_annotation": "hypothetical",
+                    "mut_pheno": "No C-terminal amide",
+                    "gene_startpos": 23121,
+                    "not_in_gbk": false,
+                    "tailoring": "Other",
+                    "gene_name": "pbtH"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 24705,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49595.1",
+                    "gene_annotation": "radical SAM",
+                    "mut_pheno": "No ThzD C-methyl",
+                    "gene_startpos": 23539,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "pbtM3"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 25722,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AGY49596.1",
+                    "gene_annotation": "O-methyltransferase",
+                    "mut_pheno": "No ThzD O-methyl",
+                    "gene_startpos": 24715,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "pbtM4"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001155",
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "AA_pos_1": 1,
+                            "AA_pos_2": 11
+                        }
+                    ],
+                    "core_pept_aa": [
+                        "SCNCVCGFCCSCSPSA"
+                    ],
+                    "gene_id": [
+                        "agy49587.1"
+                    ],
+                    "lead_pept_len": 39,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "23932526",
+            "24598591",
+            "19338336"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "926.053",
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)O[C@@H]([C@@H](C(=O)N[C@H](C(=O)N[C@H]2CC[C@H](N(C2=O)[C@H](C(=O)N([C@H](C(=O)N1)CC3=CC=CC=C3)C)[C@@H](C)CC)O)CCCN=C(N)N)NC(=O)[C@@H](COS(=O)(=O)O)O)C",
+                "database_deposited": true,
+                "pubchem_id": 46881045,
+                "compound": "cyanopeptolin",
+                "molecular_formula": "C40H63N9O14S",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "DQ075244",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000332",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "17464052"
+        ]
+    }
+}

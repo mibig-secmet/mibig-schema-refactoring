@@ -1,0 +1,69 @@
+{
+    "embargo": true,
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 26144,
+                    "Accession": "AB090952",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ],
+                    "start_coord": 1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 569.0757,
+                "chem_struct": "CO[C@@H]1[C@H](O[C@H]([C@@H]([C@H]1O)O)n2c3c(cccc3Cl)c4c2c5c(c6cccc(c6[nH]5)Cl)c7c4C(=O)NC7=O)CO",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group",
+                        "moiety_subcluster": []
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "indolocarbazole"
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "7-chloro-tryptophan"
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "11,11'-dichlorochromopyrrolic acid"
+                    }
+                ],
+                "chem_target": [
+                    "topoisomerases I and II"
+                ],
+                "compound": "rebeccamycin",
+                "molecular_formula": "C27H21Cl2N3O7",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": []
+        },
+        "mibig_accession": "BGC0000821",
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        },
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "15743957"
+        ]
+    }
+}

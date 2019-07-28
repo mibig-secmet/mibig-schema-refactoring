@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY163384",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000725",
+        "compounds": [
+            {
+                "mol_mass": "396.301",
+                "chem_struct": "COC1C(C(C(OC1C(=O)[O-])OC2C(C(C(OC2C(=O)[O-])OC)O)O)O)O",
+                "database_deposited": true,
+                "pubchem_id": 25202446,
+                "compound": "alginate",
+                "molecular_formula": "C14H20O13-2",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ]
+    }
+}

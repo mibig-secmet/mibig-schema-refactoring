@@ -1,0 +1,211 @@
+{
+    "version": "13",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2435321,
+                    "Accession": "FO704550",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Proven expression in natural host"
+                    ],
+                    "start_coord": 2329335
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 1300.822,
+                "other_chem_act": "antiparasitic",
+                "chem_struct": "O=C(N[C@H](C(N[C@H](C(C)C)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Xenoamicin A",
+                "molecular_formula": "C64H109N13O15",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Other"
+                ]
+            },
+            {
+                "mol_mass": 1314.8388,
+                "chem_struct": "O=C(N[C@H](C(N[C@H]([C@H](C)CC)C(N[C@@H](C(C)C)C(N[C@H](C)C(NCCC1=O)=O)=O)=O)=O)C(C)C)[C@@H]([C@H](OC([C@@H](NC([C@@H]2N1CCC2)=O)C(C)C)=O)C)NC([C@H]([C@H](C)CC)NC([C@@H](CC(C)C)NC([C@H](C(C)C)NC([C@@H](C)NC([C@H]3N(C(CCC)=O)CCC3)=O)=O)=O)=O)=O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Xenoamicin B",
+                "molecular_formula": "C65H112O15N13",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "mut_pheno": "Loss of production",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "XDD1_2282",
+                    "gene_name": "xabB"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000464",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "XDD1_2281"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "None"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "XDD1_2282"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "8",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "9",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "XDD1_2283"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "10",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "module_nr": "11",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "module_nr": "12",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        },
+                        {
+                            "module_nr": "13",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "XDD1_2287"
+                }
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": []
+        },
+        "publications": [
+            "24203528"
+        ]
+    }
+}

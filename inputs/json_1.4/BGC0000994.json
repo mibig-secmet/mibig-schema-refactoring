@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "792.02",
+                "chem_struct": "CC[C@@H]1/C=C(/C[C@@H](C[C@@H]([C@@H]2[C@H](C[C@H]([C@@](O2)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@@H]([C@@H]([C@H](CC1=O)O)C)/C(=C/[C@@H]4CC[C@H]([C@@H](C4)OC)O)/C)O)C)OC)OC)C)\\C",
+                "database_deposited": true,
+                "pubchem_id": 5282071,
+                "compound": "FK520",
+                "molecular_formula": "C43H69NO12",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AF235504",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000994",
+        "publications": [
+            "10863099"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "trichodiene-11-one"
+            }
+        ],
+        "loci": {
+            "accession": "LC222739.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001811",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:16125338",
+            "pubmed:17188234",
+            "pubmed:17711459",
+            "pubmed:17897620",
+            "pubmed:18776660",
+            "pubmed:26227913",
+            "pubmed:27120196",
+            "pubmed:27773916"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

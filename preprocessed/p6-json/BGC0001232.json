@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "leucanicidin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "NZ_JAIY01000017.1",
+            "completeness": "Unknown",
+            "end_coord": 40233,
+            "evidence": [],
+            "start_coord": 1
+        },
+        "mibig_accession": "BGC0001232",
+        "minimal": true,
+        "polyketide": {},
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

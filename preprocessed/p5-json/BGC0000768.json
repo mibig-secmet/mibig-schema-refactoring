@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "gellan polysaccharide"
+            }
+        ],
+        "loci": {
+            "accession": "AY217008.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000768",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:14767675",
+            "pubmed:15741740",
+            "pubmed:16085866",
+            "pubmed:11513745",
+            "pubmed:18506441"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

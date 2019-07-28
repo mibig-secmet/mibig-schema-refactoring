@@ -1,0 +1,95 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "accession": "HM748814.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 618.688,
+                "chem_struct": "CC1C(CCC(O1)N2C=CC(=NC2=O)NC(=O)C3=CC=C(C=C3)NC(=O)C(C)(CO)N)OC4C(C(C(C(O4)C)N(C)C)O)O",
+                "chem_synonyms": [],
+                "pubchem_id": 221187,
+                "chem_target": [
+                    "RNA polymerase"
+                ],
+                "compound": "amicetin",
+                "molecular_formula": "C29H42N6O9",
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "AEF16044.1",
+                    "gene_name": "amiE"
+                },
+                {
+                    "tailoring": "Glycosylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ],
+                    "gene_id": "AEF16046.1",
+                    "gene_name": "amiG"
+                },
+                {
+                    "tailoring": "Methylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AEF16047.1",
+                    "gene_name": "amiH"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AEF16051.1",
+                    "gene_name": "amiL"
+                },
+                {
+                    "tailoring": "Acylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AEF16057.1",
+                    "gene_name": "amiR"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000953",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "publications": [
+            "pubmed:22267658",
+            "pubmed:22587000",
+            "pubmed:23919735"
+        ],
+        "saccharide": {
+            "saccharide_subclass": "aminoglycoside"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

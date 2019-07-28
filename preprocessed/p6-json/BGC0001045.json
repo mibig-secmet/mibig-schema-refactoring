@@ -1,0 +1,109 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_moieties": [],
+                "chem_struct": "C[C@@H]1C(=O)N[C@@H]2CSSCC/C=C\\[C@H](CC(=O)N1)OC(=O)C[C@@H]([C@H](NC2=O)C(C)C)O",
+                "chem_synonyms": [],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "Histone deacetylases"
+                    }
+                ],
+                "compound": "Spiruchostatin A",
+                "database_id": [
+                    "pubchem:60209141"
+                ],
+                "mol_mass": 473.603,
+                "molecular_formula": "C20H31N3O6S2"
+            }
+        ],
+        "genes": {
+            "annotations": [],
+            "extra_genes": [],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "afr69331",
+                        "afr69332",
+                        "afr69333",
+                        "afr69334",
+                        "afr69335",
+                        "afr69336",
+                        "afr69337",
+                        "afr69338",
+                        "afr69339",
+                        "afr69340",
+                        "afr69341"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "JQ045344.1",
+            "completeness": "complete",
+            "evidence": [
+                "Sequence-based prediction"
+            ]
+        },
+        "mibig_accession": "BGC0001045",
+        "minimal": false,
+        "nrp": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "subclass": "Cyclic depsipeptide"
+        },
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Macrolactamization"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "subclasses": [
+                "Macrolide"
+            ],
+            "synthases": [
+                {
+                    "genes": [
+                        "afr69340"
+                    ],
+                    "subclass": [
+                        "Modular type I"
+                    ],
+                    "thioesterases": [
+                        {
+                            "gene": "afr69340",
+                            "thioesterase_type": "Type II"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "pubmed:24973954"
+        ]
+    }
+}

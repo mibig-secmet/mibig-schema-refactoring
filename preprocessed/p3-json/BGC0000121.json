@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "382.749",
+                "chem_struct": "CC1=CC(=C(C(=C1)OC2=C(C(=C(C=C2C(=O)OC)OC)Cl)O)C(=O)O)O",
+                "database_deposited": true,
+                "pubchem_id": 9842980,
+                "compound": "pestheic acid",
+                "molecular_formula": "C17H15ClO8",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "KC145148",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000121",
+        "publications": [
+            "24302702"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

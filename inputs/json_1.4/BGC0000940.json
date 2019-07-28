@@ -1,0 +1,151 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3040682,
+                    "Accession": "AL645882",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Enzymatic assays",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 3033355
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "560.693",
+                "chem_struct": "CC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCN)O)O)O",
+                "chem_synonyms": [
+                    "desferrioxamine",
+                    "deferrioxamine b",
+                    "deferoxaminum",
+                    "deferoxamin",
+                    "desferin",
+                    "desferal"
+                ],
+                "database_deposited": true,
+                "pubchem_id": 2973,
+                "compound": "Desferrioxamine B",
+                "molecular_formula": "C25H48N6O8",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Siderophore"
+                ]
+            },
+            {
+                "mol_mass": "600.714",
+                "chem_struct": "C1CCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CC1)O)O)O",
+                "chem_synonyms": [
+                    "nocardamine",
+                    "deferrioxamine e"
+                ],
+                "database_deposited": true,
+                "pubchem_id": 161532,
+                "compound": "Desferrioxamine E",
+                "molecular_formula": "C27H48N6O9",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Siderophore"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 3034404,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAB87217.1",
+                    "gene_annotation": "Ferric-siderophore lipoprotein receptor",
+                    "gene_startpos": 3033355,
+                    "not_in_gbk": false,
+                    "mut_pheno": "Impaired growth and lack of sporulation",
+                    "gene_name": "DesE"
+                },
+                {
+                    "gene_function": "Other",
+                    "gene_endpos": 3035477,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAB87218.1",
+                    "gene_annotation": "Ferric-siderophore hydrolase",
+                    "gene_startpos": 3034632,
+                    "not_in_gbk": false,
+                    "gene_name": "DesF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 3037083,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAB87219",
+                    "gene_annotation": "L-Lysine decarboxylase",
+                    "gene_startpos": 3035641,
+                    "not_in_gbk": false,
+                    "gene_name": "DesA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 3038347,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAB87220",
+                    "gene_annotation": "Cadaverine monooxygenase",
+                    "gene_startpos": 3037106,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "DesB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 3038898,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAB87221.1",
+                    "gene_annotation": "Acyl CoA acyl transferase",
+                    "gene_startpos": 3038344,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "DesC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 3040682,
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        " activity assay"
+                    ],
+                    "gene_id": "CAB87222.1",
+                    "gene_annotation": "ATP-dependent siderophore synthetase (IucA-IucC family)",
+                    "gene_startpos": 3038895,
+                    "not_in_gbk": false,
+                    "mut_pheno": "Loss of desferrioxamides production",
+                    "gene_name": "DesD"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000940",
+        "Other": {
+            "other_subclass": "None"
+        },
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": "15600304, 17074905, 17704771, 21342472"
+    }
+}

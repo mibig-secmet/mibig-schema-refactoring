@@ -1,0 +1,210 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "accession": "AJ698723.2"
+        },
+        "compounds": [
+            {
+                "mol_mass": 723.4076,
+                "chem_struct": "CN(C1C(C)CC(=O)C(NC(=O)C(C)NC(=O)C(C)NC(=O)C(NC1=O)CC(C)C)CCC(=O)N)C(=O)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Myxochromide S1",
+                "molecular_formula": "C38H54N6O8",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 6501,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAG28678.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of production",
+                    "gene_name": "mchA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 15671,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAG29031.1",
+                    "gene_annotation": "nonribosomal peptide synthetase (modules 1 and 2)",
+                    "gene_startpos": 6498,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of production",
+                    "gene_name": "mchB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 29111,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAG29032.1",
+                    "gene_annotation": "nonribosomal peptide synthetase (modules 3 to 6)",
+                    "gene_startpos": 15705,
+                    "not_in_gbk": false,
+                    "gene_name": "mchC"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001023",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15651040"
+        ],
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CAG28678.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "Structure-based inference",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_release_type": "Claisen condensation"
+        },
+        "nrp": {
+            "nrps_release_type": "Macrolactonization",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "Methylation",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "CAG29031.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Alanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        },
+                        {
+                            "module_nr": "5",
+                            "nrps_evidence_skip_iter": "Structure-based inference",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "None"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_skip_iter": "Skipped"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Alanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glutamine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "CAG29032.1"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [
+                "cag29032.1"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

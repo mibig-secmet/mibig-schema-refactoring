@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide",
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "compound": "novofumigatonin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "MSZS01000014.1",
+            "completeness": "Unknown",
+            "end_coord": 136242,
+            "evidence": [],
+            "start_coord": 103246
+        },
+        "mibig_accession": "BGC0001708",
+        "minimal": true,
+        "publications": [
+            "pubmed:29317534"
+        ]
+    }
+}

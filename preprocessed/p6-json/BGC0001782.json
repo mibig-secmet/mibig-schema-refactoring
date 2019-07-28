@@ -1,0 +1,42 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "compound": "spiroindimicins",
+                "database_id": []
+            },
+            {
+                "compound": "indimicins",
+                "database_id": []
+            },
+            {
+                "compound": "lynamicins",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KY750719.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001782",
+        "minimal": true,
+        "other": {
+            "subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:28620687"
+        ]
+    }
+}

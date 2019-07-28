@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 426.729,
+                "chem_struct": "C[C@@H](CCC=C(C)C)[C@@H]1CC[C@]2([C@]1(CC[C@H]3C2=CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O)C)C)C",
+                "pubchem_id": 12302184,
+                "compound": "tirucalla",
+                "molecular_formula": "C30H50O"
+            }
+        ],
+        "loci": {
+            "accession": "NC_003076",
+            "start_coord": 14190000,
+            "end_coord": 14250000,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001314",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:25502595"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

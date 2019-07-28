@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "lactocin S"
+            }
+        ],
+        "loci": {
+            "accession": "Z54312.2",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000523",
+        "publications": [
+            "pubmed:7521995",
+            "pubmed:7961627",
+            "pubmed:9079878",
+            "pubmed:10832642",
+            "pubmed:11823212"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

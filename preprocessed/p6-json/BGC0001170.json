@@ -1,0 +1,203 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_synonyms": [],
+                "compound": "Clostridiolysin S",
+                "database_id": [],
+                "mol_mass": -1
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out",
+                                "Heterologous expression",
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01168",
+                    "name": "closA",
+                    "product": "RiPP precursor peptide"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01169",
+                    "name": "closB",
+                    "product": "Dehydrogenase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01170",
+                    "name": "closC",
+                    "product": "Cyclodehydratase partner",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Activity assay",
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01171",
+                    "name": "closD",
+                    "product": "Cyclodehydratase",
+                    "tailoring": [
+                        "Heterocyclization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01172",
+                    "name": "closE",
+                    "product": "Putative protease"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01174",
+                    "name": "closG",
+                    "product": "ABC transporter "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01175",
+                    "name": "closH",
+                    "product": "ABC transporter "
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "CLOSPO_01176",
+                    "name": "closI",
+                    "product": "ABC transporter "
+                }
+            ],
+            "extra_genes": [],
+            "operons": [
+                {
+                    "evidence": [
+                        "Sequence-based prediction"
+                    ],
+                    "genes": [
+                        "clospo_01168",
+                        "clospo_01169",
+                        "clospo_01170",
+                        "clospo_01171",
+                        "clospo_01172",
+                        "clospo_01173",
+                        "clospo_01174",
+                        "clospo_01175",
+                        "clospo_01176"
+                    ]
+                }
+            ]
+        },
+        "loci": {
+            "accession": "NZ_DS981518.1",
+            "completeness": "complete",
+            "end_coord": 699823,
+            "evidence": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "start_coord": 691338
+        },
+        "mibig_accession": "BGC0001170",
+        "minimal": false,
+        "publications": [
+            "pubmed:18375757",
+            "pubmed:19286651",
+            "pubmed:20581111",
+            "pubmed:21822292"
+        ],
+        "ripp": {
+            "cyclic": false,
+            "peptidases": [
+                "clospo_01172"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "SCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN"
+                    ],
+                    "follower_sequence": -1,
+                    "gene_id": "clospo_01168",
+                    "leader_sequence": 24
+                }
+            ],
+            "subclass": "LAP"
+        }
+    }
+}

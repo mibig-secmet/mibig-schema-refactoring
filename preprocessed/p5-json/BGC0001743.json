@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "loci": {
+            "accession": "NDXC01000075.1",
+            "start_coord": 9158,
+            "end_coord": 12204,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0001743",
+        "compounds": [
+            {
+                "compound": "plantaricyclin"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

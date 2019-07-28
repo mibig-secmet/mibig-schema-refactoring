@@ -1,0 +1,130 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "accession": "ABVH01000020.1",
+            "start_coord": 8707,
+            "end_coord": 19626
+        },
+        "compounds": [
+            {
+                "mol_mass": 3055.5229,
+                "mass_ion_type": "[M+H]+",
+                "compound": "geobacillin II",
+                "molecular_formula": "C139H215N39O29S5",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2185269,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "ABO67412.1",
+                    "gene_annotation": "conserved hypothetical protein",
+                    "gene_startpos": 2184097,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 2187435,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABO67413.1",
+                    "gene_annotation": "LanT ABC transporter-related protein",
+                    "gene_startpos": 2185270,
+                    "not_in_gbk": false,
+                    "gene_name": "geoTII"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 2190545,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "ABO67414.1",
+                    "gene_annotation": "Lanthionine synthetase M family protein",
+                    "gene_startpos": 2187465,
+                    "not_in_gbk": false,
+                    "gene_name": "geoM"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 2190630,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "",
+                    "gene_annotation": "precursor peptide",
+                    "gene_startpos": 2190821,
+                    "not_in_gbk": true,
+                    "gene_name": "geoAII"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 2191614,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABO67415.1",
+                    "gene_annotation": "two component transcriptional regulator, LuxR family",
+                    "gene_startpos": 2190943,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 2193904,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ABO67416.1",
+                    "gene_annotation": "integral membrane sensor signal transduction histidine kinase",
+                    "gene_startpos": 2191640,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2195016,
+                    "gene_id": "ABO67417.1",
+                    "gene_annotation": "pre-ComX modifying enzyme",
+                    "gene_startpos": 2194084,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000516",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:22431611"
+        ],
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide",
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "minimal": true
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

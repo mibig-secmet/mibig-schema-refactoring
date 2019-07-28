@@ -1,0 +1,184 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "accession": "AM409327.1"
+        },
+        "compounds": [
+            {
+                "chemspider_id": 10207541,
+                "chem_struct": "",
+                "chem_synonyms": [],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "2-pyridone",
+                        "moiety_subcluster": [
+                            "tens",
+                            "tenc",
+                            "tena"
+                        ]
+                    }
+                ],
+                "compound": "Tenellin",
+                "molecular_formula": "",
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 459,
+                    "gene_id": "CAL69593.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 3369,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAL69594.1",
+                    "gene_annotation": "hypothetical protein",
+                    "mut_pheno": "pretenellin A",
+                    "gene_startpos": 1717,
+                    "not_in_gbk": false,
+                    "tailoring": "Oxidation",
+                    "gene_name": "tenA"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 5453,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAL69595.1",
+                    "gene_annotation": "hypothetical protein",
+                    "mut_pheno": "pretenellin B",
+                    "gene_startpos": 3777,
+                    "not_in_gbk": false,
+                    "tailoring": "Oxidation",
+                    "gene_name": "tenB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 7259,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "CAL69596.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 6093,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of PKS fidelity among others",
+                    "gene_name": "tenC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 20892,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "CAL69597.1",
+                    "gene_annotation": "PKS-NRPS",
+                    "gene_startpos": 7941,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no metabolite",
+                    "gene_name": "tenS"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001049",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:21899331",
+            "pubmed:21675761",
+            "pubmed:20575135",
+            "pubmed:19067514",
+            "pubmed:17216664",
+            "pubmed:18266306"
+        ],
+        "polyketide": {
+            "nr_iterations": 4,
+            "pks_te_type": "None",
+            "iter_cycl_type": "Unknown",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Linear",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CAL69597.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_evidence_skip_iter": "Activity assay",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Acetyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Highly reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [],
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Non-elongating",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "CAL69597.1"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

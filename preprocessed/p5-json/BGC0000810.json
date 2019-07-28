@@ -1,0 +1,38 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 211.173,
+                "chem_struct": "COC1=CC2=C(C=C1)N(C(=O)C(O2)O)O",
+                "pubchem_id": 2358,
+                "compound": "benzoxazinone DIMBOA",
+                "molecular_formula": "C9H9NO5"
+            }
+        ],
+        "loci": {
+            "accession": "CM000780.3",
+            "start_coord": 3003162,
+            "end_coord": 3267368,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000810",
+        "biosyn_class": [
+            "Alkaloid"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:11851909",
+            "pubmed:12620350",
+            "pubmed:18192444"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

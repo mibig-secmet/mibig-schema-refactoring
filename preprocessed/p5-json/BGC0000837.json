@@ -1,0 +1,45 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ],
+            "accession": "CP000020.2",
+            "start_coord": 928348,
+            "end_coord": 946886
+        },
+        "compounds": [
+            {
+                "mol_mass": 335.1652,
+                "chem_struct": "CC1=C(O)C(C)=CC(/C=C/C=C/C=C/C=C/C=C/C=C/C(OC)=O)=C1",
+                "mass_ion_type": "[M-H]-",
+                "compound": "APE Vf",
+                "molecular_formula": "C22H24O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown",
+                    "Antioxidant"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000837",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:25036635"
+        ],
+        "other": {
+            "other_subclass": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

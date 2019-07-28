@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 189.239,
+                "chem_struct": "CC(CC[NH+]=C(N)N)C(C(=O)[O-])[NH3+]",
+                "pubchem_id": 46173347,
+                "compound": "3-methylarginine",
+                "molecular_formula": "C7H17N4O2+"
+            }
+        ],
+        "loci": {
+            "accession": "FJ788104.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000884",
+        "publications": [
+            "pubmed:20190091"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ],
+        "other": {
+            "other_subclass": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

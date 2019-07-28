@@ -1,0 +1,68 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [],
+                "chem_synonyms": [],
+                "compound": "SAL-2242",
+                "database_id": [],
+                "mass_spec_ion_type": "[M+H]+",
+                "mol_mass": 2242.22
+            }
+        ],
+        "genes": {},
+        "loci": {
+            "accession": "NZ_DS999645.1",
+            "completeness": "complete",
+            "end_coord": 4120692,
+            "evidence": [
+                "Sequence-based prediction"
+            ],
+            "start_coord": 4112717
+        },
+        "mibig_accession": "BGC0000546",
+        "minimal": false,
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "cyclic": true,
+            "peptidases": [],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "TGSQISLLICEYSSLSVTLCTP"
+                    ],
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 3,
+                            "second_AA": 10
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "first_AA": 13,
+                            "second_AA": 20
+                        }
+                    ],
+                    "follower_sequence": -1,
+                    "gene_id": "sshg_03589,wp_003950016.1",
+                    "leader_sequence": 21
+                }
+            ],
+            "subclass": "Lanthipeptide"
+        }
+    },
+    "comments": "AmfS-like classIII lanthipeptide"
+}

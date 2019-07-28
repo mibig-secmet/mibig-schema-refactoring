@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC1(CC2C1CCC(C3C2(CC3)C)(C)O)C",
+                "compound": "koraiol"
+            }
+        ],
+        "loci": {
+            "accession": "HF679030.1",
+            "start_coord": 2313680,
+            "end_coord": 2315399,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001642",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:23335243"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

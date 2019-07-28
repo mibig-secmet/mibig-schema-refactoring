@@ -1,0 +1,131 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ],
+            "accession": "KF585133.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 444.0956,
+                "chem_struct": "ClC1=C(Cl)C=C2N1C(C3=C2C=C(O)C([C@]4([H])CCC5=CC(Cl)=C(Cl)N54)=C3O)=O",
+                "mass_ion_type": "Molecular ion",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "pyrrolizine bicycle",
+                        "moiety_subcluster": [
+                            "aha12081.1"
+                        ]
+                    }
+                ],
+                "compound": "Chlorizidine A",
+                "molecular_formula": "C18H10Cl4N2O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Tailoring",
+                    "mut_pheno": "prechlorizidine A",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ],
+                    "gene_id": "AHA12081.1",
+                    "tailoring": "Oxidation",
+                    "gene_name": "Clz9"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001172",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24246014",
+            "pubmed:23405849"
+        ],
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHA12078.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AHA12079.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "subclass": "Unknown",
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

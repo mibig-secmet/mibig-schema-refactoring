@@ -1,0 +1,37 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "berninamycin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KC894738.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001472",
+        "minimal": true,
+        "ncbi_tax_id": "1337893",
+        "organism_name": "Streptomyces bernensis",
+        "publications": [
+            "pubmed:0"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Unknown"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "version": "12",
+    "comments": "Only partial  expression data in Lactococcus or Enterococcus. No direct data on Clostridium. Same class as enterocin AS-48",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 11388,
+                    "Accession": "AJ566621",
+                    "conn_comp_cluster": [
+                        "Heterologous expression",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 6771,
+                "mass_ion_type": "None",
+                "chem_target": [
+                    "membrane"
+                ],
+                "compound": "circularin A",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000488",
+        "RiPP": {
+            "ripp_subclass": "Head-to-tailcyclized peptide",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": 69,
+                    "cleavage_recogn_site": [
+                        ""
+                    ],
+                    "core_pept_aa": [
+                        "VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY"
+                    ],
+                    "gene_id": [
+                        "CAD97580.1"
+                    ],
+                    "lead_pept_len": 3,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "14532033"
+        ]
+    }
+}

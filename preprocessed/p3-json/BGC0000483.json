@@ -1,0 +1,189 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4321209,
+                    "Accession": "CAIH01000183",
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 4308240
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "N-prenyl"
+                    }
+                ],
+                "compound": "Aeruginosamide B",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "N-prenyl"
+                    }
+                ],
+                "compound": "Aeruginosamide C",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "micca_2630007",
+                        "micca_2630006",
+                        "micca_2630005",
+                        "micca_2630004",
+                        "micca_2630003",
+                        "micca_2630002"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 5223,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92964.1",
+                    "gene_annotation": "C-terminal protease",
+                    "gene_startpos": 1303,
+                    "not_in_gbk": false,
+                    "gene_name": "AgeG"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6322,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92965.1",
+                    "gene_annotation": "Prenyltransferase",
+                    "gene_startpos": 5348,
+                    "not_in_gbk": false,
+                    "tailoring": "Prenylation",
+                    "gene_name": "AgeF2"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 8114,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92966.1",
+                    "gene_annotation": "Methyltransferase/putative prenyl transferase",
+                    "gene_startpos": 6399,
+                    "not_in_gbk": false,
+                    "tailoring": "Prenylation",
+                    "gene_name": "AgeF1"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 11063,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92967.1",
+                    "gene_annotation": "Heterocyclase",
+                    "gene_startpos": 8736,
+                    "not_in_gbk": false,
+                    "tailoring": "Heterocyclization",
+                    "gene_name": "AgeD"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 11645,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92968.1",
+                    "gene_annotation": "Hypothetical",
+                    "gene_startpos": 11394,
+                    "not_in_gbk": false,
+                    "gene_name": "AgeB"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 13724,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CCH92969.1",
+                    "gene_annotation": "N-terminal protease",
+                    "gene_startpos": 11751,
+                    "not_in_gbk": false,
+                    "gene_name": "AgeA"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 8363,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": null,
+                    "gene_annotation": "Precursor peptide",
+                    "gene_startpos": 8599,
+                    "not_in_gbk": true,
+                    "mut_pheno": null,
+                    "gene_name": "AgeE"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 11116,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": null,
+                    "gene_annotation": "Hypothetical",
+                    "gene_startpos": 11343,
+                    "not_in_gbk": true,
+                    "mut_pheno": null,
+                    "gene_name": "AgeC"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000483",
+        "RiPP": {
+            "ripp_subclass": "Cyanobactin",
+            "precursor_loci": [
+                {
+                    "lead_pept_len": -1,
+                    "foll_pept_len": -1,
+                    "peptidase": [],
+                    "gene_id": []
+                }
+            ],
+            "lin_cycl_ripp": "Linear"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "23911585"
+        ]
+    }
+}

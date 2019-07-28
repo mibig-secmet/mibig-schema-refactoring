@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "142.158",
+                "chem_struct": "CC1=NCC[C@H](N1)C(=O)O",
+                "database_deposited": true,
+                "pubchem_id": 126041,
+                "compound": "ectoine",
+                "molecular_formula": "C6H10N2O2",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AF316874",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000852",
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "11823218"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

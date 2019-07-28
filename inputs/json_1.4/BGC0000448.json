@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "304.346",
+                "chem_struct": "C/C=C/1\\CC2C(NC3=CC(=C(C=C3C(=O)N2C1)OC)O)OC",
+                "database_deposited": true,
+                "pubchem_id": 6436800,
+                "compound": "tomaymycin",
+                "molecular_formula": "C16H20N2O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "FJ768957",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000448",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "19270147"
+        ]
+    }
+}

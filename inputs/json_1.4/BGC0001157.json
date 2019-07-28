@@ -1,0 +1,238 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6304534,
+                    "Accession": "FN554889",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 6321700
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "chemspider_id": 26365309,
+                "mol_mass": "823.067",
+                "chem_struct": "CC1CCN2C1C(=O)NC(C(=O)NC(C(=NCC2=O)NC(C(=O)NC(C(C)C3=CC=CC=C3)C(=O)NC(CC(=O)OC)C4=NC=CS4)C(C)(C)C)C(C)(C)C)C(C)C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 3081434,
+                "chem_target": "Ribosome",
+                "compound": "Bottromycin A2",
+                "molecular_formula": "C42H62N8O7S",
+                "databases_deposited": [
+                    "PubChem",
+                    "ChemSpider"
+                ],
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6305976,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72685.1",
+                    "gene_annotation": "putative cytosolic aminopeptidase",
+                    "gene_startpos": 6304534,
+                    "not_in_gbk": false,
+                    "tailoring": "Hydrolysis",
+                    "gene_name": "btmM"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 6306553,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CBG72686.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 6305981,
+                    "not_in_gbk": false,
+                    "gene_name": "btmL"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6308631,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CBG72687.1",
+                    "gene_annotation": "Radical SAM methyltransferase",
+                    "mut_pheno": "Lack of methyl group on proline",
+                    "gene_startpos": 6306673,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "btmK"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6309775,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72688.1",
+                    "gene_annotation": "P450",
+                    "gene_startpos": 6308639,
+                    "not_in_gbk": false,
+                    "tailoring": "Oxidation",
+                    "gene_name": "btmJ"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 6311276,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "CBG72689.1",
+                    "gene_annotation": "Putative hydrolase",
+                    "gene_startpos": 6309855,
+                    "not_in_gbk": false,
+                    "gene_name": "btmI"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 6312088,
+                    "evidence_genefunction": [
+                        "N/A"
+                    ],
+                    "gene_id": "CBG72690.1",
+                    "gene_annotation": "Putative hydrolase",
+                    "gene_startpos": 6311273,
+                    "not_in_gbk": false,
+                    "gene_name": "btmH"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6314138,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CBG72691.1",
+                    "gene_annotation": "Radical SAM methyltransferase",
+                    "mut_pheno": "Lack of two methyl groups on valines",
+                    "gene_startpos": 6312123,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "btmG"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6315574,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72692.1",
+                    "gene_annotation": "YcaO domain protein",
+                    "gene_startpos": 6314135,
+                    "not_in_gbk": false,
+                    "tailoring": "Heterocyclization",
+                    "gene_name": "btmF"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6316682,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72693.1",
+                    "gene_annotation": "YcaO domain protein",
+                    "gene_startpos": 6315426,
+                    "not_in_gbk": false,
+                    "tailoring": "Heterocyclization",
+                    "gene_name": "btmE"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 6316880,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CBG72694.1",
+                    "gene_annotation": "Precursor peptide",
+                    "gene_startpos": 6316746,
+                    "not_in_gbk": false,
+                    "mut_pheno": "Production abolished",
+                    "gene_name": "btmD"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6318951,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72695.1",
+                    "gene_annotation": "Radical SAM methyltransferase",
+                    "gene_startpos": 6317014,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "btmC"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6320207,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72696.1",
+                    "gene_annotation": "Methyltransferase",
+                    "gene_startpos": 6319368,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": "btmB"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 6321700,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBG72697.1",
+                    "gene_annotation": "Major facilitator superfamily protein",
+                    "gene_startpos": 6320390,
+                    "not_in_gbk": false,
+                    "gene_name": "btmA"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001157",
+        "RiPP": {
+            "ripp_subclass": "Bottromycin",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": 35,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Other",
+                            "AA_pos_1": 2,
+                            "AA_pos_2": 5
+                        }
+                    ],
+                    "core_pept_aa": "MGPVVVFDCMTADFLNDDPNNAELSALEMEELESWGAWDGEATS",
+                    "gene_id": [
+                        "cbg72694",
+                        "scab_56681"
+                    ],
+                    "lead_pept_len": 1,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "19115340, 770464,10.1039/C2SC21190D "
+    }
+}

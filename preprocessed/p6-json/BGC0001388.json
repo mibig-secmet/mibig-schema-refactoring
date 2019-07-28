@@ -1,0 +1,35 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "gassericin E",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KR080485.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001388",
+        "minimal": true,
+        "publications": [
+            "pubmed:26969428"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Unknown"
+        }
+    }
+}

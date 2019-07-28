@@ -1,0 +1,388 @@
+{
+    "version": "16",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2694284,
+                    "Accession": "CP000086",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ],
+                    "start_coord": 2655707
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 533.168797,
+                "chem_struct": "O=C(NC(C(C)C)C(O)CC1=O)C(CSSCC/C=C/C2O1)NC(C(NC(C2)=O)CCSC)=O",
+                "mass_ion_type": "M+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "yp_442880",
+                            "3850100"
+                        ],
+                        "other_chem_moiety": "Disulfide bridge"
+                    }
+                ],
+                "chem_target": [
+                    "Histone deactylase inhibitor (HDAC)"
+                ],
+                "compound": "Burkholdac A",
+                "molecular_formula": "C22H35N3O6S3",
+                "chem_synonyms": [
+                    "thailandepsin c"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2656543,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC39254.1",
+                    "gene_annotation": "thioesterase type II",
+                    "gene_startpos": 2655707,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2657460,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38006.1",
+                    "gene_annotation": "lipase/esterase",
+                    "gene_startpos": 2656540,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2658501,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38333.1",
+                    "gene_annotation": "pyridine nucleotide-disulphide oxidoreductase, class II",
+                    "gene_startpos": 2657527,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2660745,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38000.1",
+                    "gene_annotation": "nonribosomal peptide synthetase, putative",
+                    "gene_startpos": 2658514,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2661710,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38018.1",
+                    "gene_annotation": "phosphotransferase enzyme family protein, putative",
+                    "gene_startpos": 2660742,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2662879,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC37307.1",
+                    "gene_annotation": "acyl-CoA dehydrogenase domain protein",
+                    "gene_startpos": 2661707,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2667449,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38101.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_startpos": 2662872,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2678398,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC36785.1",
+                    "gene_annotation": "peptide synthetase, putative",
+                    "gene_startpos": 2667446,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2681949,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC36687.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_startpos": 2678395,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2686628,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC38737.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_startpos": 2681946,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2691724,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC39418.1",
+                    "gene_annotation": "dihydroaeruginoic acid synthetase",
+                    "gene_startpos": 2686625,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2692255,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC36453.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 2692046,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2694284,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "ABC37158.1",
+                    "gene_annotation": "transcriptional regulator, AraC family domain protein",
+                    "gene_startpos": 2693178,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000964",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "NRP": {
+            "nrps_release_type": "Macrolactamization",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Cysteine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Heterocyclization"
+                        }
+                    ],
+                    "nrps_gene": "ABC39418.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Methionine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Cysteine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "ABC36785.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "8",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "ABC38000.1"
+                }
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "yp_442881",
+                "83720112",
+                "3849184"
+            ]
+        },
+        "Polyketide": {
+            "pks_te_type": "Type I",
+            "pks_subclass": [
+                "Trans-AT type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABC39418.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "CAL"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "None"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABC38737.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "2",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "KS",
+                                "DH",
+                                "KR",
+                                "T"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABC36687.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "3",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "KS",
+                                "DH",
+                                "KR",
+                                "T"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABC38101.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "7",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "KS",
+                                "KR",
+                                "T",
+                                "E"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "trans_at": [],
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Ansamycin",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactonization"
+        },
+        "publications": [
+            "21348454",
+            "22091906",
+            "24589486"
+        ]
+    }
+}

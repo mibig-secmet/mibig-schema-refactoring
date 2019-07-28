@@ -1,0 +1,41 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 654.838,
+                "chem_struct": "CCCCC[C@H]([C@@H]1[C@H](C[C@H](C[C@H](C[C@H](C[C@H](C[C@H](C[C@@H](/C(=C/C=C/C=C/C=C/C=C/[C@@H]([C@H](OC1=O)C)O)/C)O)O)O)O)O)O)O)O",
+                "pubchem_id": 6433194,
+                "compound": "filipin",
+                "molecular_formula": "C35H58O11"
+            }
+        ],
+        "loci": {
+            "accession": "BA000030.3",
+            "start_coord": 486648,
+            "end_coord": 567017,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000059",
+        "publications": [
+            "pubmed:23990133"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "polyketide": {
+            "pks_subclass": [
+                "Modular type I"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

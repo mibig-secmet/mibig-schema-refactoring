@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "capsular polysaccharide"
+            }
+        ],
+        "loci": {
+            "accession": "FJ965542.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000756",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:20362405"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

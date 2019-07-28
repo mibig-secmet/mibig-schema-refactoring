@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "242.315",
+                "chem_struct": "CC(C)CCCCC(=O)C1[C@@H](COC1=O)CO",
+                "database_deposited": true,
+                "pubchem_id": 119102,
+                "compound": "A-factor",
+                "molecular_formula": "C13H22O4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 8274388,
+                    "Accession": "AP009493",
+                    "start_coord": 8273444
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000848",
+        "Other": {
+            "other_subclass": "Other"
+        },
+        "publications": [
+            "18375553",
+            "18364359",
+            "18310036"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

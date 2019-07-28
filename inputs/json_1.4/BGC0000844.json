@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "199.162",
+                "chem_struct": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)O",
+                "database_deposited": true,
+                "pubchem_id": 5280980,
+                "compound": "clavulanic acid",
+                "molecular_formula": "C8H9NO5",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY258009",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000844",
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "14693539"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CC(=CCCC(C)(C(=O)CC[C@@]1(C2CC3C1(C3C2)C)C)O)C",
+                "compound": "lycosantalonol",
+                "database_id": [
+                    "pubchem:101900499"
+                ],
+                "mol_mass": 304.474,
+                "molecular_formula": "C20H32O2"
+            }
+        ],
+        "loci": {
+            "accession": "KC807995.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001322",
+        "minimal": true,
+        "publications": [
+            "pubmed:23757397"
+        ]
+    }
+}

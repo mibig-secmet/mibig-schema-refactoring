@@ -1,0 +1,112 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "insecticidal"
+                ],
+                "chem_struct": "CCC(C)C1C(=O)N(C(C(=O)N(C(C(=O)NCCC(=O)OC(C(=O)N2CCCC2C(=O)N1)CC=C)C)C)C(C)C)C",
+                "chem_synonyms": [],
+                "compound": "destruxin",
+                "database_id": [
+                    "pubchem:122810"
+                ],
+                "mol_mass": 577.723,
+                "molecular_formula": "C29H47N5O7"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10043",
+                    "name": "DtxS1",
+                    "product": "Biosynthesis of the first NRP dtx B."
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10044",
+                    "name": "DtxS2",
+                    "product": "metabolite hydroxylation, desaturation, oxidation, and/or epoxidation",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10045",
+                    "name": "DtxS3",
+                    "product": "Conversion of alpha-ketoisocaproic acid into alpha-hydroxyisocaproic acid"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "MAA_10046",
+                    "name": "DtxS4",
+                    "product": "Decarboxylation of aspartic acid into beta-Alanine"
+                }
+            ],
+            "extra_genes": []
+        },
+        "loci": {
+            "accession": "GL698760.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0000337",
+        "minimal": false,
+        "nrp": {
+            "cyclic": false,
+            "release_type": [
+                "Hydrolysis"
+            ],
+            "subclass": "Unknown",
+            "thioesterases": []
+        },
+        "publications": [
+            "pubmed:22232661",
+            "pubmed:3268274"
+        ]
+    },
+    "comments": "The metabolite destruxins are used by the fungus to evade insect host immunities"
+}

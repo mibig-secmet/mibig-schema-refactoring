@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "gassericin A",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "AB007043.2",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000491",
+        "minimal": true,
+        "publications": [
+            "pubmed:9648219",
+            "pubmed:19114506"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Head-to-tailcyclized peptide"
+        }
+    }
+}

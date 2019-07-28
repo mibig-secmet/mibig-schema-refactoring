@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "679.704",
+                "chem_struct": "COC1=C(C=C2C=C(NC2=C1)C(=O)N3C[C@H]4C[C@@]45C3=CC(=O)C6=C5C=C(N6)C(=O)N7CCC8=C9C=C(NC9=C(C(=C87)O)OC)C(=O)SC)O",
+                "database_deposited": true,
+                "pubchem_id": 11721692,
+                "compound": "yatakemycin",
+                "molecular_formula": "C35H29N5O8S",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "JF429418",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000466",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "22612591"
+        ]
+    }
+}

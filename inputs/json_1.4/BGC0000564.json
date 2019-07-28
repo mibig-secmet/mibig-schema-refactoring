@@ -1,0 +1,83 @@
+{
+    "version": "15",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 585080,
+                    "Accession": "AM412317",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 576447
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "other_chem_act": "Hemolytic",
+                "mass_ion_type": "None",
+                "chem_target": "Hemoglobin",
+                "compound": "clostridiolysin S",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAL82040.1",
+                    "gene_name": "SagA"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "CAL82041.1",
+                    "gene_name": "SagB"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "CAL82042.1",
+                    "gene_name": "SagC"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "CAL82043.1",
+                    "gene_name": "SagD"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "CAL82046.1",
+                    "gene_name": "SagG"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000564",
+        "RiPP": {
+            "ripp_subclass": "LAP",
+            "precursor_loci": [
+                {
+                    "lead_pept_len": -1,
+                    "core_pept_aa": "VAPGSCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN",
+                    "foll_pept_len": -1,
+                    "peptidase": [],
+                    "gene_id": [
+                        "saga"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Linear"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "20581111,21315972"
+    }
+}

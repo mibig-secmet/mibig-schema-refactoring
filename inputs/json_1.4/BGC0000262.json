@@ -1,0 +1,168 @@
+{
+    "version": "8",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AY034378",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Heterologous expression",
+                        "Proven expression in natural host"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "chem_struct": "OC1=CC=CC2=C1C(O)=C(C(C[C@@](CC(C)=C3)(O)[C@]4([H])C3=O)=O)C4=C2",
+                "mass_ion_type": "None",
+                "compound": "prejadomycin",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "chem_struct": "O=C(C1=C2C3=C(C[C@@](C)(O)CC3=O)C=C1O)C4=C(O)C=CC=C4C2=O",
+                "mass_ion_type": "None",
+                "compound": "rabelomycin",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "chem_struct": "O=C1C2=C([C@@H](O)C[C@](O)(CC(C)=C3)[C@]2(O)C3=O)C(C4=C(O)C=CC=C41)=O",
+                "mass_ion_type": "None",
+                "compound": "gaudimycin C",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "chem_struct": "O=C1C2=C(C=CC(C[C@](C)(O[C@@H]3O[C@H](C)[C@@H](N)CC3)CC(O)=O)=C2O)C(C4=C(O)C=CC=C41)=O",
+                "mass_ion_type": "None",
+                "compound": "gaudimycin D",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "chem_struct": "OC1=C(C(O)=C(C(C[C@@](C[C@@](C)(O)C2)(O)[C@]3([H])C2=O)=O)C3=C4)C4=CC=C1",
+                "mass_ion_type": "None",
+                "compound": "UWM6",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            },
+            {
+                "mol_mass": -1,
+                "chem_struct": "OC1=C(C(C(CC[C@@](CC(C)=C2)(O)[C@]3(O)C2=O)=C3C4=O)=O)C4=CC=C1",
+                "mass_ion_type": "None",
+                "compound": "gaudimycin A",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other"
+                    ],
+                    "gene_id": "AAK57524.1",
+                    "gene_name": "pgaF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other"
+                    ],
+                    "gene_id": "AAK57529.1",
+                    "gene_name": "pgaL"
+                },
+                {
+                    "tailoring": "Oxidation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Other"
+                    ],
+                    "gene_id": "AAK57522.1",
+                    "gene_name": "pgaE"
+                },
+                {
+                    "tailoring": "Reduction",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Other"
+                    ],
+                    "gene_id": "AAK57530.1",
+                    "gene_name": "pgaM"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000262",
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                    "gt_gene": "AHW57778.1",
+                    "gt_specificity": "Unknown"
+                },
+                {
+                    "gt_gene": "AHW57780.1",
+                    "gt_specificity": "Unknown"
+                },
+                {
+                    "gt_gene": "AHW57782.1",
+                    "gt_specificity": "Unknown"
+                },
+                {
+                    "gt_gene": "AHW57794.1",
+                    "gt_specificity": "Unknown"
+                },
+                {
+                    "gt_gene": "AHW57783.1",
+                    "gt_specificity": "Unknown"
+                },
+                {
+                    "gt_gene": "AHW57791.1",
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        },
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "Polyketide": {
+            "cyclases": "AAK57524.1,AAK57528.1,AAK57529.1,",
+            "ketide_length": 10,
+            "pks_subclass": [
+                "Type II"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Angucycline",
+            "pks_genes": [
+                "aak57525.1"
+            ]
+        },
+        "publications": "12654660,15515887,17654627,18291320"
+    }
+}

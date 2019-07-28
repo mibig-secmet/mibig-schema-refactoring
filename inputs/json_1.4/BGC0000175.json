@@ -1,0 +1,148 @@
+{
+    "version": "12",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 38720,
+                    "Accession": "JX014302",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 2506
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "281.352",
+                "chem_struct": "C[C@H]1C[C@@H](C(=O)[C@@H](C1)[C@@H](CC2CC(=O)NC(=O)C2)O)C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 6197,
+                "chem_target": "ribosome E site",
+                "compound": "cycloheximide",
+                "molecular_formula": "C15H23NO4",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFO59862.1",
+                    "gene_name": "ChxA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFO59863.1",
+                    "gene_name": "ChxB"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFO59864.1",
+                    "gene_name": "ChxC"
+                },
+                {
+                    "gene_annotation": "amidotransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFO59865.1",
+                    "gene_name": "ChxD"
+                },
+                {
+                    "mut_pheno": "abolishment of cycloheximide and actiphenol production",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO59866.1",
+                    "gene_name": "ChxE"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFO59867.1",
+                    "gene_name": "ChxF"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "None",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO59868.1",
+                    "gene_annotation": "the OYE family of flavoprotein oxidoreductase",
+                    "mut_pheno": "abolishment of cycloheximide, accumulation of actiphenol",
+                    "gene_name": "ChxG"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "mut_pheno": "accumulation of dehydrocycloheximide",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "AFO59869.1",
+                    "tailoring": "None",
+                    "gene_name": "ChxH"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "mut_pheno": "abolishment of cycloheximide and actiphenol production",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO59870.1",
+                    "tailoring": "Unknown",
+                    "gene_name": "ChxI"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO59871.1",
+                    "gene_annotation": "three-domain carboxylic acid reductase",
+                    "mut_pheno": "abolishment of cycloheximide and actiphenol production",
+                    "gene_name": "ChxJ"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000175",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "Polyketide": {
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "trans_at": [
+                "afo59863.1"
+            ],
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        },
+        "publications": "24815182,    21139626"
+    }
+}

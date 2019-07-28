@@ -1,0 +1,86 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ],
+            "accession": "BN001302.1",
+            "start_coord": 214879,
+            "end_coord": 224786
+        },
+        "compounds": [
+            {
+                "chemspider_id": 61385,
+                "mol_mass": 168.148,
+                "chem_struct": "CC1=CC(=CC(=C1C(=O)O)O)O",
+                "chem_synonyms": [],
+                "pubchem_id": 68072,
+                "compound": "orsellinic acid",
+                "molecular_formula": "C8H8O4",
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001121",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:19666480",
+            "pubmed:20174687"
+        ],
+        "polyketide": {
+            "nr_iterations": 3,
+            "pks_te_type": "Unknown",
+            "iter_cycl_type": "C2-C7 first",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AN7909",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "Sequence-based prediction",
+                            "pks_domains": [
+                                "ACP transacylase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Product Template domain",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "None"
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Non-reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [
+                "an7909",
+                "xp_681178"
+            ],
+            "pks_release_type": "Hydrolysis"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

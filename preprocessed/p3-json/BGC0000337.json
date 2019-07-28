@@ -1,0 +1,93 @@
+{
+    "version": "11",
+    "comments": "The metabolite destruxins are used by the fungus to evade insect host immunities",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 772150,
+                    "Accession": "ADNJ02000010",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 740100
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "577.723",
+                "other_chem_act": "insecticidal",
+                "chem_struct": "CCC(C)C1C(=O)N(C(C(=O)N(C(C(=O)NCCC(=O)OC(C(=O)N2CCCC2C(=O)N1)CC=C)C)C)C(C)C)C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 122810,
+                "compound": "destruxin",
+                "molecular_formula": "C29H47N5O7",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_annotation": "Biosynthesis of the first NRP dtx B.",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "MAA_10043",
+                    "gene_name": "DtxS1"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "MAA_10044",
+                    "gene_annotation": "metabolite hydroxylation, desaturation, oxidation, and/or epoxidation",
+                    "gene_name": "DtxS2"
+                },
+                {
+                    "gene_annotation": "Conversion of alpha-ketoisocaproic acid into alpha-hydroxyisocaproic acid",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "MAA_10045",
+                    "gene_name": "DtxS3"
+                },
+                {
+                    "gene_annotation": "Decarboxylation of aspartic acid into beta-Alanine",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "MAA_10046",
+                    "gene_name": "DtxS4"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000337",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "lin_cycl_nrp": "Linear",
+            "nrps_release_type": "Hydrolysis",
+            "nrps_te_type": "Unknown",
+            "subclass": "Other",
+            "nrps_thioesterase": []
+        },
+        "publications": [
+            "22232661",
+            "3268274"
+        ]
+    }
+}

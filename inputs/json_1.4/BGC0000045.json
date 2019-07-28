@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "290.315",
+                "chem_struct": "C[C@H]1CCC/C=C/C(=O)C2=C(C=C(C=C2CC(=O)O1)O)O",
+                "database_deposited": true,
+                "pubchem_id": 6438143,
+                "compound": "dehydrocurvularin",
+                "molecular_formula": "C16H18O5",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 26000,
+                    "Accession": "JX971534",
+                    "start_coord": 4000
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000045",
+        "publications": [
+            "23335766"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

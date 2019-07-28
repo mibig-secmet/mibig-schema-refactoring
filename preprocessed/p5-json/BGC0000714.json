@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 447.533,
+                "chem_struct": "C[C@@]1(CO[C@@H]([C@@H]([C@H]1NC)O)O[C@H]2[C@@H](C[C@@H]([C@H]([C@@H]2O)O[C@@H]3[C@@H](CC=C(O3)CN)N)N)N)O",
+                "pubchem_id": 36119,
+                "compound": "sisomicin",
+                "molecular_formula": "C19H37N5O7"
+            }
+        ],
+        "loci": {
+            "accession": "FJ160413.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000714",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:19039528"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

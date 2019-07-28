@@ -1,0 +1,255 @@
+{
+    "version": "13",
+    "comments": "poyD and E activities were verified by co-expression with poyA. poy F activity was verified by co-expression with poy A and D. \\n",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 20549,
+                    "Accession": "JX456532",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Heterologous expression",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 5500
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "5033.825",
+                "chem_struct": "CC[C@H](C)[C@@H](C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H]([C@H](C(=O)NC)O)C(=O)N[C@@H](C)C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CO)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CC(=O)N)C(=O)N[C@H](C(=O)N[C@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)O)C(C)(C)C[S@@](=O)C)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H]([C@H](C(=O)NC)O)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H]([C@@H](C)CC(=O)N)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C(C)(C)O)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C(C)(C)CC)NC(=O)CNC(=O)C(=O)CCC(C)(C)C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 44602391,
+                "chem_target": "acts as a minimalistic ion channel, inserts into cell membrane",
+                "compound": "polytheonamide A",
+                "molecular_formula": "C219H376N60O72S",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "afs60640"
+                        ],
+                        "other_chem_moiety": "18 D-configured amino acids introduced by one enzyme (PoyD)"
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "afs60637",
+                            "afs60638",
+                            "afs60640",
+                            "afs60641",
+                            "afs60642",
+                            "afs60645"
+                        ],
+                        "other_chem_moiety": "13 out of 19 amino acids are non-proteinogenic"
+                    }
+                ],
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            },
+            {
+                "mol_mass": "5033.825",
+                "chem_struct": "CC[C@H](C)[C@@H](C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H]([C@H](C(=O)NC)O)C(=O)N[C@@H](C)C(=O)N[C@H](CC(=O)NC)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CO)C(=O)N[C@@H](C(C)C)C(=O)N[C@H](CC(=O)N)C(=O)N[C@H](C(=O)N[C@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)O)C(C)(C)C[S@](=O)C)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H]([C@H](C(=O)NC)O)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@@H](CC(=O)NC)NC(=O)CNC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)O)NC(=O)[C@H]([C@@H](C)CC(=O)N)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C(C)(C)O)NC(=O)[C@@H](CC(=O)NC)NC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C)NC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C)NC(=O)[C@H](C(C)(C)C)NC(=O)[C@@H](C(C)(C)C)NC(=O)[C@H](C(C)(C)C)NC(=O)CNC(=O)[C@H](C(C)(C)CC)NC(=O)CNC(=O)C(=O)CCC(C)(C)C",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 44602381,
+                "chem_target": "acts as minimalistic ion channel, inserts into cell membrane",
+                "compound": "polytheonamide B",
+                "molecular_formula": "C219H376N60O72S",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "afs60640"
+                        ],
+                        "other_chem_moiety": "18 D-configured amino acids introduced by one enzyme (PoyD), "
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "afs60637",
+                            "afs60638",
+                            "afs60640",
+                            "afs60641",
+                            "afs60642",
+                            "afs60645"
+                        ],
+                        "other_chem_moiety": "13 out of 19 amino acids are non-proteinogenic"
+                    }
+                ],
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "afs60634"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "afs60635"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "afs60636",
+                        "afs60637",
+                        "afs60638",
+                        "afs60639",
+                        "afs60640",
+                        "afs60641",
+                        "afs60642",
+                        "afs60643",
+                        "afs60644",
+                        "afs60645"
+                    ]
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_id": "AFS60634",
+                    "gene_name": "poyK"
+                },
+                {
+                    "gene_annotation": "putative transporter-hydrolase fusion protein",
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": " AFS60635 ",
+                    "gene_name": "poyJ"
+                },
+                {
+                    "tailoring": "Methylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60637",
+                    "gene_name": "poyB"
+                },
+                {
+                    "tailoring": "Methylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60638",
+                    "gene_name": "poyC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "gene_id": "AFS60639",
+                    "gene_name": "poyA"
+                },
+                {
+                    "tailoring": "Epimerization",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "gene_id": "AFS60640",
+                    "gene_name": "poyD"
+                },
+                {
+                    "tailoring": "Methylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "gene_id": "AFS60641 ",
+                    "gene_name": "poyE"
+                },
+                {
+                    "tailoring": "Dehydration",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60642",
+                    "gene_name": "poyF"
+                },
+                {
+                    "gene_annotation": "chagasin-like peptidase inhibitor",
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60643",
+                    "gene_name": "poyG"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60644 ",
+                    "gene_name": "poyH"
+                },
+                {
+                    "tailoring": "Hydroxylation",
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60645",
+                    "gene_name": "poyI"
+                },
+                {
+                    "gene_annotation": "transposase/ integrase",
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFS60636",
+                    "gene_name": "ORF-1 (int)"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000598",
+        "RiPP": {
+            "ripp_subclass": "Proteusin",
+            "precursor_loci": [
+                {
+                    "lead_pept_len": 96,
+                    "core_pept_aa": "TGIGVVVAVVAGAVANTGAGVNQVAGGNINVVGNINVNANVSVNMNQTT",
+                    "foll_pept_len": 48,
+                    "peptidase": [],
+                    "gene_id": [
+                        "afs60639"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Linear"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "22983711, 24476823, 20795624, 21124508, 15631460"
+    }
+}

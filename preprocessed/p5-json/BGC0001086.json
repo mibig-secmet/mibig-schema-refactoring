@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "astaxanthin dideoxyglycoside"
+            }
+        ],
+        "loci": {
+            "accession": "KF724895.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001086",
+        "biosyn_class": [
+            "Saccharide",
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:25193422"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+{
+    "embargo": false,
+    "version": "16",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 80175,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "Accession": "HM639990",
+                    "start_coord": 1,
+                    "mixs_compliant": false
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 739.4164,
+                "chem_struct": "C1(OC/C(=C(/C)\\CCC[*])/C/1=C/C1C2COC(=O)C(CC(C)C)CC(=O)OC3C(C)(CO)C(=O)OC3C(C)=CCC3NC(=CC=3)C(O2)=N1)CC(C)C",
+                "mass_ion_type": "[M+H]+",
+                "database_deposited": false,
+                "compound": "Leupyrrin",
+                "molecular_formula": "C41H58N2O10",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24985.1",
+                    "gene_annotation": "type II thioesterase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu1"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24994.1",
+                    "gene_annotation": "carboxylase/reductase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu10"
+                },
+                {
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ25001.1",
+                    "gene_annotation": "geranyl-geranyl reductase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu12"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ADZ25002.1",
+                    "gene_annotation": "Cytochrome P450 enzyme",
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of production",
+                    "gene_name": "leu13"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "gene_id": "ADZ25003.1",
+                    "gene_annotation": "O-methyltransferase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu14 "
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "mut_pheno": "loss of production",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ADZ25006.1",
+                    "gene_annotation": "long-chain acyl CoA synthetase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu17"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24986.1",
+                    "gene_annotation": "formate dehydrogenase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu2"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24988.1",
+                    "gene_annotation": "acyltransferase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu4 "
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "mut_pheno": "loss of production",
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ],
+                    "gene_id": "ADZ24989.1",
+                    "gene_annotation": "prolin adenylation protein",
+                    "not_in_gbk": false,
+                    "gene_name": "leu5"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ],
+                    "gene_id": "ADZ24990.1",
+                    "gene_annotation": "prolyl-ACP dehydrogenase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu6 "
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ],
+                    "gene_id": "ADZ24991.1",
+                    "gene_annotation": "acyl carrier protein",
+                    "not_in_gbk": false,
+                    "gene_name": "leu7"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24992.1",
+                    "gene_annotation": "dehydrogenase",
+                    "not_in_gbk": false,
+                    "gene_name": "leu8"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24993.1",
+                    "gene_name": "leu9"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "mut_pheno": "loss of production",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ADZ24995.1",
+                    "not_in_gbk": false,
+                    "gene_name": "leuA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24996.1",
+                    "gene_annotation": "polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "leuB"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24996.1",
+                    "gene_name": "leuC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24998.1",
+                    "gene_annotation": "polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "leuD "
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADZ24999.1",
+                    "gene_name": "leuE"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000380",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "NRP": {
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Cysteine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Heterocyclization"
+                        }
+                    ],
+                    "nrps_gene": "ADZ24995.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ADZ24999.1"
+                }
+            ],
+            "subclass": "Other",
+            "nrps_release_type": "Hydrolysis"
+        },
+        "Polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ADZ24995.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Other",
+                            "kr_stereochem": "B-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ADZ24996.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "B-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ADZ24996.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "B-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ADZ24998.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "5",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "B-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [],
+            "starter_unit": "Other",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Hydrolysis"
+        },
+        "publications": [
+            "22278953"
+        ]
+    }
+}

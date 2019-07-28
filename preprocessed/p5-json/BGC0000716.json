@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 332.353,
+                "chem_struct": "C[C@@H]1CC(=O)[C@]2([C@@H](O1)O[C@@H]3[C@H]([C@@H]([C@@H]([C@@H]([C@H]3O2)NC)O)NC)O)O",
+                "pubchem_id": 15541,
+                "compound": "spectinomycin",
+                "molecular_formula": "C14H24N2O7"
+            }
+        ],
+        "loci": {
+            "accession": "U70376.2",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000716",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:9245803"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

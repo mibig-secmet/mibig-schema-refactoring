@@ -1,0 +1,110 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "JN634585.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 383.26,
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
+                "mass_ion_type": "M+",
+                "compound": "methylpendolmycin",
+                "molecular_formula": "C23H33N3O2",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic",
+                    "Signalling"
+                ]
+            },
+            {
+                "mol_mass": 369.24,
+                "chem_struct": " CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)C(C)(C)C=C)CO",
+                "mass_ion_type": "M+",
+                "compound": "pendolmycin",
+                "molecular_formula": "C22H31N3O2",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "Signalling"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Heterocyclization",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO85454.1",
+                    "gene_annotation": "P450-like monoxygenase",
+                    "mut_pheno": "generating new intermediate",
+                    "gene_name": "mpnC"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "mut_pheno": "loss the production of methylpendolmycin and pendolmycin",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO85453.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_name": "mpnB"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "tailoring": "Prenylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFO85455.1",
+                    "gene_annotation": "aromatic prenyltransferase",
+                    "mut_pheno": "generatiion of indolactam I and indolactam V",
+                    "gene_name": "mpnD"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000391",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:22362652"
+        ],
+        "nrp": {
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "nrps_mod_doms": "Methylation",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Unknown",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "AFO85453.1"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "823.904",
+                "chem_struct": "CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CCC(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)C4=C(C=CC=N4)O)C)C5=CC=CC=C5)CC6=CC=CC=C6)C",
+                "database_deposited": true,
+                "pubchem_id": 122731,
+                "compound": "virginiamycin",
+                "molecular_formula": "C43H49N7O10",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AB283030",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001116",
+        "publications": [
+            "17350183"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ]
+    }
+}

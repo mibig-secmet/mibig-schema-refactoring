@@ -1,0 +1,456 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Antibacterial"
+                ],
+                "chem_struct": "CN(C)C1=C2C(N([C@H]3[C@H](O)[C@H](NC(/C(C)=C/C4=CC=C(O[C@@H]([C@@H](O)[C@H]/5O)OC5=C(CO[C@@H]6[C@@H](O)[C@@H](OC)[C@H](OC)[C@@H](C)O6)/OC)C=C4)=O)[C@@H](CO)O3)C=N2)=NC=N1",
+                "chem_synonyms": [],
+                "chem_targets": [
+                    {
+                        "publications": [],
+                        "target": "binds to ribosome so as to inhibit protein synthesis"
+                    }
+                ],
+                "compound": "a201a",
+                "database_id": [],
+                "mol_mass": 802.3385,
+                "molecular_formula": "C37H50N6O14"
+            }
+        ],
+        "genes": {
+            "annotations": [
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51843.1",
+                    "name": "mtdE",
+                    "product": "NTP-pyrophosphohydrolase",
+                    "tailoring": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Regulation",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51839.1",
+                    "name": "mtdA",
+                    "product": "GntR family transcriptional regulator"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51844.1",
+                    "name": "mtdF",
+                    "product": "oxireductase",
+                    "tailoring": [
+                        "Oxidation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51845.1",
+                    "name": "mtdG",
+                    "product": "aminotransferase",
+                    "tailoring": [
+                        "Amination"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51846.1",
+                    "name": "mtdM1",
+                    "product": "N-methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51847.1",
+                    "name": "mtdH",
+                    "product": "GDP-D-manose-4,6-dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51848.1",
+                    "name": "mtdI",
+                    "product": "acyltransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51849.1",
+                    "name": "mtdG1",
+                    "product": "glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51850.1",
+                    "name": "mtdJ",
+                    "product": "oxidoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Transport",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51851.1",
+                    "name": "mtdR1",
+                    "product": "ABC transporter"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51852.1",
+                    "name": "mtdK",
+                    "product": "glucokinase",
+                    "tailoring": [
+                        "Phosphorylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51853.1",
+                    "name": "mtdL",
+                    "product": "transglycosylse",
+                    "tailoring": [
+                        "Epimerization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51872.1",
+                    "name": "mtdM",
+                    "product": "NAD-dependent epimerase/dehydratase",
+                    "tailoring": [
+                        "Epimerization"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51854.1",
+                    "name": "mtdN",
+                    "product": "acyl carrier protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51855.1",
+                    "name": "mtdO",
+                    "product": "ketoacyl synthase 1"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Scaffold biosynthesis",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51857.1",
+                    "name": "mtdQ",
+                    "product": "CoA-ligase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Activation / processing",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51858.1",
+                    "name": "mtdS",
+                    "product": "ACP"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51859.1",
+                    "name": "mtdT",
+                    "product": "3-ketoacyl ACP dehydratase",
+                    "tailoring": [
+                        "Dehydration"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51860.1",
+                    "name": "mtdR2",
+                    "product": "phosphotransferase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51861.1",
+                    "name": "mtdU",
+                    "product": "3-ketoacyl ACP reductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51862.1",
+                    "name": "mtdG2",
+                    "product": "glycosyltransferase",
+                    "tailoring": [
+                        "Glycosylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51863.1",
+                    "name": "mtdM2",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Precursor biosynthesis",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51864.1",
+                    "name": "mtdV",
+                    "product": "putative chorismate pyruvate-lyase"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51865.1",
+                    "name": "mtdM3",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Resistance/immunity",
+                            "evidence": [
+                                "Sequence-based prediction"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51866.1",
+                    "name": "mtdR3",
+                    "product": "transmembrane protein"
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51867.1",
+                    "name": "mtdW",
+                    "product": "oxidoreductase",
+                    "tailoring": [
+                        "Reduction"
+                    ]
+                },
+                {
+                    "functions": [
+                        {
+                            "category": "Tailoring",
+                            "evidence": [
+                                "Knock-out"
+                            ]
+                        }
+                    ],
+                    "id": "protein_id=AET51868.1",
+                    "name": "mtdM4",
+                    "product": "methyltransferase",
+                    "tailoring": [
+                        "Methylation"
+                    ]
+                }
+            ],
+            "extra_genes": []
+        },
+        "loci": {
+            "accession": "JN651966.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0001138",
+        "minimal": false,
+        "other": {
+            "subclass": "Nucleoside"
+        },
+        "publications": [
+            "pubmed:22064543"
+        ]
+    }
+}

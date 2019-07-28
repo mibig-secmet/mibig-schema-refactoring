@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "218.34",
+                "chem_struct": "C[C@H]1CC(=O)C2=C(C([C@H]3CC[C@@]12C3)(C)C)C",
+                "database_deposited": true,
+                "pubchem_id": 25137938,
+                "compound": "albaflavenone",
+                "molecular_formula": "C15H22O",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5683483,
+                    "Accession": "AL645882",
+                    "start_coord": 5681016
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000660",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "18234666"
+        ]
+    }
+}

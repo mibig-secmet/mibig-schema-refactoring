@@ -1,0 +1,51 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "432.897",
+                "chem_struct": "CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3(C(=C(C(=O)O3)C(=O)[C@H](C)[C@@H](C)O)C2=CO1)C)Cl",
+                "database_deposited": true,
+                "pubchem_id": 23641105,
+                "compound": "chaetoviridin",
+                "molecular_formula": "C23H25ClO6",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            },
+            {
+                "mol_mass": "450.912",
+                "chem_struct": "C[C@@H]1[C@H](OC(=O)[C@H]2[C@@]1(O[C@]3([C@@H]2C4=COC(=CC4=C(C3=O)Cl)/C=C/[C@@H](C)[C@@H](C)O)C)O)C",
+                "database_deposited": true,
+                "pubchem_id": 24857881,
+                "compound": "chaetomugilin",
+                "molecular_formula": "C23H27ClO7",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2507160,
+                    "Accession": "CH408033",
+                    "start_coord": 2447651
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001405",
+        "publications": [
+            "23072467",
+            "23072467"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

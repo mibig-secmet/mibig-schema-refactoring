@@ -1,0 +1,846 @@
+{
+    "comments": "methylmalonyl-CoA is used to create the propionyl starter unit in Stambomycin biosynthesis",
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "accession": "AM238664.2",
+            "start_coord": 488938,
+            "end_coord": 634937
+        },
+        "compounds": [
+            {
+                "mol_mass": 1376.9391,
+                "chem_struct": "O=C(OC(/C=C/C(O)CC(CCCC(C(C1O)C)O)O)C)CC2(O)OC(C[C@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N(C)C)[C@H]3O)C2C)C(C)C(O)/C(C)=C/C=C/CC(O)C(C)C(O)CCCC(O)CC(O)/C(C)=C/C(C(O)C(O)CCC(C)CC(O)CC(O)C(C)CC1)CCCC(CC)C",
+                "mass_ion_type": "[M+H]+",
+                "chem_target": [
+                    "Unknown"
+                ],
+                "compound": "stambomycin A",
+                "molecular_formula": "C73H133NO22",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "antiproliferative"
+                ]
+            },
+            {
+                "mol_mass": 1376.9391,
+                "chem_struct": "O=C(OC(/C=C/C(O)CC(CCCC(C(C1O)C)O)O)C)CC2(O)OC(C[C@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N(C)C)[C@H]3O)C2C)C(C)C(O)/C(C)=C/C=C/CC(O)C(C)C(O)CCCC(O)CC(O)/C(C)=C/C(C(O)C(O)CCC(C)CC(O)CC(O)C(C)CC1)CCCCC(C)C",
+                "mass_ion_type": "[M+H]+",
+                "chem_target": [
+                    "Unknown"
+                ],
+                "compound": "stambomycin B",
+                "molecular_formula": "C73H133NO22",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "antiproliferative"
+                ]
+            },
+            {
+                "mol_mass": 1362.9232,
+                "chem_struct": "O=C(OC(/C=C/C(O)CC(CCCC(C(C1O)C)O)O)C)CC2(O)OC(C[C@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N(C)C)[C@H]3O)C2C)C(C)C(O)/C(C)=C/C=C/CC(O)C(C)C(O)CCCC(O)CC(O)/C(C)=C/C(C(O)C(O)CCC(C)CC(O)CC(O)C(C)CC1)CCCC(C)C",
+                "mass_ion_type": "[M+H]+",
+                "chem_target": [
+                    "Unknown"
+                ],
+                "compound": "stambomycin C",
+                "molecular_formula": "C72H131NO22",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "antiproliferative"
+                ]
+            },
+            {
+                "mol_mass": 1362.9232,
+                "chem_struct": "O=C(OC(/C=C/C(O)CC(CCCC(C(C1O)C)O)O)C)CC2(O)OC(C[C@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N(C)C)[C@H]3O)C2C)C(C)C(O)/C(C)=C/C=C/CC(O)C(C)C(O)CCCC(O)CC(O)/C(C)=C/C(C(O)C(O)CCC(C)CC(O)CC(O)C(C)CC1)CCCCCC",
+                "mass_ion_type": "[M+H]+",
+                "chem_target": [
+                    "Unknown"
+                ],
+                "compound": "stambomycin D",
+                "molecular_formula": "C72H131NO22",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "antiproliferative"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88175",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0465"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88176",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0466"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "CAJ88177",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of stambomycin production",
+                    "gene_name": "samR0467"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88178",
+                    "gene_annotation": "putative two-component system response regulator",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0468"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88179",
+                    "gene_annotation": "putative two-component system sensor kinase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0469"
+                },
+                {
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88180",
+                    "gene_annotation": "putative integral membrane protein",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0470"
+                },
+                {
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88181",
+                    "gene_annotation": "putative ABC transporter, ATP-binding subunit",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0471"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88182",
+                    "gene_annotation": "putative TDP-N-dimethyldesosamine-N-methyltransferase",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0472"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88183",
+                    "gene_annotation": "putative 3,4 keto-isomerase",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0473"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88184",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0474"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBZ41585.1",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samRCDS1"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88185.2",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0475"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88186",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0476"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CBZ41586.1",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samRCDS2"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88187.2",
+                    "gene_annotation": "Type I modular polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0477"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAJ88188",
+                    "gene_annotation": "Cytochrome P450",
+                    "mut_pheno": "Loss of stambomycin production and accumulation of 28-deoxystambomycins",
+                    "not_in_gbk": false,
+                    "tailoring": "Hydroxylation",
+                    "gene_name": "samR0478"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAJ88189",
+                    "gene_annotation": "Cytochrome P450",
+                    "mut_pheno": "Loss of stambomycin production, accumulation of linear shunt metabolites",
+                    "not_in_gbk": false,
+                    "tailoring": "Hydroxylation",
+                    "gene_name": "samR0479"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88190",
+                    "gene_annotation": "putative aminotransferase",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0480"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "CAJ88191",
+                    "gene_annotation": "Glycosyltransferase",
+                    "mut_pheno": "Accumulation of the aglycone form (loss of the beta-mycaminose residue at C-5)",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0481"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88192",
+                    "gene_annotation": "Putative acyl-CoA synthetase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0482"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88193",
+                    "gene_annotation": "Putative carboxyl transferase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0483"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "CAJ88194",
+                    "gene_annotation": "Transcriptional activator (LAL)",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0484"
+                },
+                {
+                    "gene_function": "Other enzymatic",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88195",
+                    "gene_annotation": "putative thioesterase",
+                    "not_in_gbk": false,
+                    "gene_name": "samR0485"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88196",
+                    "gene_annotation": "putative dTDP-glucose 4,6-dehydratase",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0486"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "CAJ88197",
+                    "gene_annotation": "putative glucose-1-phosphate thymidyltransferase",
+                    "not_in_gbk": false,
+                    "tailoring": "Glycosylation",
+                    "gene_name": "samR0487"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000151",
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "publications": [
+            "pubmed:21444795",
+            "pubmed:24220109"
+        ],
+        "polyketide": {
+            "pks_te_type": "Type I",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CAJ88187.2",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "11",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "12",
+                            "at_substr_spec": "None",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "13",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CBZ41586.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "14",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88186.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "15",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "16",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88185.2",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "17",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "18",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CBZ41585.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "19",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "20",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88184.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "21",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "22",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "23",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "module_nr": "24",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Inactive",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88177.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88176.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "5",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAJ88175.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "10",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "6",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "7",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "8",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "9",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "methylmalonate-CoA",
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactonization"
+        },
+        "saccharide": {
+            "saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                    "gt_gene": "CAJ88191",
+                    "gt_specificity": "mycaminose",
+                    "evidence_gt_spec": "Unknown"
+                }
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

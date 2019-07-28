@@ -1,0 +1,443 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "KK037233.1",
+            "start_coord": 194525,
+            "end_coord": 233421
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Total synthesis"
+                ],
+                "mol_mass": 607.4065,
+                "chem_struct": "CN(CC(N[C@@H]([C@@H](C(N)=O)O)C(OC([C@H](C)CCCCCCCCCCCC(C)C)[C@H](C)C(N1)=O)=O)=O)C(/C=C/C1=C)=O",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid",
+                        "moiety_subcluster": [
+                            "mcbg_00130"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "4-amido-2,4-pentadienoate",
+                        "moiety_subcluster": [
+                            "mcbg_00137"
+                        ]
+                    }
+                ],
+                "compound": "Rakicidin A",
+                "molecular_formula": "C32H54N3O7",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            },
+            {
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 621.4222,
+                "chem_struct": "CN(CC(N[C@@H]([C@@H](C(N)=O)O)C(OC([C@H](C)CCCCCCCCCCCCC(C)C)[C@H](C)C(N1)=O)=O)=O)C(/C=C/C1=C)=O",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid",
+                        "moiety_subcluster": [
+                            "mcbg_00130"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "4-amido-2,4-pentadienoate",
+                        "moiety_subcluster": [
+                            "mcbg_00137"
+                        ]
+                    }
+                ],
+                "compound": "Rakicidin B",
+                "molecular_formula": "C33H56N3O7",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 198593,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM62997.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_startpos": 194525,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 203130,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM62998.1",
+                    "gene_annotation": "mycocerosic acid synthase",
+                    "gene_startpos": 198790,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 203439,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM62999.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 203245,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 207341,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63000.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_startpos": 203436,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 208275,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63001.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 207319,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 211648,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63002.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_startpos": 208277,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 213302,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63003.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 211656,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 217669,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63004.1",
+                    "gene_annotation": "polyketide synthase type I",
+                    "gene_startpos": 213635,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 220830,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63005.1",
+                    "gene_annotation": "linear gramicidin synthetase LgrC",
+                    "gene_startpos": 217773,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 223899,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63006.1",
+                    "gene_annotation": "linear gramicidin synthetase LgrD",
+                    "gene_startpos": 221677,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 226958,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63007.1",
+                    "gene_annotation": "linear gramicidin synthetase LgrC",
+                    "gene_startpos": 224280,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 228667,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63008.1",
+                    "gene_annotation": "pyoverdine ABC transporter permease/ATP-binding protein",
+                    "gene_startpos": 226955,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 229484,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63009.1",
+                    "gene_annotation": "gramicidin S biosynthesis protein GrsT",
+                    "gene_startpos": 228621,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 232348,
+                    "gene_id": "EWM63010.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_startpos": 229481,
+                    "not_in_gbk": true,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 233421,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "EWM63011.1",
+                    "gene_annotation": "clavaminate synthase",
+                    "gene_startpos": 232432,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001328",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:26637117"
+        ],
+        "polyketide": {
+            "pks_te_type": "Unknown",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EWM62997.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "CoA-ligase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "1",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "EWM63000.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "EWM63003.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "4",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactonization"
+        },
+        "nrp": {
+            "nrps_release_type": "Macrolactonization",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Feeding study",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "EWM63002.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "EWM63005.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "EWM63006.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "nonprot_adom_spec": "Beta-hydroxyasparagine",
+                                "aa_type": "Nonproteinogenic"
+                            }
+                        },
+                        {
+                            "module_nr": "7",
+                            "nrps_evidence_skip_iter": "Structure-based inference",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_skip_iter": "Skipped"
+                        }
+                    ],
+                    "nrps_gene": "EWM63007.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "module_nr": "8",
+                            "nrps_evidence_skip_iter": "Structure-based inference",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "None",
+                                "aa_type": "None"
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_skip_iter": "Skipped"
+                        }
+                    ],
+                    "nrps_gene": "EWM63010.1"
+                }
+            ],
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [
+                "mcbg_00142"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

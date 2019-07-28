@@ -1,0 +1,121 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "Unknown",
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ],
+            "accession": "NITZ01000005.1",
+            "start_coord": 144017,
+            "end_coord": 173487
+        },
+        "compounds": [
+            {
+                "mol_mass": 751.413737,
+                "chem_struct": "CC(C)C[C@@H]2NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@@H](Cc1ccccc1)NC2=O)CCC(N)=O)Cc3ccccc3",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Ambactin",
+                "molecular_formula": "C38H55N8O8",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "weakly bioactive against Trypanosoma brucei rhodesiense"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001131",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:24816640"
+        ],
+        "nrp": {
+            "nrps_release_type": "Macrolactamization",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            }
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Glutamine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Phenylalanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Phenylalanine",
+                                "epimerized": true,
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Lysine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Dual"
+                        }
+                    ],
+                    "nrps_gene": "-"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

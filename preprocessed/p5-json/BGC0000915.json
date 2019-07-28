@@ -1,0 +1,60 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "AF127374.2"
+        },
+        "compounds": [
+            {
+                "mol_mass": 334.1277,
+                "chem_struct": "CC1=C(C(=O)C2=C(C1=O)N3C[C@H]4[C@@H]([C@@]3([C@@H]2COC(=O)N)OC)N4)N",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-Amino-5-hydroxybenzoic acid",
+                        "moiety_subcluster": [
+                            "aad28452.1",
+                            "mitt",
+                            "aad28453.1",
+                            "mits",
+                            "aad28456.1",
+                            "mitp",
+                            "aad28452.1",
+                            "mitj",
+                            "aad32723.1",
+                            "mita"
+                        ]
+                    }
+                ],
+                "compound": "mitomycin",
+                "molecular_formula": "C15H18N4O5",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": []
+        },
+        "mibig_accession": "BGC0000915",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:10099135"
+        ],
+        "other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

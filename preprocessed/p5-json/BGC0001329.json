@@ -1,0 +1,68 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "incomplete",
+            "conn_comp_cluster": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ],
+            "accession": "KL569388.1",
+            "start_coord": 1,
+            "end_coord": 36804
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 495.2813,
+                "chem_struct": "CN(CC(N[C@@H]([C@@H](C(N)=O)O)C(OC([C@H](C)CCCCCC)[C@H](C)C(N1)=O)=O)=O)C(/C=C/C1=C)=O",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "4-amido-2,4-pentadienoate",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "compound": "Rakicidin D",
+                "molecular_formula": "C24H38N3O7",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001329",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24242000"
+        ],
+        "polyketide": {
+            "pks_te_type": "Unknown",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactonization"
+        },
+        "nrp": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_release_type": "Macrolactonization",
+            "nrps_te_type": "Unknown",
+            "subclass": "Cyclic depsipeptide",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

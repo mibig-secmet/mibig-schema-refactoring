@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "s56-p1"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "LC177423",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001764",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "28103675"
+        ]
+    }
+}

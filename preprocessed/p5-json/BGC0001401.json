@@ -1,0 +1,50 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chemspider_id": 35013816,
+                "chem_struct": "",
+                "compound": "melleolide F",
+                "molecular_formula": ""
+            },
+            {
+                "molecular_formula": "C23H29ClO6",
+                "chem_struct": "Cc1c(Cl)c(O)cc(O)c1C(=O)OC1CC2(C)C3CC(C)(C)CC3C=C(CO)C12O",
+                "mol_mass": 436.932,
+                "compound": "6'-Chloromelleolide F"
+            },
+            {
+                "molecular_formula": "C23H29BrO6",
+                "chem_struct": "Cc1c(Br)c(O)cc(O)c1C(=O)OC1CC2(C)C3CC(C)(C)CC3C=C(CO)C12O",
+                "mol_mass": 481.383,
+                "compound": "6'-Bromomelleolide F"
+            }
+        ],
+        "loci": {
+            "accession": "JF739169.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001401",
+        "publications": [
+            "pubmed:26655762"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "polyketide": {
+            "pks_subclass": [
+                "Modular type I"
+            ]
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

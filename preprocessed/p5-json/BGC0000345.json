@@ -1,0 +1,252 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ],
+            "accession": "KF647220.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 398.5,
+                "chem_struct": "CC(C)CCCCC(=O)NC(CO)C(=O)N[C@@H](CC(=C)C)C(=O)[C@]1(CO1)CO",
+                "chem_synonyms": [],
+                "pubchem_id": 196802,
+                "chem_target": [
+                    "proeasome"
+                ],
+                "compound": "eponemycin",
+                "molecular_formula": "C20H34N2O6",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "epoxyketone",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "chem_act": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [],
+            "gene": [
+                {
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38503.1",
+                    "gene_annotation": "LuxR-like transcriptional regulator",
+                    "not_in_gbk": false,
+                    "gene_name": "epnA"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38504.1",
+                    "gene_annotation": "thioesterase",
+                    "not_in_gbk": false,
+                    "gene_name": "epnB"
+                },
+                {
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38505.1",
+                    "gene_annotation": "proteasome beta-subunit",
+                    "not_in_gbk": false,
+                    "gene_name": "epnC"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38506.1",
+                    "gene_annotation": "ketosynthase III",
+                    "not_in_gbk": false,
+                    "gene_name": "epnD"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38507.1",
+                    "gene_annotation": "acyl carrier protein",
+                    "not_in_gbk": false,
+                    "gene_name": "epnE"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38508.1",
+                    "gene_annotation": "acyl-CoA dehydrogenase",
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "epnF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38515.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "not_in_gbk": false,
+                    "gene_name": "epnG"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38509.1",
+                    "gene_annotation": "polyketide synthase",
+                    "not_in_gbk": false,
+                    "gene_name": "epnH"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38510.1",
+                    "gene_annotation": "cytochrome P450",
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "epnI"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38511.1",
+                    "gene_annotation": "adenylation-thiolation bidomain",
+                    "not_in_gbk": false,
+                    "gene_name": "epnJ"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AHB38512.1",
+                    "gene_annotation": "cytochrome P450",
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "epnK"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000345",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24168704",
+            "pubmed:2106503",
+            "pubmed:10383134"
+        ],
+        "polyketide": {
+            "pks_te_type": "Type I",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHB38509.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            }
+                        }
+                    ],
+                    "nrps_gene": "AHB38511.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "None",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "AHB38515.1"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

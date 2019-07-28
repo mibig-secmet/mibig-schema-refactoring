@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "thiolactomycin"
+            }
+        ],
+        "loci": {
+            "accession": "KT282100.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001237",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "minimal": true,
+        "polyketide": {
+            "pks_subclass": [
+                "Modular type I"
+            ]
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

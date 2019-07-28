@@ -1,0 +1,31 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "compounds": [
+            {
+                "compound": "alternariol",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KP941080.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001284",
+        "minimal": true,
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

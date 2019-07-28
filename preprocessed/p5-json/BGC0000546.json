@@ -1,0 +1,69 @@
+{
+    "comments": "AmfS-like classIII lanthipeptide",
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ],
+            "accession": "NZ_DS999645.1",
+            "start_coord": 4112717,
+            "end_coord": 4120692
+        },
+        "compounds": [
+            {
+                "mol_mass": 2242.22,
+                "mass_ion_type": "[M+H]+",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ],
+                "compound": "SAL-2242"
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000546",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:21983601"
+        ],
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether",
+                            "AA_pos_1": 3,
+                            "AA_pos_2": 10
+                        },
+                        {
+                            "crosslink_type": "Thioether",
+                            "AA_pos_1": 13,
+                            "AA_pos_2": 20
+                        }
+                    ],
+                    "core_pept_aa": [
+                        "TGSQISLLICEYSSLSVTLCTP"
+                    ],
+                    "gene_id": [
+                        "sshg_03589",
+                        "wp_003950016.1"
+                    ],
+                    "lead_pept_len": 21,
+                    "peptidase": []
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

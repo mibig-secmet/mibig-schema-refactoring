@@ -1,0 +1,98 @@
+{
+    "embargo": true,
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 42456,
+                    "Accession": "HM622670",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ],
+                    "start_coord": 1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 463.2107,
+                "chem_struct": "CC1(C=CC2=C(O1)C=CC3=C2N(C(=O)[C@@]34C[C@]56[C@H](C4(C)C)C[C@@]7(CCCN7C5=O)C(=O)N6)O)C",
+                "mass_ion_type": "[M+H]+",
+                "compound": "notoamide A",
+                "molecular_formula": "C26H29N3O5",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": []
+        },
+        "mibig_accession": "BGC0001084",
+        "Terpene": {
+            "terpene_subclass": "Other",
+            "terpene_synth_cycl": [],
+            "terpene_precursor": "DMAPP",
+            "terpene_c_len": "Hemiterpene",
+            "prenyl_transf": [
+                "hm622670",
+                "adm34136.1",
+                "notc",
+                "hm622670",
+                "adm34138.1",
+                "notf"
+            ]
+        },
+        "biosyn_class": [
+            "NRP",
+            "Terpene",
+            "Alkaloid"
+        ],
+        "Alkaloid": {
+            "alkaloid_subclass": "Pyrrole/pyrrolidine"
+        },
+        "NRP": {
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Tryptophan",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ADM34138.1"
+                }
+            ],
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        },
+        "publications": "20722388"
+    }
+}

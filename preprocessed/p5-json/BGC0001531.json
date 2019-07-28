@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "NCCCCCNC(=O)CCC(=O)N(O)CCCCCN(O)C(=O)CCC(O)=O",
+                "compound": "bisucaberin B"
+            }
+        ],
+        "loci": {
+            "accession": "LC090204.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001531",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:23549298"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

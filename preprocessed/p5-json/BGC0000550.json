@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "salivaricin G32"
+            }
+        ],
+        "loci": {
+            "accession": "JN831266.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000550",
+        "publications": [
+            "pubmed:22567013"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

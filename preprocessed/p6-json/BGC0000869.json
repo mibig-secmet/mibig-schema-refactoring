@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "compound": "heterocyst glycolipids",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KC489223.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000869",
+        "minimal": true,
+        "other": {
+            "subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:23898213"
+        ]
+    }
+}

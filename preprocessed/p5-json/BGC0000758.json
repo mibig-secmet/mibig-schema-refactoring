@@ -1,0 +1,63 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "U10927.2"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ],
+                "compound": "capsular polysaccharide "
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "cap1a",
+                        "cap1b",
+                        "cap1c",
+                        "cap1d",
+                        "cap1e",
+                        "cap1f",
+                        "cap1g",
+                        "cap1h",
+                        "cap1i",
+                        "cap1j",
+                        "cap1k",
+                        "cap1l",
+                        "cap1m",
+                        "cap1n",
+                        "cap1o"
+                    ],
+                    "evidence_operon": "Unknown"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000758",
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "publications": [
+            "pubmed:7961465",
+            "pubmed:12057957"
+        ],
+        "saccharide": {
+            "saccharide_subclass": "exopolysaccharide"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

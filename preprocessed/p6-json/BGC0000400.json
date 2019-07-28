@@ -1,0 +1,31 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "compound": "paenibacterin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "JX899679.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000400",
+        "minimal": true,
+        "publications": [
+            "pubmed:24607714"
+        ]
+    }
+}

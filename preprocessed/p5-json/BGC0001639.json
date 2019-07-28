@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "klebsidin "
+            }
+        ],
+        "loci": {
+            "accession": "NGTK01000002.1",
+            "start_coord": 180938,
+            "end_coord": 185949,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001639",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28106375"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

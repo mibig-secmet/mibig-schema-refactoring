@@ -1,0 +1,52 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "chem_acts": [
+                    "Cytotoxic"
+                ],
+                "chem_synonyms": [],
+                "compound": "Sipanmycin",
+                "database_id": [],
+                "evidence": [
+                    "NMR"
+                ],
+                "mol_mass": -1,
+                "molecular_formula": "C46H71N3O8"
+            }
+        ],
+        "genes": {},
+        "loci": {
+            "accession": "LT986736.1",
+            "completeness": "complete",
+            "evidence": [
+                "Knock-out studies"
+            ]
+        },
+        "mibig_accession": "BGC0001452",
+        "minimal": false,
+        "polyketide": {
+            "cyclic": true,
+            "release_type": [
+                "Unknown"
+            ],
+            "subclasses": [
+                "Other"
+            ]
+        },
+        "publications": [
+            "pubmed:579753"
+        ]
+    }
+}

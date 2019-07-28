@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Other"
+        ],
+        "compounds": [
+            {
+                "compound": "allylmalonyl-CoA",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "GU067679.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000886",
+        "minimal": true,
+        "other": {
+            "subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:20194504"
+        ]
+    }
+}

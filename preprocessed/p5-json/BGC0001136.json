@@ -1,0 +1,176 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ],
+            "accession": "HM243222.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 381.1576,
+                "chem_struct": "OC1=CC=C(C2=CN(O)C(C(C(/C=C/C=C/C=C/[C@H](C)CC)=O)=C2O)=O)C=C1",
+                "mass_ion_type": "M+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "2-pyridone",
+                        "moiety_subcluster": [
+                            "dmbs",
+                            "dmbc",
+                            "dmba"
+                        ]
+                    }
+                ],
+                "compound": "desmethylbassianin",
+                "molecular_formula": "C22H23NO5",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 4176,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "DMBS",
+                    "gene_annotation": "PKS-NRPS",
+                    "gene_startpos": 1,
+                    "not_in_gbk": true,
+                    "gene_name": "dmbS"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 389,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "DMBC",
+                    "gene_annotation": "ER",
+                    "gene_startpos": 1,
+                    "not_in_gbk": true,
+                    "mut_pheno": "loss of PKS fidelity",
+                    "gene_name": "dmbC"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 539,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "DMBB",
+                    "gene_annotation": "P450",
+                    "mut_pheno": "pre-DMB-B",
+                    "gene_startpos": 1,
+                    "not_in_gbk": true,
+                    "tailoring": "Oxidation",
+                    "gene_name": "dmbB"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 508,
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "gene_id": "DMBA",
+                    "gene_annotation": "P450",
+                    "mut_pheno": "pre-DMB-A",
+                    "gene_startpos": 1,
+                    "not_in_gbk": true,
+                    "tailoring": "Oxidation",
+                    "gene_name": "dmbA"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001136",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:21899331"
+        ],
+        "polyketide": {
+            "nr_iterations": 5,
+            "pks_te_type": "None",
+            "iter_cycl_type": "Unknown",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Linear",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "DMBS",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "Structure-based inference",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Methyltransferase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Multiple (promiscuous)",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "None",
+                            "at_multiple_spec": [
+                                "Malonyl-CoA",
+                                "Acetyl-CoA"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Highly reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [],
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Non-elongating",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Unknown"
+                        }
+                    ],
+                    "nrps_gene": "DMBS"
+                }
+            ],
+            "subclass": "Unknown",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

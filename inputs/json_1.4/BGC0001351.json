@@ -1,0 +1,46 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "molecular_formula": "C27H37N7O11",
+                "chem_struct": "[H]C(=O)N(O)CCC[C@@H](NC(=O)[C@H](CO)NC(=O)[C@@H]1COC(=N1)C1=CC=CC=C1O)C(=O)N1NCCC[C@@H]1C(=O)NCCC(O)=O",
+                "mol_mass": 635.631,
+                "compound": "cahuitamycin A"
+            },
+            {
+                "molecular_formula": "C27H39N7O12",
+                "chem_struct": "[H]C(=O)N(O)CCC[C@@H](NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC(=O)C1=CC=CC=C1O)C(=O)N1NCCC[C@@H]1C(=O)NCCC(O)=O",
+                "mol_mass": 653.646,
+                "compound": "cahuitamycin B"
+            },
+            {
+                "molecular_formula": "C28H39N7O11",
+                "chem_struct": "[H]C(=O)N(O)CCC[C@@H](NC(=O)[C@H](CO)NC(=O)[C@@H]1COC(=N1)C1=C(C)C=CC=C1O)C(=O)N1NCCC[C@@H]1C(=O)NCCC(O)=O",
+                "mol_mass": 649.658,
+                "compound": "cahuitamycin C"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "KU363800",
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "KU363801",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001351",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "26880271"
+        ]
+    }
+}

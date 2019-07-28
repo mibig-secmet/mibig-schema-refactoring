@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 324.413,
+                "chem_struct": "CN1[C@@H](CSC1[C@H]2CS/C(=C/3\\C=CC=CC3=O)/N2)C(=O)O",
+                "pubchem_id": 5462518,
+                "compound": "pyochelin",
+                "molecular_formula": "C14H16N2O3S2"
+            }
+        ],
+        "loci": {
+            "accession": "AF074705.2",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000412",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:9846750",
+            "pubmed:11208777"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "197.127",
+                "chem_struct": "CC(=O)N(CCCP(=O)(O)O)O",
+                "database_deposited": true,
+                "pubchem_id": 162204,
+                "compound": "FR900098",
+                "molecular_formula": "C5H12NO5P",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "DQ267750",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000904",
+        "Other": {
+            "other_subclass": "Other"
+        },
+        "publications": [
+            "18721747"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

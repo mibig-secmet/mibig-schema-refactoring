@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "204.357",
+                "chem_struct": "CC1=C[C@@H]2[C@H](CCC(=C2CC1)C)C(C)C",
+                "database_deposited": true,
+                "pubchem_id": 12306055,
+                "compound": "(-)-delta-cadinene",
+                "molecular_formula": "C15H24",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 79952,
+                    "Accession": "DS570637",
+                    "start_coord": 74962
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000674",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "minimal": true,
+        "publications": [
+            "21276937"
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "EQ963472.1",
+            "start_coord": 2642293,
+            "end_coord": 2658105
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "mol_mass": 358.302,
+                "chem_struct": "CC(=O)CC(C1=C(C=C2C(=C1O)C(=O)C3=C(C=C(C=C3C2=O)O)O)O)O",
+                "chem_synonyms": [],
+                "pubchem_id": 10808295,
+                "compound": "asparasone A",
+                "molecular_formula": "C18H14O8",
+                "chem_act": [
+                    "Antiinsectan "
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 2642633,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "EED57517.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 2642293,
+                    "not_in_gbk": false,
+                    "mut_pheno": "lack of asparasone A production, produced lighter, reddish-brown sclerotia compared to the dark brown sclerotia of the control strain, decrease in expression of other genes in cluster",
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 2652837,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "EED57518.1",
+                    "gene_annotation": "polyketide synthase, putative",
+                    "gene_startpos": 2646293,
+                    "not_in_gbk": false,
+                    "mut_pheno": "lack of asparasone A production,  greyish-yellow sclerotia rather than dark brown sclerotia, production of sclerotia was significantly reduced",
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2655374,
+                    "gene_id": "EED57519.1",
+                    "gene_annotation": "MFS glucose transporter, putative",
+                    "gene_startpos": 2653373,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2658105,
+                    "gene_id": "EED57520.1",
+                    "gene_annotation": "efflux pump antibiotic resistance protein, putative",
+                    "gene_startpos": 2656834,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001446",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24412484",
+            "pubmed:24405210"
+        ],
+        "polyketide": {
+            "nr_iterations": 8,
+            "pks_te_type": "Unknown",
+            "iter_cycl_type": "Unknown",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Linear",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EED57518.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_evidence_skip_iter": "None",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "None",
+                            "pks_mod_skip_iter": "Iterated",
+                            "evidence_at_spec": "None"
+                        }
+                    ]
+                }
+            ],
+            "iterative_subtype": "Non-reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [],
+            "pks_release_type": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

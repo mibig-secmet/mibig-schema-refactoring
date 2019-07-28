@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "dihydrochalcomycin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "AY118081.2",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000047",
+        "minimal": true,
+        "ncbi_tax_id": "201500",
+        "organism_name": "Streptomyces sp. KCTC 0041BP",
+        "polyketide": {},
+        "publications": [
+            "pubmed:17053005"
+        ]
+    }
+}

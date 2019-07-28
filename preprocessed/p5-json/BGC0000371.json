@@ -1,0 +1,41 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chemspider_id": 30900652,
+                "chem_struct": "c1cc(c(c(c1)O)O)C(=O)N[C@H](CCCN/C(=N/C(=O)c2cccc(c2O)O)/N)C(=O)NCC(=O)N[C@H]3CCCN(C3=O)O",
+                "compound": "heterobactin A",
+                "molecular_formula": ""
+            },
+            {
+                "molecular_formula": "C27H33N7O13S",
+                "chem_struct": "N\\C(NCCC[C@@H](NC(=O)c1ccc(c(O)c1O)S(O)(=O)=O)C(=O)NCC(=O)N[C@H]1CCCN(O)C1=O)=N/C(=O)c1cccc(O)c1O",
+                "mol_mass": 695.18,
+                "compound": "heterobactin S2"
+            }
+        ],
+        "loci": {
+            "accession": "AP008957.1",
+            "start_coord": 2888228,
+            "end_coord": 2910756,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000371",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:24274668"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

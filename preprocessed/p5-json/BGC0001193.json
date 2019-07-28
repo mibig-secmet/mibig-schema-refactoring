@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 228.284,
+                "chem_struct": "CC(=O)NC1=C2C(=CSS2)N(C1=O)C",
+                "pubchem_id": 6870,
+                "compound": "thiolutin",
+                "molecular_formula": "C8H8N2O2S2"
+            }
+        ],
+        "loci": {
+            "accession": "KM114209.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001193",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:25353334"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

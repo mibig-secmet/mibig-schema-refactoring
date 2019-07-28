@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "acetylaszonalenin"
+            }
+        ],
+        "loci": {
+            "accession": "DS027698.1",
+            "start_coord": 2428387,
+            "end_coord": 2441151,
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000293",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:19001367"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

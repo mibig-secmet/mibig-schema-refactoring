@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "lobophorin",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "JX306680.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0001183",
+        "minimal": true,
+        "ncbi_tax_id": "579932",
+        "organism_name": "Streptomyces sp. FXJ7.023",
+        "polyketide": {},
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "NRP"
+        ],
+        "compounds": [
+            {
+                "chem_struct": "CN1C(=O)C23CC4(C(N2C(=O)C1(SS3)CO)NC5=CC=CC=C54)C67CC89C(=O)N(C(C(=O)N8C6NC1=CC=CC=C71)(SS9)CO)C",
+                "compound": "chaetocin",
+                "database_id": [
+                    "pubchem:161591"
+                ],
+                "mol_mass": 696.83,
+                "molecular_formula": "C30H28N6O6S4"
+            }
+        ],
+        "loci": {
+            "accession": "KF496217.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000321",
+        "minimal": true,
+        "publications": [
+            "pubmed:24123808"
+        ]
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802550",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802545",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802546",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802547",
+                    "conn_comp_cluster": [
+                        "Heterologous expression",
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802549",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1,
+                    "Accession": "HE802548",
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction",
+                        "Other"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "382.324",
+                "chem_struct": "CC1=CC(=CC2=C1C(=O)C3=C(O2)C(=C4C(=C3O)C(=O)C=C(C4=O)OC)O)OC",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 5281730,
+                "compound": "bikaverin",
+                "molecular_formula": "C20H14O8",
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "",
+                    "gene_endpos": 1569,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26290.1",
+                    "gene_annotation": "putative FAD-dependent monooxygenase",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik2"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 1459,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26291.1",
+                    "gene_annotation": "putative O-methyltransferase",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik3"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 981,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26292.1",
+                    "gene_annotation": "putative NmrA-like protein",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik4"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 1819,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26293.1",
+                    "gene_annotation": "putative MFS-type transporter",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik6"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 2234,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26294.1",
+                    "gene_annotation": "putative Zn(II)2Cys6 transcription factor",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik5"
+                },
+                {
+                    "gene_function": "",
+                    "gene_endpos": 6060,
+                    "evidence_genefunction": [
+                        ""
+                    ],
+                    "gene_id": "CCH26295.1",
+                    "gene_annotation": "putative polyketide synthase",
+                    "gene_startpos": 1,
+                    "not_in_gbk": false,
+                    "gene_name": "bik1"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001158",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "Polyketide": {
+            "nr_iterations": 9,
+            "pks_te_type": "Unknown",
+            "iter_cycl_type": "Other",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "iterative_subtype": "Non-reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [
+                "cch26295.1"
+            ],
+            "pks_release_type": "Unknown"
+        },
+        "publications": [
+            "23308280"
+        ]
+    }
+}

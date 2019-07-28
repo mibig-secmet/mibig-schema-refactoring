@@ -1,0 +1,296 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AJ575642",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "chemspider_id": 391754,
+                "mol_mass": "",
+                "chem_struct": "",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "compound": "surfactin",
+                "molecular_formula": "",
+                "databases_deposited": [
+                    "ChemSpider"
+                ],
+                "chem_act": [
+                    "Surfactant"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 353372,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP001419995",
+                    "gene_annotation": "surfactin synthetase A",
+                    "gene_startpos": 342618,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no synthesis of surfactin",
+                    "gene_name": "srfAA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 364154,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001419996",
+                    "gene_annotation": "surfactin synthetase B ",
+                    "gene_startpos": 353394,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "srfAB"
+                },
+                {
+                    "gene_function": "Other",
+                    "gene_endpos": 356667,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001419997",
+                    "gene_annotation": "competence protein S ",
+                    "gene_startpos": 356503,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "comS"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 368025,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001419998",
+                    "gene_annotation": "surfactin synthetase C ",
+                    "gene_startpos": 364189,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "srfAC"
+                },
+                {
+                    "gene_function": "Other enzymatic",
+                    "gene_endpos": 368776,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001419999",
+                    "gene_annotation": "surfactin synthetase D",
+                    "gene_startpos": 364189,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "srfAD"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 370208,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001420000",
+                    "gene_annotation": "aspartate aminotransferase",
+                    "mut_pheno": null,
+                    "gene_startpos": 368898,
+                    "not_in_gbk": false,
+                    "tailoring": "Amination",
+                    "gene_name": "aat1"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 370243,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001420001",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 370638,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "ycxB"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 370778,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001420002 ",
+                    "gene_annotation": "transporter",
+                    "gene_startpos": 371740,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "ycxC"
+                },
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 373169,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP001420003",
+                    "gene_annotation": "transcriptional regulator containing an aminotransferase domain",
+                    "gene_startpos": 371859,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": "ycxD"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 373164,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP001420004",
+                    "gene_annotation": "phosphopantetheinyl transferase involved in nonribosomal synthesis",
+                    "gene_startpos": 373838,
+                    "not_in_gbk": false,
+                    "mut_pheno": "no synthesis of NRPS and PKS secondary metabolites",
+                    "gene_name": "sfp"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 373937,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP001420005",
+                    "gene_annotation": "integral membrane protein involved in nonribosomal synthesis",
+                    "gene_startpos": 374584,
+                    "not_in_gbk": false,
+                    "mut_pheno": "synthesis of bacillomycin and polyketides reduced",
+                    "gene_name": "yczE"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000433",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_release_type": "None",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Glutamate",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001419995"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Aspartate",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": true,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001419996"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "Other",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "YP001419998"
+                }
+            ],
+            "subclass": "Other lipopeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        },
+        "publications": "14762003"
+    }
+}

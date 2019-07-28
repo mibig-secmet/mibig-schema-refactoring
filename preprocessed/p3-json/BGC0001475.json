@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "aspterric acid"
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 48600,
+                    "Accession": "NT_165929",
+                    "start_coord": 46900
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001475",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        },
+        "minimal": true
+    }
+}

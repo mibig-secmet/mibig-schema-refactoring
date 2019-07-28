@@ -1,0 +1,370 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3505751,
+                    "Accession": "CP000667",
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ],
+                    "start_coord": 3474953
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 310.3074,
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(/C=C/OC)=O)=N3)=C3C(NC(C)=O)=C1",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "unknown"
+                        ],
+                        "other_chem_moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_target": [
+                    "mTOR"
+                ],
+                "compound": "lymphostin",
+                "molecular_formula": "C16H14N4O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            },
+            {
+                "mol_mass": 312.3232,
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(CCO)=O)=N3)=C3C(NC(CC)=O)=C1",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "unknown"
+                        ],
+                        "other_chem_moiety": "pyrroloquinoline"
+                    }
+                ],
+                "chem_target": [
+                    "mTOR"
+                ],
+                "compound": "neolymphostinol B",
+                "molecular_formula": " C16H16N4O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            },
+            {
+                "mol_mass": 298.2967,
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(CCO)=O)=N3)=C3C(NC(C)=O)=C1",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "unknown"
+                        ],
+                        "other_chem_moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_target": [
+                    "mTOR"
+                ],
+                "compound": "lymphostinol",
+                "molecular_formula": "C15H14N4O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            },
+            {
+                "mol_mass": 324.3339,
+                "chem_struct": "NC1=C(N=C2)C(C2=CC(C(/C=C/OC)=O)=N3)=C3C(NC(CC)=O)=C1",
+                "mass_ion_type": "[M+H]+",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "unknown"
+                        ],
+                        "other_chem_moiety": "pyrrolquinoline"
+                    }
+                ],
+                "chem_target": [
+                    "mTOR"
+                ],
+                "compound": "neolymphostin B",
+                "molecular_formula": "C17H16N4O3",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159858.1",
+                    "gene_annotation": "NADPH-dependent FMN reductase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159859.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159860.1",
+                    "gene_annotation": "lantibiotic dehydratase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159861.1",
+                    "gene_annotation": "lantibiotic dehydratase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159862.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159863.1",
+                    "gene_annotation": "lantibiotic dehydratase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159864.1",
+                    "gene_annotation": "peptidase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159865.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159866.1",
+                    "gene_annotation": "FAD-dependent oxidoreductase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159867.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159868.1",
+                    "gene_annotation": "amidohydrolase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159869.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP_001159870.1",
+                    "gene_annotation": "methyltranferase",
+                    "mut_pheno": "lymphostinol",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "tailoring": "Methylation",
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "YP_001159871.1",
+                    "gene_annotation": "PKS",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159872.1",
+                    "gene_annotation": "asparagine synthase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": -1,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "YP_001159873.1",
+                    "gene_annotation": "aminopeptidase",
+                    "gene_startpos": -1,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": null
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001006",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "NRP": {
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "None"
+                            },
+                            "cdom_subtype": "N/A"
+                        }
+                    ],
+                    "nrps_gene": "ABP55493.1"
+                }
+            ],
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        },
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABP55493.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "T"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        },
+        "publications": [
+            "17563368",
+            "21815669"
+        ]
+    }
+}

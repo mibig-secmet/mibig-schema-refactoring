@@ -1,0 +1,36 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "pyranonigrin E",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "ACJE01000019.1",
+            "completeness": "Unknown",
+            "end_coord": 134271,
+            "evidence": [],
+            "start_coord": 122605
+        },
+        "mibig_accession": "BGC0001124",
+        "minimal": true,
+        "ncbi_tax_id": "380704",
+        "organism_name": "Aspergillus niger ATCC 1015",
+        "polyketide": {},
+        "publications": [
+            "pubmed:0"
+        ]
+    }
+}

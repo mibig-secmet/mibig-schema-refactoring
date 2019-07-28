@@ -1,0 +1,269 @@
+{
+    "version": "16",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 39708,
+                    "Accession": "HQ888764",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 5609
+                }
+            ],
+            "complete": "incomplete"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [],
+                        "other_chem_moiety": "Chlorinated"
+                    }
+                ],
+                "compound": "thanamycin",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aed90002",
+                        "aed90003",
+                        "aed90004",
+                        "aed90005",
+                        "aed90006"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 21733,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AED90002",
+                    "gene_annotation": "thaA",
+                    "gene_startpos": 5609,
+                    "not_in_gbk": false,
+                    "gene_name": ""
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 35314,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AED90003",
+                    "gene_annotation": "thaB",
+                    "gene_startpos": 21737,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of thanamycin",
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Other enzymatic",
+                    "gene_endpos": 37484,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AED90004",
+                    "gene_annotation": "thaC1",
+                    "gene_startpos": 35640,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Other enzymatic",
+                    "gene_endpos": 38437,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AED90005",
+                    "gene_annotation": "thaC2",
+                    "gene_startpos": 37502,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of thanamycin",
+                    "gene_name": null
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 39708,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AED90006",
+                    "gene_annotation": "thaD",
+                    "gene_startpos": 38497,
+                    "not_in_gbk": false,
+                    "mut_pheno": null,
+                    "gene_name": null
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000443",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "Ornithine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Aspartate",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Lysine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Histidine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        }
+                    ],
+                    "nrps_gene": "AED90002.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "Didehydroaminobutyric acid",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "8",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "Hydroxyaspartate",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "9",
+                            "nrps_mod_doms": "Other",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "4-Chlorothreonine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "Other"
+                        }
+                    ],
+                    "nrps_gene": "AED90003.1"
+                },
+                {
+                    "nrps_module": [
+                        {
+                            "module_nr": "10",
+                            "nrps_evidence_skip_iter": "Sequence-based prediction",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "N/A",
+                            "nrps_mod_skip_iter": "Skipped"
+                        }
+                    ],
+                    "nrps_gene": "AED90004.1"
+                }
+            ],
+            "subclass": "Beta-lactam",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [
+                "aed90003"
+            ]
+        },
+        "publications": "21551032,22586093,22121884"
+    }
+}

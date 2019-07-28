@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "1503.601",
+                "chem_struct": "CC1CC23C(/C=C/C=C(/C(C4C(OC5(C4=O)CC(C(=CC5(/C=C/C(C6C(OC7(C6=O)CC(C(=CC7(/C=C/C=C(/C(C8C(OC9(C8=O)CC(C(=CC9(/C=C/C(C(C2=O)C(O3)[O-])O)C)C=O)C)[O-])O)\\C)C)CO[C@@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)C)[O-])O)C)C=O)C)[O-])O)\\C)C=C1CO[C@@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)O)O)O",
+                "database_deposited": true,
+                "pubchem_id": 6450983,
+                "compound": "quartromicin",
+                "molecular_formula": "C77H98O30-4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "JF970188",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000133",
+        "publications": [
+            "23102224"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

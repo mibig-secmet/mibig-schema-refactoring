@@ -1,0 +1,70 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "Unknown",
+            "conn_comp_cluster": [
+                "Gene expression correlated with compound production"
+            ],
+            "accession": "NIBS01000014.1",
+            "start_coord": 52424,
+            "end_coord": 100650
+        },
+        "compounds": [
+            {
+                "mol_mass": 1356.959258,
+                "chem_struct": "CC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCC[C@@H](O)CCNC(=O)C[C@@H](O)C[C@@H](O)[C@@H]3CCCN3C(=O)C2NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)C[C@H](N)C(=O)O)CC(=O)NC2C",
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": [
+                            "unusual polyamino moiety"
+                        ]
+                    }
+                ],
+                "compound": "Fabclavine Ia",
+                "molecular_formula": "C70H126N13O13",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001130",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24532262"
+        ],
+        "polyketide": {
+            "nr_iterations": -1,
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Linear",
+            "iterative_subtype": "Partially reducing",
+            "starter_unit": "Acetoacetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [],
+            "pks_release_type": "Claisen condensation"
+        },
+        "nrp": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_release_type": "Unknown",
+            "nrps_te_type": "None",
+            "subclass": "Unknown",
+            "nrps_thioesterase": []
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

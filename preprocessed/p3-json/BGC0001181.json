@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6668399,
+                    "Accession": "AL645882",
+                    "start_coord": 6666219
+                }
+            ]
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0001181",
+        "compounds": [
+            {
+                "compound": "geosmin"
+            }
+        ]
+    }
+}

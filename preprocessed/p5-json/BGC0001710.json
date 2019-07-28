@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "OC1=C(O)C(=CC=C1)C(=O)N[C@H]1[C@@H](CC2=CC=C(C=C2)N(=O)=O)OC1=O",
+                "compound": "obafluorin"
+            }
+        ],
+        "loci": {
+            "accession": "KX931446.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0001710",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "minimal": true,
+        "publications": [
+            "pubmed:28504677"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 471.518,
+                "chem_struct": "CN(C)C1=NC=NC2=C1N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)CO)NC(=O)[C@H](CC4=CC=C(C=C4)OC)N)O",
+                "pubchem_id": 439530,
+                "compound": "puromycin",
+                "molecular_formula": "C22H29N7O5"
+            }
+        ],
+        "loci": {
+            "accession": "X92429.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000878",
+        "publications": [
+            "pubmed:8576156"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "Other"
+        ],
+        "other": {
+            "other_subclass": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

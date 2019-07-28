@@ -1,0 +1,58 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "Unknown",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "GQ452266.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 720.256,
+                "chem_struct": "C[C@H]1/C=C/C=C\\C=C(/C(=O)NC2=C(C(=O)C3=C(C(=C(C=C3C2=O)C)O)C(=O)/C(=C/[C@@H]([C@H]([C@H](/C=C/[C@H](C/C=C(/C(=O)C[C@@H]1O)\\C)O)C)O)C)/C)Cl)\\C",
+                "chem_synonyms": [],
+                "pubchem_id": 10101379,
+                "chem_target": [
+                    "DNA",
+                    "RNA"
+                ],
+                "compound": "naphthomycin",
+                "molecular_formula": "C40H46ClNO9",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-Amino-5-hydroxybenzoic acid",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000106",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:21614382"
+        ],
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Ansamycin",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactamization"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

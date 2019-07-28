@@ -1,0 +1,149 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4956680,
+                    "Accession": "CP007203",
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 4978680
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": "610.712",
+                "chem_struct": "C[C@H]1C[C@H](N(C1)C(=O)[C@@H](CCC2=CC=C(C=C2)O)NC(=O)[C@@H](CC3=CC=C(C=C3)O)O)C(=O)NC(CCCN=C(N)N)C=O",
+                "chem_synonyms": [],
+                "database_deposited": true,
+                "pubchem_id": 71449303,
+                "chem_target": "Trypsin",
+                "compound": "spumigin E",
+                "molecular_formula": "C31H42N6O7",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "moiety_subcluster": [
+                            "nsp_49220",
+                            "nsp_49210",
+                            "nsp_49200"
+                        ],
+                        "other_chem_moiety": "(2S,4S)-4-methylproline"
+                    }
+                ],
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "nsp_49250",
+                        "nsp_49230",
+                        "nsp_49220",
+                        "nsp_49210",
+                        "nsp_49200",
+                        "nsp_49190"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000430",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "NRP": {
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Proline",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "DCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "Other",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Structure-based inference",
+                                "nonprot_adom_spec": "Argininal",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "AHJ31215.1"
+                }
+            ],
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": []
+        },
+        "Polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHJ31217.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": "None",
+                            "pks_domains": [
+                                "CoA-ligase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "4-hydroxyphenylpyruvate",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Activity assay"
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [],
+            "starter_unit": "4-hydroxyphenylpyruvate",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_release_type": "Other"
+        },
+        "publications": "19691450"
+    }
+}

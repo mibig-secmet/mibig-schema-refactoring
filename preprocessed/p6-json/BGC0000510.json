@@ -1,0 +1,35 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "compounds": [
+            {
+                "compound": "epilancin K7",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "U20348.1",
+            "completeness": "Unknown",
+            "evidence": []
+        },
+        "mibig_accession": "BGC0000510",
+        "minimal": true,
+        "publications": [
+            "pubmed:7607233"
+        ],
+        "ripp": {
+            "peptidases": [],
+            "subclass": "Lanthipeptide"
+        }
+    }
+}

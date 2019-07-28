@@ -1,0 +1,99 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ],
+            "accession": "EF210776.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 540.2,
+                "chem_struct": "CC=C1C(=O)NC(C(=O)OC2CC(=O)NC(C(=O)NC(CSSCCC=C2)C(=O)N1)C(C)C)C(C)C",
+                "mass_ion_type": "None",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Disulfide bond",
+                        "moiety_subcluster": [
+                            "abp57753"
+                        ]
+                    }
+                ],
+                "chem_target": [
+                    "Histone deacetylases"
+                ],
+                "compound": "FK228",
+                "molecular_formula": "C24H36N4O6S2",
+                "chem_synonyms": [
+                    "depsipeptide",
+                    "romidepsin"
+                ],
+                "chem_act": [
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "abp57745",
+                        "abp57746",
+                        "abp57747",
+                        "abp57748",
+                        "abp57749",
+                        "abp57750",
+                        "abp57751",
+                        "abp57752",
+                        "abp57753",
+                        "abp57754"
+                    ],
+                    "evidence_operon": "Unknown"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000993",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:17400765",
+            "pubmed:19549597",
+            "pubmed:21183645",
+            "pubmed:21183648",
+            "pubmed:24553401"
+        ],
+        "polyketide": {
+            "pks_te_type": "Type II",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "pks_thioesterase": [
+                "abp57754"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactamization"
+        },
+        "nrp": {
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "subclass": "Cyclic depsipeptide",
+            "nrps_release_type": "Macrolactamization"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "biosyn_class": [
+            "Saccharide"
+        ],
+        "loci": {
+            "accession": "AY297047.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "minimal": true,
+        "mibig_accession": "BGC0000770",
+        "compounds": [
+            {
+                "compound": "lipo-oligosaccharide"
+            }
+        ],
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

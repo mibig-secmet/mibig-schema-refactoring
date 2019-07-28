@@ -1,0 +1,398 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ],
+            "accession": "JX421684.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 1093.327,
+                "chem_struct": "CCCCCCCCCCCCCCCC(=O)NC1CC(C(NC(=O)C2C(C(CN2C(=O)C(NC(=O)C(NC(=O)C3CC(CN3C(=O)C(NC1=O)C(C)O)O)C(C(C4=CC=C(C=C4)O)O)O)C(C)O)C)O)OCCCN)O",
+                "chem_synonyms": [
+                    "agn-pc-0jrfuy",
+                    "ac1l9vmt"
+                ],
+                "pubchem_id": 456858,
+                "chem_target": [
+                    "1",
+                    "3-beta-D-glucan synthase"
+                ],
+                "compound": "Echinocandin B",
+                "molecular_formula": "C53H88N8O16",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "L-homotyrosine",
+                        "moiety_subcluster": [
+                            "aft91393",
+                            "aft91392",
+                            "aft91394",
+                            "aft91395"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "4R-methyl-L-proline",
+                        "moiety_subcluster": [
+                            "aft91382"
+                        ]
+                    }
+                ],
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Regulation",
+                    "gene_endpos": 27483,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91385.1",
+                    "gene_annotation": "Transcription factor",
+                    "gene_startpos": 25565,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdB"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 30467,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91386.1",
+                    "gene_annotation": "transporter",
+                    "gene_startpos": 28439,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdC"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 32936,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91387.1",
+                    "gene_annotation": "transporter",
+                    "gene_startpos": 31103,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdD"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 36306,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91388.1",
+                    "gene_annotation": "glycosyl hydrolase",
+                    "gene_startpos": 34139,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdE"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 39059,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91384.1",
+                    "gene_annotation": "glycosidase",
+                    "gene_startpos": 37085,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdF"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 63178,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFT91378.1",
+                    "gene_annotation": "NRPS",
+                    "gene_startpos": 41269,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of echinocandin production",
+                    "gene_name": "ecdA"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 64533,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFT91379.1",
+                    "gene_annotation": "non-heme iron/\u03b1-KG dependent dioxygenase",
+                    "mut_pheno": "loss of echinocandin and accumulation of mono-, di, tri-, and tetra-deoxy derivatives all lacking the hydroxyl group at the 3 position of homotyrosine",
+                    "gene_startpos": 63384,
+                    "not_in_gbk": false,
+                    "tailoring": "Hydroxylation",
+                    "gene_name": "ecdG"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 66488,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFT91389.1",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "mut_pheno": "loss of echinocandin and accumulation of dideoxy and trideoxy derivatives all lacking the hydroxyl groups on L-ornithine residue",
+                    "gene_startpos": 64922,
+                    "not_in_gbk": false,
+                    "tailoring": "Hydroxylation",
+                    "gene_name": "ecdH"
+                },
+                {
+                    "gene_function": "Activation / processing",
+                    "gene_endpos": 68482,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "AFT91380.1",
+                    "gene_annotation": "fatty-acyl-AMP-ligase",
+                    "gene_startpos": 66559,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdI"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 72170,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91381.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 70014,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdJ"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 73376,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFT91382.1",
+                    "gene_annotation": "non-heme iron/\u03b1-KG dependent dioxygenase",
+                    "gene_startpos": 72258,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of echinocandin production, which can be restored by feeding of 4R-methyl-L-proline",
+                    "gene_name": "ecdK"
+                },
+                {
+                    "gene_function": "Transport",
+                    "gene_endpos": 78856,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91383.1",
+                    "gene_annotation": "multidrug transporter (ABC)",
+                    "gene_startpos": 73639,
+                    "not_in_gbk": false,
+                    "gene_name": "ecdL"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 25202,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91399.1",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "gene_startpos": 22453,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "htyF"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 26780,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AFT91391.1",
+                    "gene_annotation": "non-heme iron/\u03b1-KG dependent\\n dioxygenase",
+                    "gene_startpos": 25677,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "htyE"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 28785,
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "AFT91393.1",
+                    "gene_annotation": "3-(4-hydroxybenzyl)-malate synthase",
+                    "gene_startpos": 26911,
+                    "not_in_gbk": false,
+                    "mut_pheno": "loss of echinocandin biosynthesis, which can be restored by feeding of L-homotyrosine",
+                    "gene_name": "htyA"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 30348,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFT91392.1",
+                    "gene_annotation": "transaminase",
+                    "gene_startpos": 29010,
+                    "not_in_gbk": false,
+                    "gene_name": "htyB"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 31996,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFT91394.1",
+                    "gene_annotation": "3-(4-hydroxybenzyl)-malate dehydrogenase",
+                    "gene_startpos": 30554,
+                    "not_in_gbk": false,
+                    "gene_name": "htyC"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "gene_endpos": 35784,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "AFT91395.1",
+                    "gene_annotation": "(4-hydroxybenzyl)-malate isomerase",
+                    "gene_startpos": 32167,
+                    "not_in_gbk": false,
+                    "gene_name": "htyD"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000338",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:22998630",
+            "pubmed:23451921",
+            "pubmed:6235127",
+            "pubmed:4613708"
+        ],
+        "nrp": {
+            "lipid_moiety": "linoleic acid",
+            "nrps_release_type": "Macrolactamization",
+            "subclass": "Other lipopeptide",
+            "nrps_thioesterase": [],
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "0",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Activity assay",
+                                "nonprot_adom_spec": "Ornithine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "Starter"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "4",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "5",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "6",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false,
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "nonprot_adom_spec": "4-Methylproline",
+                                "aa_type": "Nonproteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "7",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "AFT91378.1"
+                }
+            ],
+            "nrps_te_type": "None"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

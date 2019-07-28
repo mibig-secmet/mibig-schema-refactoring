@@ -1,0 +1,230 @@
+{
+    "embargo": true,
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 37948,
+                    "Accession": "AF079138",
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ],
+                    "start_coord": 1
+                }
+            ],
+            "complete": "partial"
+        },
+        "compounds": [
+            {
+                "mol_mass": 469.304,
+                "chem_struct": "CC[C@@H]1[C@@](/C=C/C(=O)[C@@H](C[C@@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)C)(C)O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "methymycin",
+                "molecular_formula": "C25H43NO7",
+                "chem_synonyms": [
+                    "pikromycin"
+                ],
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aac69327.1",
+                        "pikr2"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69328.1",
+                        "pikr1"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69329.1",
+                        "pikai"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69330.1",
+                        "pikaii"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69331.1",
+                        "pikaiii"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69332.1",
+                        "pikaiv"
+                    ]
+                },
+                {
+                    "operon_genes": [
+                        "aac69333.1",
+                        "pikav"
+                    ]
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000094",
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "Polyketide": {
+            "pks_te_type": "Type II",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAC69329.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "T"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "Propionyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "B-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "A-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AAC69330.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "Inactive",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        },
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "DH",
+                                "ER",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "4",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "A-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AAC69331.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "KR",
+                                "T"
+                            ],
+                            "module_nr": "5",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "kr_stereochem": "A-group",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AAC69332.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "KS",
+                                "AT",
+                                "T"
+                            ],
+                            "module_nr": "6",
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [],
+            "starter_unit": "Malonyl-CoA",
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Macrolactamization"
+        },
+        "publications": "9770448"
+    }
+}

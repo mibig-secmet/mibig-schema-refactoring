@@ -1,0 +1,50 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "LT986736.1"
+        },
+        "compounds": [
+            {
+                "evidence_struct": [
+                    "NMR"
+                ],
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "compound": "Sipanmycin",
+                "molecular_formula": "C46H71N3O8",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0001452",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:579753"
+        ],
+        "polyketide": {
+            "pks_te_type": "Both",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "pks_thioesterase": [],
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

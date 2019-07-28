@@ -1,0 +1,84 @@
+{
+    "version": "15",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4294787,
+                    "Accession": "NZ_DS999644",
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": 4289783
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 2005.09,
+                "mass_ion_type": "[M+H]+",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ],
+                "compound": "SRO15-2005"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_annotation": "Prepropeptide",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "SSGG_03858"
+                },
+                {
+                    "gene_annotation": "Lactamase",
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "SSGG_03859"
+                },
+                {
+                    "gene_annotation": "Peptidase",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "SSGG_03861"
+                },
+                {
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "SSGG_03862"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000578",
+        "RiPP": {
+            "ripp_subclass": "Lassopeptide",
+            "precursor_loci": [
+                {
+                    "lead_pept_len": 27,
+                    "core_pept_aa": "GYFVGSYKEYWSRRII",
+                    "foll_pept_len": 16,
+                    "peptidase": [],
+                    "gene_id": [
+                        "ssgg_03858"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "21983601"
+    }
+}

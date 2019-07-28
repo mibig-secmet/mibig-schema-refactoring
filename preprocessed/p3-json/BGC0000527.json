@@ -1,0 +1,38 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "1834.263",
+                "chem_struct": "CC[C@H](C)[C@@H](C(=O)NC(=C)S)NC(=O)[C@H](CS)NC(=O)[C@H](CCC(=O)O)NC(=O)C(=C)NC(=O)[C@H](CC)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC)NC(=O)[C@H](CS)NC(=O)[C@H](C(C)C)NC(=O)CNC(=O)CNC(=O)CNC(=O)CNC(=O)[C@@H]1CCCN1C(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](CC)NC(=O)[C@H](CS)N",
+                "database_deposited": true,
+                "pubchem_id": 16132433,
+                "compound": "mersacidin",
+                "molecular_formula": "C80H128N20O21S4",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "AJ250862",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000527",
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        },
+        "publications": [
+            "10831439",
+            "2181159"
+        ],
+        "minimal": true,
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

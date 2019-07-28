@@ -1,0 +1,201 @@
+{
+    "version": "17",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 12397,
+                    "Accession": "FJ461733",
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ],
+                    "start_coord": 1611
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Unknown"
+                ],
+                "compound": "anacyclamide"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ],
+            "gene": [
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 1799,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00386.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": 1611,
+                    "not_in_gbk": false,
+                    "gene_name": "acyC"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 2017,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00387.1",
+                    "gene_annotation": "Hypothetical protein",
+                    "gene_startpos": 1814,
+                    "not_in_gbk": false,
+                    "gene_name": "acyB"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 4224,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACK37888.2",
+                    "gene_annotation": "N-terminal protease",
+                    "gene_startpos": 2248,
+                    "not_in_gbk": false,
+                    "gene_name": "acyA"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 5080,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00388.1",
+                    "gene_annotation": "Precursor peptide",
+                    "gene_startpos": 4931,
+                    "not_in_gbk": false,
+                    "gene_name": "acyE"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 5878,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00389.1",
+                    "gene_annotation": "transposase",
+                    "gene_startpos": 5114,
+                    "not_in_gbk": false,
+                    "gene_name": "no gene ID"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 6802,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00390.1",
+                    "gene_annotation": "Prenyltransferase",
+                    "gene_startpos": 5912,
+                    "not_in_gbk": false,
+                    "tailoring": "Prenylation",
+                    "gene_name": "acyF"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 7403,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00391.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 7008,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 8180,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00392.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 7497,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 9431,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00393.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 8826,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Unknown",
+                    "gene_endpos": 9809,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00394.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_startpos": 9474,
+                    "not_in_gbk": false,
+                    "gene_name": "No gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 12397,
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ADA00395.1",
+                    "gene_annotation": "C-terminal protease",
+                    "gene_startpos": 10265,
+                    "not_in_gbk": false,
+                    "gene_name": "acyG"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000472",
+        "RiPP": {
+            "ripp_subclass": "Cyanobactin",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": 7,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "None",
+                            "AA_pos_1": -1,
+                            "AA_pos_2": -1
+                        }
+                    ],
+                    "core_pept_aa": "TSQIWGSPVP",
+                    "gene_id": [
+                        "ada00388"
+                    ],
+                    "lead_pept_len": 32,
+                    "peptidase": [
+                        "ack37888",
+                        "ada00395"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        },
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "20008171"
+    }
+}

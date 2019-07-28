@@ -1,0 +1,34 @@
+{
+    "changelog": [
+        {
+            "comments": [
+                "Migrated from v1.4"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "cluster": {
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "compounds": [
+            {
+                "compound": "isoindolinone",
+                "database_id": []
+            }
+        ],
+        "loci": {
+            "accession": "KL659535.1",
+            "completeness": "Unknown",
+            "end_coord": 46200,
+            "evidence": [],
+            "start_coord": 5661
+        },
+        "mibig_accession": "BGC0001626",
+        "minimal": true,
+        "polyketide": {},
+        "publications": [
+            "pubmed:28678182"
+        ]
+    }
+}

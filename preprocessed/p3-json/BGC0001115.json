@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "640.807",
+                "chem_struct": "CC(/C=C/CC1COC(C(C1O)O)C(/C(=C/C(=O)OCCCCCCCC(=O)NC2=C3C(=CSS3)NC2=O)/C)O)C(C)O",
+                "database_deposited": true,
+                "pubchem_id": 5825095,
+                "compound": "thiomarinol",
+                "molecular_formula": "C30H44N2O9S2",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 97600,
+                    "Accession": "FN689524",
+                    "start_coord": 10748
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001115",
+        "publications": [
+            "21483852"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ]
+    }
+}

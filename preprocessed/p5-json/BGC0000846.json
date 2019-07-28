@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": 289.288,
+                "chem_struct": "C[C@H]([C@@H](C(=O)O)NC(=O)[C@H](CC[C@@]1(CNC1=O)O)N)O",
+                "pubchem_id": 107817,
+                "compound": "tabtoxin",
+                "molecular_formula": "C11H19N3O6"
+            }
+        ],
+        "loci": {
+            "accession": "DQ187985.1",
+            "conn_comp_cluster": [
+                "Unknown"
+            ],
+            "complete": "Unknown"
+        },
+        "mibig_accession": "BGC0000846",
+        "biosyn_class": [
+            "Other"
+        ],
+        "minimal": true,
+        "other": {
+            "other_subclass": "Unknown"
+        },
+        "publications": [
+            "pubmed:0"
+        ]
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

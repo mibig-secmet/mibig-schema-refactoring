@@ -1,0 +1,173 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ],
+            "accession": "KJ728786.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 280.364,
+                "chem_struct": "C[C@H]1CCC/C=C/[C@@H]2C[C@@H](C[C@H]2[C@@H](/C=C/C(=O)O1)O)O",
+                "chem_synonyms": [
+                    "brefeldin a",
+                    "ascotoxin",
+                    "cyanein",
+                    "decumbin",
+                    "synergisidin",
+                    "nectrolide"
+                ],
+                "pubchem_id": 5287620,
+                "chem_target": [
+                    "protein transport"
+                ],
+                "compound": "brefeldin A",
+                "molecular_formula": "C16H24O4",
+                "chem_act": [
+                    "Inhibitor"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 4681,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "AIA58903",
+                    "gene_annotation": "thiohydrolase for polyketide release",
+                    "gene_startpos": 3699,
+                    "not_in_gbk": false,
+                    "tailoring": "Hydrolysis",
+                    "gene_name": "Bref-TH"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 7257,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AIA58895",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "gene_startpos": 5541,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "No Gene ID"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 9494,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AIA58896",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "gene_startpos": 7855,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "No Gene ID"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 12193,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AIA58897",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "gene_startpos": 10514,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "No Gene ID"
+                },
+                {
+                    "gene_function": "Tailoring",
+                    "gene_endpos": 14473,
+                    "evidence_genefunction": [
+                        "Unknown"
+                    ],
+                    "gene_id": "AIA58898",
+                    "gene_annotation": "cytochrome P450 oxygenase",
+                    "gene_startpos": 12965,
+                    "not_in_gbk": false,
+                    "tailoring": "Unknown",
+                    "gene_name": "No Gene ID"
+                },
+                {
+                    "gene_function": "Scaffold biosynthesis",
+                    "gene_endpos": 23507,
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "gene_id": "AIA58899",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_startpos": 16191,
+                    "not_in_gbk": false,
+                    "gene_name": "Bref-PKS"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0001141",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24845309",
+            "pubmed:2426273",
+            "pubmed:3192548"
+        ],
+        "polyketide": {
+            "nr_iterations": 7,
+            "pks_te_type": "Unknown",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "lin_cycl_pk": "Cyclic",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AIA58899",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Activity assay"
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [
+                "aia58903"
+            ],
+            "iterative_subtype": "Highly reducing",
+            "starter_unit": "Acetyl-CoA",
+            "pk_subclass": "Other",
+            "pks_genes": [
+                "aia58899"
+            ],
+            "pks_release_type": "Macrolactonization"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

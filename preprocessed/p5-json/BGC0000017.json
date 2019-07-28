@@ -1,0 +1,180 @@
+{
+    "general_params": {
+        "loci": {
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ],
+            "accession": "FJ477836.1"
+        },
+        "compounds": [
+            {
+                "mol_mass": 165.236,
+                "chem_struct": "CC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
+                "chem_synonyms": [],
+                "pubchem_id": 3034748,
+                "chem_target": [
+                    "Nicotinic acetylcholine receptor"
+                ],
+                "compound": "Anatoxin-a",
+                "molecular_formula": "C10H15NO",
+                "chem_act": [
+                    "Neurotoxic"
+                ]
+            },
+            {
+                "mol_mass": 179.263,
+                "chem_struct": "CCC(=O)C1=CCC[C@@H]2CC[C@H]1N2",
+                "chem_synonyms": [],
+                "pubchem_id": 126727,
+                "chem_target": [
+                    "Nicotinic acetylcholine receptor"
+                ],
+                "compound": "Homoanatoxin-a",
+                "molecular_formula": "C11H17NO",
+                "chem_act": [
+                    "Neurotoxic"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_annotation": "Prolyl-ACP oxidase",
+                    "gene_function": "Other enzymatic",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay",
+                        "Sequence-based prediction",
+                        "Unknown"
+                    ],
+                    "gene_id": "ACR33074.1",
+                    "gene_name": "anaB"
+                },
+                {
+                    "gene_annotation": "Proline adenylation protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACR33075.1",
+                    "gene_name": "anaC"
+                },
+                {
+                    "gene_annotation": "Acyl carrier protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "gene_id": "ACR33076.1",
+                    "gene_name": "anaD"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000017",
+        "biosyn_class": [
+            "Polyketide",
+            "Alkaloid"
+        ],
+        "publications": [
+            "pubmed:25108149",
+            "pubmed:24311576",
+            "pubmed:21786780",
+            "pubmed:20675499",
+            "pubmed:19954230",
+            "pubmed:19489636",
+            "pubmed:19447947",
+            "pubmed:21873484",
+            "pubmed:23277585"
+        ],
+        "polyketide": {
+            "pks_te_type": "Type II",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "anaE",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "1",
+                            "at_substr_spec": "Unknown",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "anaF",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "2",
+                            "at_substr_spec": "Unknown",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "anaG",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "module_nr": "3",
+                            "at_substr_spec": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [
+                "anaA"
+            ],
+            "starter_unit": "Unknown",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_release_type": "Unknown"
+        },
+        "alkaloid": {
+            "alkaloid_subclass": "Unknown"
+        }
+    },
+    "changelogs": [
+        {
+            "version": "2.0",
+            "comment": "Submitted"
+        }
+    ]
+}

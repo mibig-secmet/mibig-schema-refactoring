@@ -1,0 +1,173 @@
+{
+    "version": "15",
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "CR543861",
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction"
+                    ],
+                    "start_coord": -1
+                }
+            ],
+            "complete": "complete"
+        },
+        "compounds": [
+            {
+                "mol_mass": 575.198384,
+                "chem_struct": "O=C(N[C@@H](COC(=O)c1cccc(O)c1O)C(=O)NCCCCN(O)C(C)=O)[C@H]2N=C(OC2)c3cccc(O)c3O",
+                "mass_ion_type": "[M+H]+",
+                "compound": "Fimsbactin A",
+                "molecular_formula": "C26H31N4O11",
+                "chem_synonyms": [],
+                "chem_act": [
+                    "Siderophore"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2778",
+                    "gene_name": "fbsA"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2776",
+                    "gene_name": "fbsB"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2775",
+                    "gene_name": "fbsC"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2774",
+                    "gene_name": "fbsD"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2773",
+                    "gene_name": "fbsE"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2772",
+                    "gene_name": "fbsF"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2771",
+                    "gene_name": "fbsG"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2770",
+                    "gene_name": "fbsH"
+                },
+                {
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "gene_id": "ACIAD2769",
+                    "gene_name": "fbsI"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2768",
+                    "gene_name": "fbsJ"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2767",
+                    "gene_name": "fbsK"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2765",
+                    "gene_name": "fbsM"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2764",
+                    "gene_name": "fbsN"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2763",
+                    "gene_name": "fbsO"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2762",
+                    "gene_name": "fbsP"
+                },
+                {
+                    "gene_function": "None",
+                    "gene_id": "ACIAD2761",
+                    "gene_name": "fbsQ"
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000352",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "NRP": {
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_module": [
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "1",
+                            "nrps_mod_doms": "Other",
+                            "a_substr_spec": {
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Unknown"
+                            },
+                            "cdom_subtype": "Heterocyclization"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "2",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        },
+                        {
+                            "nrps_mod_skip_iter": "Neither",
+                            "module_nr": "3",
+                            "nrps_mod_doms": "None",
+                            "a_substr_spec": {
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "aa_type": "Proteinogenic"
+                            },
+                            "cdom_subtype": "LCL"
+                        }
+                    ],
+                    "nrps_gene": "ACIAD2773"
+                }
+            ],
+            "subclass": "NRP siderophore",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": []
+        },
+        "publications": [
+            "23456955"
+        ]
+    }
+}

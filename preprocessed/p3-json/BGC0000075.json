@@ -1,0 +1,50 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "mol_mass": "509.555",
+                "chem_struct": "CCC\\1CCC(=O)C2=C3C(=CC(=C2O)C)C(=O)C(=CC3=O)NC(=O)C/C=C(\\C(=O)O[C@H]([C@H](/C=C1)O)C)/C",
+                "database_deposited": true,
+                "pubchem_id": 5326374,
+                "compound": "hygrocin A",
+                "molecular_formula": "C28H31NO8",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            },
+            {
+                "mol_mass": "507.539",
+                "chem_struct": "CCC\\1CCC(=O)C2=C3C(=CC(=C2O)C)C(=O)C4=C(C3=O)[C@](C=CC(=O)N4)(C(=O)O[C@H]([C@H](/C=C1)O)C)C",
+                "database_deposited": true,
+                "pubchem_id": 5326384,
+                "compound": "hygrocin B",
+                "molecular_formula": "C28H29NO8",
+                "databases_deposited": [
+                    "PubChem"
+                ]
+            }
+        ],
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1,
+                    "Accession": "JX504844",
+                    "start_coord": -1
+                }
+            ]
+        },
+        "mibig_accession": "BGC0000075",
+        "publications": [
+            "24501776"
+        ],
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        },
+        "minimal": true,
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}
