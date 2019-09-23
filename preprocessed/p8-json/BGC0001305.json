@@ -18,6 +18,7 @@
                 "chem_synonyms": [
                     "CHEMBL452670",
                     "CTK6C7017",
+                    "CR-377",
                     "6-hydroxy-2-methyl-5-(2-methylbutanoyl)-3-methylidenepyran-4-one",
                     "6-hydroxy-2-methyl-5-(2-methylbutanoyl)-3-methylidene-2,3-dihydro-4h-pyran-4-one"
                 ],
@@ -30,8 +31,10 @@
             },
             {
                 "chem_struct": "CCC(C)C(=C1C(=O)C(C(OC1=O)C)CO)O",
-                "chem_synonyms": [],
-                "compound": "5-(Hydroxymethyl)-3-(1-hydroxy-2-methylbutylidene)-6-methyloxane-2,4-dione",
+                "chem_synonyms": [
+                    "J3.501.430F"
+                ],
+                "compound": "Fujikurin B",
                 "database_id": [
                     "pubchem:132558392"
                 ],
@@ -40,8 +43,10 @@
             },
             {
                 "chem_struct": "CCC(C)C(=C1C(=O)C(C(OC1=O)C)C)O",
-                "chem_synonyms": [],
-                "compound": "3-(1-Hydroxy-2-methylbutylidene)-5,6-dimethyloxane-2,4-dione",
+                "chem_synonyms": [
+                    "J3.501.431D"
+                ],
+                "compound": "Fujikurin C",
                 "database_id": [
                     "pubchem:132558393"
                 ],
@@ -50,8 +55,11 @@
             },
             {
                 "chem_struct": "CCC(C)/C(=C\\1/C(=O)C(C(OC1=O)C)C)/O",
-                "chem_synonyms": [],
-                "compound": "CHEMBL3597517",
+                "chem_synonyms": [
+                    "CHEMBL3597517",
+                    "J3.501.432B"
+                ],
+                "compound": "Fujikurin D",
                 "database_id": [
                     "pubchem:122183676"
                 ],

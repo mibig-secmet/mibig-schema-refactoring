@@ -52,7 +52,7 @@ BGC0000043	Curacin A	CO[C@H](CC\C(C)=C\C=C\CC\C=C/[C@H]1CSC(=N1)[C@@H]1C[C@@H]1C
 BGC0000044	Dawenol	C\C=C/C(/C)=C/C=C/C(/C)=C/C=C/C(/C)=C/C(C)\C=C(/C)C(O)C(C)C(C)OC(C)=O	npatlas:16469
 BGC0000045	Dehydrocurvularin	CC1CCC\C=C\C(=O)C2=C(O)C=C(O)C=C2CC(=O)O1	npatlas:4907;pubchem:6438143
 BGC0000046	Depudecin	C[C@@H](O)[C@@H]1O[C@H]1\C=C\[C@@H]1O[C@H]1[C@H](O)C=C	npatlas:1465;pubchem:6438725;chebi:64143;chemspider:21169370
-BGC0000047	(3E,5S,6S,7S,9R,15R,16R)-15-[(2S,3R,4R,5R,6R)-5-Hydroxy-3,4-dimethoxy-6-methyloxan-2-yl]oxy-6-[(2S,3R,4S,6R)-3-hydroxy-4-methoxy-6-methyloxan-2-yl]oxy-5,7,9,16-tetramethyl-1-oxacyclohexadec-3-ene-2,10-dione	C[C@H]1C[C@H](C(=O)CCCC[C@H]([C@H](OC(=O)/C=C/[C@@H]([C@H]1O[C@H]2[C@@H]([C@H](C[C@H](O2)C)OC)O)C)C)O[C@H]3[C@@H]([C@@H]([C@@H]([C@H](O3)C)O)OC)OC)C	pubchem:102274629
+BGC0000047	10,11-Dihydro-8-deoxy-12,13-deepoxy-12,13-dihydrochalcomycin	C[C@H]1C[C@H](C(=O)CCCC[C@H]([C@H](OC(=O)/C=C/[C@@H]([C@H]1O[C@H]2[C@@H]([C@H](C[C@H](O2)C)OC)O)C)C)O[C@H]3[C@@H]([C@@H]([C@@H]([C@H](O3)C)O)OC)OC)C	pubchem:102274629
 BGC0000048	dothistromin	C1[C@@H](O[C@H]2[C@@]1(C3=C(O2)C=C4C(=C3O)C(=O)C5=C(C=CC(=C5C4=O)O)O)O)O	pubchem:108014
 BGC0000049	E-492	C\C=C(/C)C(O)C(C)\C=C\C=C\CCC(O)CC1=C(C)C(=O)C(O)(O1)C(C)O	
 BGC0000049	E-975	CC\C=C(/C)C(O)C(C)\C=C\C=C\CCC(O)CC1=C(C)C(=O)C(O)(O1)C(C)O	npatlas:13786;pubchem:11509754
@@ -75,7 +75,7 @@ BGC0000059	filipin	CCCCC[C@H]([C@@H]1[C@H](C[C@H](C[C@H](C[C@H](C[C@H](C[C@H](C[
 BGC0000060	fostriecin	C[C@@](/C=C/[C@@H]1CC=CC(=O)O1)([C@@H](C[C@H](/C=C\C=C/C=C/CO)O)OP(=O)(O)O)O	pubchem:6436285
 BGC0000061	Levorin A3	C[C@H]1/C=C/C=C/C=C\C=C/C=C/C=C/C=C/[C@@H](C[C@@H]([C@@H]([C@H](CC(=O)C[C@H](C[C@H](C[C@H](CC(=O)CCCC(CC(=O)O[C@@H]1[C@@H](C)C[C@H](C)[C@H](CC(=O)C2=CC=C(C=C2)N)O)O)O)O)O)O)C(=O)O)O)O[C@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O	pubchem:118984420
 BGC0000061	C06690	C[C@@H]1[C@H]([C@@H]([C@@H](C(O1)OC\2CC3C(C(CC(O3)(CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC(C(/C=C/C=C/C=C/C=C/C=C/C=C/C=C2)C)C(C)CC(C)C(CC(=O)C4=CC=C(C=C4)N)O)O)O)O)O)O)C(=O)O)O)N)O	pubchem:11953885
-BGC0000061	(19Z,21Z,23Z,25Z,27Z,29Z,31Z)-33-[(2R,3S,4S,5S,6R)-4-Amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-17-[7-(4-aminophenyl)-5-hydroxy-4-methyl-7-oxoheptan-2-yl]-1,3,5,7,37-pentahydroxy-18-methyl-9,13,15-trioxo-16,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid	C[C@@H]1[C@H]([C@@H]([C@@H]([C@@H](O1)OC/2CC3C(C(CC(O3)(CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC(C(/C=C\C=C/C=C\C=C/C=C\C=C/C=C2)C)C(C)CC(C)C(CC(=O)C4=CC=C(C=C4)N)O)O)O)O)O)O)C(=O)O)O)N)O	pubchem:101492346
+BGC0000061	FR-008-III	C[C@@H]1[C@H]([C@@H]([C@@H]([C@@H](O1)OC/2CC3C(C(CC(O3)(CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC(C(/C=C\C=C/C=C\C=C/C=C\C=C/C=C2)C)C(C)CC(C)C(CC(=O)C4=CC=C(C=C4)N)O)O)O)O)O)O)C(=O)O)O)N)O	pubchem:101492346
 BGC0000061	Candicidin A	C[C@@H]1[C@H]([C@@H]([C@@H](C(O1)OC2CC3C(C(CC(O3)(CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC(C(C=CC=CC=CC=CC=CC=CC=C2)C)C(C)CC(C)C(CC(=O)C4=CC=C(C=C4)N)O)O)O)O)O)O)C(=O)O)O)N)O	pubchem:441142
 BGC0000061	UNII-AP5PEF5W7U	C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@@H]([C@@H]([C@H](CC(=O)CCC[C@H](CCCC(=O)CC(CC(=O)CC(=O)O[C@@H]1[C@@H](C)C[C@H](C)[C@H](CC(=O)C2=CC=C(C=C2)N)O)O)O)O)C(=O)O)O)O[C@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O	pubchem:76965088
 BGC0000062	Fumonisin B1	CCCC[C@@H](C)[C@@H](OC(=O)C[C@H](CC(O)=O)C(O)=O)[C@H](C[C@@H](C)C[C@H](O)CCCC[C@@H](O)C[C@H](O)[C@H](C)N)OC(=O)C[C@H](CC(O)=O)C(O)=O	npatlas:12054
@@ -698,7 +698,7 @@ BGC0000468	Bottromycin A2	[H][C@@]12[C@H](C)CCN1C(=O)CN\C(=N/[C@H](C(=O)N[C@@H](
 BGC0000469	Bottromycin A2	[H][C@@]12[C@H](C)CCN1C(=O)CN\C(=N/[C@H](C(=O)N[C@@H]([C@@H](C)C1=CC=CC=C1)C(=O)N[C@H](CC(=O)OC)C1=NC=CS1)C(C)(C)C)[C@@H](NC(=O)[C@@H](NC2=O)C(C)C)C(C)(C)C	npatlas:4746;pubchem:3081434
 BGC0000470	bottromycin D	C[C@@H]1CCN2[C@@H]1C(=O)N[C@H](C(=O)N[C@H](C(=NCC2=O)N[C@H](C(=O)N[C@@H]([C@@H](C)C3=CC=CC=C3)C(=O)N[C@H](CC(=O)OC)C4=NC=CS4)C(C)(C)C)C(C)(C)C)C	pubchem:71470785
 BGC0000471	viridisamide A		
-BGC0000472	3-[(3S,6S,12S,18S,21S,24S,27S,30S,33S)-21-[(2S)-Butan-2-yl]-30-[(1R)-1-hydroxyethyl]-12,27-bis(hydroxymethyl)-18-(1H-indol-3-ylmethyl)-2,5,11,14,17,20,23,26,29,32-decaoxo-3-propan-2-yl-1,4,10,13,16,19,22,25,28,31-decazatricyclo[31.3.0.06,10]hexatriacontan-24-yl]propanamide	CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CCC(=O)N)CO)[C@@H](C)O)C(C)C)CO)CC4=CNC5=CC=CC=C54	pubchem:102170967
+BGC0000472	Anacyclamide A10	CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CCC(=O)N)CO)[C@@H](C)O)C(C)C)CO)CC4=CNC5=CC=CC=C54	pubchem:102170967
 BGC0000473	Microcyclamide	CC[C@H](C)[C@@H]1NC(=O)C2=C(C)OC(=N2)[C@H](C)NC(=O)C2=CSC(=N2)[C@H](CC2=CN=CN2C)NC(=O)C2=CSC1=N2	npatlas:18963;pubchem:10555282
 BGC0000474	microcyclamide	CC[C@H](C)[C@H]1C2=NC(=CS2)C(=O)N[C@H](C3=NC(=CS3)C(=O)N[C@H](C4=NC(=C(O4)C)C(=O)N1)C)CC5=CN=CN5C	pubchem:10555282
 BGC0000475	patellamide A	CC[C@H](C)[C@H]1C2=N[C@@H](CO2)C(=O)N[C@@H](C3=NC(=CS3)C(=O)N[C@H](C4=N[C@@H]([C@H](O4)C)C(=O)N[C@@H](C5=NC(=CS5)C(=O)N1)C(C)C)[C@@H](C)CC)C(C)C	pubchem:157454
@@ -1595,10 +1595,10 @@ BGC0001180	Benvitimod	CC(C)C1=C(O)C=C(\C=C\C2=CC=CC=C2)C=C1O	npatlas:19552
 BGC0001180	Not named	CC(C)CCCC1=CC(O)=C(C(C)C)C(O)=C1	npatlas:2460
 BGC0001181	geosmin	C[C@H]1CCC[C@@]2([C@@]1(CCCC2)O)C	
 BGC0001182	chaetoglobosins	CC[C@H]1[C@H]2[C@@H](NC(=O)[C@@]23[C@@H](/C=C/C[C@@H](/C=C(\[C@H](C(=O)/C=C/C3=O)O)/C)C)[C@H]4[C@@]1(O4)C)[C@@H](C)C5=CNC6=CC=CC=C65	
-BGC0001183	Methyl N-[(2R,3R,4S,6R)-4-amino-6-[[(1S,3R,6S,7Z,9S,11Z,13S,16S,17S,18S,20S,21R,22S)-23-hydroxy-17-[(2R,4R,5S,6S)-5-hydroxy-4-[(2S,4R,5R,6S)-4-hydroxy-5-[(2R,4R,5R,6S)-4-hydroxy-5-methoxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-4-(hydroxymethyl)-3,8,12,18,20,22-hexamethyl-25,27-dioxo-26-oxapentacyclo[22.2.1.01,6.013,22.016,21]heptacosa-4,7,11,14,23-pentaen-9-yl]oxy]-2,4-dimethyloxan-3-yl]carbamate	C[C@H]1C[C@@H]([C@@H]([C@@H]2[C@@H]1[C@]3([C@@H](C=C2)/C(=C\C[C@@H](/C(=C\[C@@H]4C=C([C@@H](C[C@@]45C(=O)C(=C3O)C(=O)O5)C)CO)/C)O[C@H]6C[C@]([C@H]([C@H](O6)C)NC(=O)OC)(C)N)/C)C)O[C@H]7C[C@H]([C@H]([C@@H](O7)C)O)O[C@H]8C[C@H]([C@H]([C@@H](O8)C)O[C@@H]9C[C@H]([C@H]([C@@H](O9)C)OC)O)O)C	pubchem:100983786
+BGC0001183	Lobophorin A	C[C@H]1C[C@@H]([C@@H]([C@@H]2[C@@H]1[C@]3([C@@H](C=C2)/C(=C\C[C@@H](/C(=C\[C@@H]4C=C([C@@H](C[C@@]45C(=O)C(=C3O)C(=O)O5)C)CO)/C)O[C@H]6C[C@]([C@H]([C@H](O6)C)NC(=O)OC)(C)N)/C)C)O[C@H]7C[C@H]([C@H]([C@@H](O7)C)O)O[C@H]8C[C@H]([C@H]([C@@H](O8)C)O[C@@H]9C[C@H]([C@H]([C@@H](O9)C)OC)O)O)C	pubchem:100983786
 BGC0001184	bacilysin	C[C@@H](C(=O)OC(=O)[C@H](CC1CCC(=O)[C@H]2[C@@H]1O2)N)N	pubchem:160175
 BGC0001185	bacillibactin	C[C@@H]1[C@@H](C(=O)O[C@@H]([C@@H](C(=O)O[C@@H]([C@@H](C(=O)O1)NC(=O)CNC(=O)C2=C(C(=CC=C2)O)O)C)NC(=O)CNC(=O)C3=C(C(=CC=C3)O)O)C)NC(=O)CNC(=O)C4=C(C(=CC=C4)O)O	pubchem:125349
-BGC0001186	Bistheonellide A	C[C@@H]1O[C@H](C[C@@H](C1)OC)CC[C@@H]([C@H](O)[C@@H]([C@H]2OC(=O)/C(=C/C[C@@H](C[C@H]3O[C@H](C[C@@H]([C@H]([C@H](C[C@H]([C@@H]([C@H](OC(=O)/C(=C/C[C@@H](C[C@H]4O[C@H](C[C@@H]([C@H]([C@H](C[C@H]([C@@H]2C)O)O)C)OC)CC=C4)O)/C)[C@H]([C@@H](O)[C@H](CC[C@@H]5O[C@H](C[C@H](C5)OC)C)C)C)C)O)O)C)OC)CC=C3)O)/C)C)C	pubchem:6441172
+BGC0001186	Misakinolide A	C[C@@H]1O[C@H](C[C@@H](C1)OC)CC[C@@H]([C@H](O)[C@@H]([C@H]2OC(=O)/C(=C/C[C@@H](C[C@H]3O[C@H](C[C@@H]([C@H]([C@H](C[C@H]([C@@H]([C@H](OC(=O)/C(=C/C[C@@H](C[C@H]4O[C@H](C[C@@H]([C@H]([C@H](C[C@H]([C@@H]2C)O)O)C)OC)CC=C4)O)/C)[C@H]([C@@H](O)[C@H](CC[C@@H]5O[C@H](C[C@H](C5)OC)C)C)C)C)O)O)C)OC)CC=C3)O)/C)C)C	pubchem:6441172
 BGC0001187	xenolozoyenone	CCCCCC/C=C/C=C/C=C/C(O)=C1C(N(O)CC/1=O)=O	
 BGC0001188	legonaridin		
 BGC0001189	taiwachelin	CCCCCCCCCCCC(=O)N[C@@H]([C@@H](C(=O)O)O)C(=O)N[C@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@H](CCCN(C(=O)C[C@H](C)O)O)C(=O)N[C@@H](CO)C(=O)N[C@H]1CCCN(C1=O)O	pubchem:71492379
@@ -1608,10 +1608,10 @@ BGC0001192	colistin A	CC[C@@H](C)CCCCC(=O)N[C@@H](CCN)C(=O)N[C@@H]([C@@H](C)O)C(
 BGC0001192	colistin B	C[C@H]([C@H]1C(=O)NCC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CCN)CCN)CC(C)C)CC(C)C)CCN)NC(=O)[C@H](CCN)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CCN)NC(=O)CCCCC(C)C)O	pubchem:25138298
 BGC0001193	Thiolutin	CN1C(=O)C(NC(C)=O)=C2SSC=C12	npatlas:5113;pubchem:6870
 BGC0001194	hitachimycin	C/C/1=C/[C@H]2C[C@@H](C(=C2C(=O)C[C@H](CC/C=C/C[C@@H](NC(=O)/C=C\C=C1)C3=CC=CC=C3)O)O)OC	pubchem:6436205
-BGC0001195	(7S,14E,20Z)-4-(1-Hydroxy-3-oxopentyl)-2,4,18,20-tetramethyl-5,27-dioxa-12-azatricyclo[22.2.1.07,12]heptacosa-14,20-diene-6,13,19-trione	CCC(=O)CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C/C(=O)N3CCCC[C@H]3C(=O)O1)C)/C)C)C)O	pubchem:46192011
-BGC0001195	(7S,14E,20Z)-4-(1,3-Dihydroxypentyl)-2,4,18,20-tetramethyl-5,27-dioxa-12-azatricyclo[22.2.1.07,12]heptacosa-14,20-diene-6,13,19-trione	CCC(CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C/C(=O)N3CCCC[C@H]3C(=O)O1)C)/C)C)C)O)O	pubchem:46192154
-BGC0001195	(7S,13Z,19Z)-4-(1-Hydroxy-3-oxopentyl)-2,4,17,19-tetramethyl-5,26-dioxa-11-azatricyclo[21.2.1.07,11]hexacosa-13,19-diene-6,12,18-trione	CCC(=O)CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C\C(=O)N3CCC[C@H]3C(=O)O1)C)/C)C)C)O	pubchem:102314626
-BGC0001195	(7S,13Z,19Z)-4-(1,3-Dihydroxypentyl)-2,4,17,19-tetramethyl-5,26-dioxa-11-azatricyclo[21.2.1.07,11]hexacosa-13,19-diene-6,12,18-trione	CCC(CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C\C(=O)N3CCC[C@H]3C(=O)O1)C)/C)C)C)O)O	pubchem:102314627
+BGC0001195	Nocardiopsin A	CCC(=O)CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C/C(=O)N3CCCC[C@H]3C(=O)O1)C)/C)C)C)O	pubchem:46192011
+BGC0001195	Nocardiopsin B	CCC(CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C/C(=O)N3CCCC[C@H]3C(=O)O1)C)/C)C)C)O)O	pubchem:46192154
+BGC0001195	Nocardiopsin C	CCC(=O)CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C\C(=O)N3CCC[C@H]3C(=O)O1)C)/C)C)C)O	pubchem:102314626
+BGC0001195	Nocardiopsin D	CCC(CC(C1(CC(C2CCC(O2)CC/C=C(\C(=O)C(CC/C=C\C(=O)N3CCC[C@H]3C(=O)O1)C)/C)C)C)O)O	pubchem:102314627
 BGC0001196	desotamide	CC[C@@H](C)[C@H]1C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N1)CC(C)C)CC(C)C)CC2=CNC3=CC=CC=C32)CC(=O)N	
 BGC0001197	frankiamicin	O=C1C2=C(C(O)=C(CC(O)C3=C4C(O)=C(C(O)=O)C(C)=C3)C4=C2)C(C5=C1C=C(O)C=C5O)=O	
 BGC0001198	(+)-O-methylkolavelool	C[C@H]1CC[C@]2([C@H]([C@]1(C)CCC(C)(C=C)OC)CCC=C2C)C	pubchem:102335044
@@ -1793,9 +1793,9 @@ BGC0001303	Lobosamide B	C[C@H]1CC=CC=C(C)C=C(C)C=C\C=C\[C@H](O)C[C@H](O)[C@@H](O
 BGC0001303	Lobosamide C	C[C@H]1CC=CC=C(C)C=C(C)C=C\C=C/[C@H](O)C[C@H](O)C[C@H](O)[C@@H](C)C=CC=CC=CC(=O)N1	npatlas:1511
 BGC0001304	aflavarin	CC1=CC(=C(C2=C1C(=CC(=O)O2)OC)C3=C(C4=C(C=C(C=C4CO)OC)OC3=O)OC)OC	pubchem:44584646
 BGC0001305	fujikurin A		
-BGC0001305	fujikurin B	CCC(C)C(=C1C(=O)C(C(OC1=O)C)CO)O	pubchem:132558392
-BGC0001305	fujikurin C	CCC(C)C(=C1C(=O)C(C(OC1=O)C)C)O	pubchem:132558393
-BGC0001305	Fujikurin D	CCC(C)C(\O)=C1/C(=O)OC(C)C(C)C1=O	npatlas:4349
+BGC0001305	Fujikurin B	CCC(C)C(=C1C(=O)C(C(OC1=O)C)CO)O	pubchem:132558392
+BGC0001305	Fujikurin C	CCC(C)C(=C1C(=O)C(C(OC1=O)C)C)O	pubchem:132558393
+BGC0001305	Fujikurin D	CCC(C)C(\O)=C1/C(=O)OC(C)C(C)C1=O	npatlas:4349;pubchem:122183676
 BGC0001306	asperipin 2a		
 BGC0001307	chaxapeptin		
 BGC0001308	simocyclinone D9		
@@ -2194,7 +2194,7 @@ BGC0001549	citrulassin B
 BGC0001550	citrulassin D		
 BGC0001551	citrulassin E		
 BGC0001552	citrulassin F		
-BGC0001553	(3E,5S,7R,8R,10R,11R,12R,15R,16S,18E,25S)-11-Acetyl-2-hydroxy-10-methyl-21,26-diazapentacyclo[23.2.1.05,16.07,15.08,12]octacosa-1,3,13,18-tetraene-20,27,28-trione	C[C@@H]1C[C@@H]2[C@H]3C[C@H]4/C=C/C(=C5C(=O)[C@H](CCCNC(=O)/C=C/C[C@@H]4[C@H]3C=C[C@H]2[C@@H]1C(=O)C)NC5=O)O	pubchem:102048821
+BGC0001553	Clifednamide A	C[C@@H]1C[C@@H]2[C@H]3C[C@H]4/C=C/C(=C5C(=O)[C@H](CCCNC(=O)/C=C/C[C@@H]4[C@H]3C=C[C@H]2[C@@H]1C(=O)C)NC5=O)O	pubchem:102048821
 BGC0001554	coenzyme F430	C[C@@]12CC(=O)N[C@@]13C[C@H]4[C@H]([C@](C(=N4)C[C@@H]5[C@H]([C@@H]6CCC(=O)/C(=C/7\[C@H]([C@@H](/C(=C/C(=N3)[C@H]2CCC(=O)O)/[N-]7)CC(=O)O)CCC(=O)O)/C6=N5)CC(=O)O)(C)CC(=O)N)CCC(=O)O.[Ni]	
 BGC0001555	colicin V		
 BGC0001556	combamide		
@@ -2526,8 +2526,8 @@ BGC0001803	thioviridamide	CCC(C)C1NC(=O)C(CS\C=C/NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(
 BGC0001804	tiancimycin	C[C@H]1C[C@H](C(=O)/C=C/C=C/[C@@H]([C@H](OC(=O)/C=C/[C@@H]([C@H]1O)C)C)C)C	
 BGC0001805	tilivalline	C1C[C@H]2[C@@H](NC3=C(C=CC=C3O)C(=O)N2C1)C4=CNC5=CC=CC=C54	
 BGC0001806	Tolaasin A	CCC(C)C1NC(=O)C(NC(=O)C(\NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C2CCCN2C(=O)C(\NC(=O)CCCC(O)=O)=C\C)C(C)C)C(C)C)C(C)C)C(C)C)=C\C)C(C)OC(=O)C(CCCCN)NC(=O)C(CCN)NC(=O)C(CCO)NC1=O	npatlas:4692
-BGC0001807	(8S,9R,10S,11S,12R)-N-[(2R,3R)-1-[[(2S)-1-[[(2R,5S,11R,12R)-5-[(2S)-Butan-2-yl]-2-(2-chloro-3,5-dihydroxy-4-methylphenyl)-11-methyl-3,6,9,13-tetraoxo-1,4,7,10-tetrazacyclotridec-12-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]-11-[(2R,3R,4R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-methoxyoxan-2-yl]oxy-9,12-dihydroxy-4,6,8,10-tetramethyl-3-oxotridecanamide	CC[C@H](C)[C@H]1C(=O)NCC(=O)N[C@@H]([C@H](C(=O)N[C@@H](C(=O)N1)C2=CC(=C(C(=C2Cl)O)C)O)NC(=O)[C@H](C)NC(=O)[C@@H]([C@@H](C)O)NC(=O)CC(=O)C(C)CC(C)C[C@H](C)[C@H]([C@H](C)[C@@H]([C@@H](C)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)OC)O)O)O)C	pubchem:57409240
-BGC0001807	(8S,9R,10S,11S)-N-[(2R,3R)-1-[[(2S)-1-[[(2R,5S,11R,12R)-5-[(2S)-Butan-2-yl]-2-(2-chloro-3,5-dihydroxy-4-methylphenyl)-11-methyl-3,6,9,13-tetraoxo-1,4,7,10-tetrazacyclotridec-12-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]-9,11,12-trihydroxy-4,6,8,10-tetramethyl-3-oxotridecanamide	CC[C@H](C)[C@H]1C(=O)NCC(=O)N[C@@H]([C@H](C(=O)N[C@@H](C(=O)N1)C2=CC(=C(C(=C2Cl)O)C)O)NC(=O)[C@H](C)NC(=O)[C@@H]([C@@H](C)O)NC(=O)CC(=O)C(C)CC(C)C[C@H](C)[C@H]([C@H](C)[C@@H](C(C)O)O)O)C	pubchem:101572704
+BGC0001807	Totopotensamide A	CC[C@H](C)[C@H]1C(=O)NCC(=O)N[C@@H]([C@H](C(=O)N[C@@H](C(=O)N1)C2=CC(=C(C(=C2Cl)O)C)O)NC(=O)[C@H](C)NC(=O)[C@@H]([C@@H](C)O)NC(=O)CC(=O)C(C)CC(C)C[C@H](C)[C@H]([C@H](C)[C@@H]([C@@H](C)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)OC)O)O)O)C	pubchem:57409240
+BGC0001807	Totopotensamide B	CC[C@H](C)[C@H]1C(=O)NCC(=O)N[C@@H]([C@H](C(=O)N[C@@H](C(=O)N1)C2=CC(=C(C(=C2Cl)O)C)O)NC(=O)[C@H](C)NC(=O)[C@@H]([C@@H](C)O)NC(=O)CC(=O)C(C)CC(C)C[C@H](C)[C@H]([C@H](C)[C@@H](C(C)O)O)O)C	pubchem:101572704
 BGC0001808	toyocamycin	NC1=NC=NC2=C1C(=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O)C#N	
 BGC0001809	trans-aconitic acid	C(/C(=C\C(=O)O)/C(=O)O)C(=O)O	pubchem:444212
 BGC0001810	trehangelin	C/C=C(\C)/C(=O)O[C@H]1[C@@H]([C@H](O[C@@H]([C@@H]1O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)OC(=O)/C(=C/C)/C)CO)CO)O	pubchem:132599844

@@ -2,12 +2,12 @@ BGC0000001	Abyssomicin C	fetched mol_mass from pubchem:71455791
 BGC0000001	Abyssomicin C	fetched molecular_formula from pubchem:71455791
 BGC0000001	Abyssomicin C	fetched chem_struct from pubchem:71455791
 BGC0000047	dihydrochalcomycin	replaced/updated
-BGC0000047	(3E,5S,6S,7S,9R,15R,16R)-15-[(2S,3R,4R,5R,6R)-5-Hydroxy-3,4-dimethoxy-6-methyloxan-2-yl]oxy-6-[(2S,3R,4S,6R)-3-hydroxy-4-methoxy-6-methyloxan-2-yl]oxy-5,7,9,16-tetramethyl-1-oxacyclohexadec-3-ene-2,10-dione	added from pubchem:102274629
+BGC0000047	10,11-Dihydro-8-deoxy-12,13-deepoxy-12,13-dihydrochalcomycin	added from pubchem:102274629
 BGC0000049	E-975	fetched chem_struct from pubchem:11509754
 BGC0000061	FR-008	replaced/updated
 BGC0000061	Levorin A3	added from pubchem:118984420
 BGC0000061	C06690	added from pubchem:11953885
-BGC0000061	(19Z,21Z,23Z,25Z,27Z,29Z,31Z)-33-[(2R,3S,4S,5S,6R)-4-Amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-17-[7-(4-aminophenyl)-5-hydroxy-4-methyl-7-oxoheptan-2-yl]-1,3,5,7,37-pentahydroxy-18-methyl-9,13,15-trioxo-16,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid	added from pubchem:101492346
+BGC0000061	FR-008-III	added from pubchem:101492346
 BGC0000061	Candicidin A	added from pubchem:441142
 BGC0000061	UNII-AP5PEF5W7U	added from pubchem:76965088
 BGC0000079	indanomycin	fetched mol_mass from pubchem:3701
@@ -59,14 +59,14 @@ BGC0000443	thanamycin	added mol_mass: 1289.5794
 BGC0000443	thanamycin	added molecular_formula: C55H88ClN11O22
 BGC0000443	thanamycin	added chem_struct: CCCCCCCCCCCCC(O)C(O)CC(NC1COC(C(C(O)CCl)NC(C(C(O)C(O)=O)NC(/C(NC(C(C(O)C)CC(C(CC2=CNC=N2)NC(C(CCO)NC(C(CC(O)=O)NC(C(CCCN)(O)NC1=O)=O)=O)=O)=O)=O)=C\C)=O)=O)=O)=O
 BGC0000472	anacyclamide	replaced/updated
-BGC0000472	3-[(3S,6S,12S,18S,21S,24S,27S,30S,33S)-21-[(2S)-Butan-2-yl]-30-[(1R)-1-hydroxyethyl]-12,27-bis(hydroxymethyl)-18-(1H-indol-3-ylmethyl)-2,5,11,14,17,20,23,26,29,32-decaoxo-3-propan-2-yl-1,4,10,13,16,19,22,25,28,31-decazatricyclo[31.3.0.06,10]hexatriacontan-24-yl]propanamide	added from pubchem:102170967
+BGC0000472	Anacyclamide A10	added from pubchem:102170967
 BGC0000483	Aeruginosamide B	fetched mol_mass from pubchem:132491096
 BGC0000483	Aeruginosamide C	replaced/updated
 BGC0000483	Aeruginosamide C	added mol_mass: 673.3298
 BGC0000483	Aeruginosamide C	added molecular_formula: C37H47N5O5S
 BGC0000483	Aeruginosamide C	added chem_struct: CC(C)(C=C)N[C@H](C(N[C@H](C(N1CCC[C@H]1C(N[C@@H](C2=NC(C(OC)=O)=CS2)C(C)C)=O)=O)CC3=CC=CC=C3)=O)CC4=CC=CC=C4
 BGC0000521	lacticin 481	replaced/updated
-BGC0000521	CID 101253615	added from pubchem:101253615
+BGC0000521	Lacticin-481	added from pubchem:101253615
 BGC0000549	salivaricin D	replaced/updated
 BGC0000549	salivaricin D	added mol_mass: 3466.6494
 BGC0000549	salivaricin D	added molecular_formula: C154H235N45O37S5
@@ -103,14 +103,14 @@ BGC0001181	geosmin	fetched molecular_formula from pubchem:29746
 BGC0001181	geosmin	fetched chem_struct from pubchem:29746
 BGC0001181	geosmin	fetched chem_synonyms from pubchem:29746
 BGC0001183	lobophorin	replaced/updated
-BGC0001183	Methyl N-[(2R,3R,4S,6R)-4-amino-6-[[(1S,3R,6S,7Z,9S,11Z,13S,16S,17S,18S,20S,21R,22S)-23-hydroxy-17-[(2R,4R,5S,6S)-5-hydroxy-4-[(2S,4R,5R,6S)-4-hydroxy-5-[(2R,4R,5R,6S)-4-hydroxy-5-methoxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-4-(hydroxymethyl)-3,8,12,18,20,22-hexamethyl-25,27-dioxo-26-oxapentacyclo[22.2.1.01,6.013,22.016,21]heptacosa-4,7,11,14,23-pentaen-9-yl]oxy]-2,4-dimethyloxan-3-yl]carbamate	added from pubchem:100983786
+BGC0001183	Lobophorin A	added from pubchem:100983786
 BGC0001186	misakinolide	replaced/updated
-BGC0001186	Bistheonellide A	added from pubchem:6441172
+BGC0001186	Misakinolide A	added from pubchem:6441172
 BGC0001195	nocardiopsin	replaced/updated
-BGC0001195	(7S,14E,20Z)-4-(1-Hydroxy-3-oxopentyl)-2,4,18,20-tetramethyl-5,27-dioxa-12-azatricyclo[22.2.1.07,12]heptacosa-14,20-diene-6,13,19-trione	added from pubchem:46192011
-BGC0001195	(7S,14E,20Z)-4-(1,3-Dihydroxypentyl)-2,4,18,20-tetramethyl-5,27-dioxa-12-azatricyclo[22.2.1.07,12]heptacosa-14,20-diene-6,13,19-trione	added from pubchem:46192154
-BGC0001195	(7S,13Z,19Z)-4-(1-Hydroxy-3-oxopentyl)-2,4,17,19-tetramethyl-5,26-dioxa-11-azatricyclo[21.2.1.07,11]hexacosa-13,19-diene-6,12,18-trione	added from pubchem:102314626
-BGC0001195	(7S,13Z,19Z)-4-(1,3-Dihydroxypentyl)-2,4,17,19-tetramethyl-5,26-dioxa-11-azatricyclo[21.2.1.07,11]hexacosa-13,19-diene-6,12,18-trione	added from pubchem:102314627
+BGC0001195	Nocardiopsin A	added from pubchem:46192011
+BGC0001195	Nocardiopsin B	added from pubchem:46192154
+BGC0001195	Nocardiopsin C	added from pubchem:102314626
+BGC0001195	Nocardiopsin D	added from pubchem:102314627
 BGC0001196	desotamide	fetched mol_mass from pubchem:181446
 BGC0001196	desotamide	fetched molecular_formula from pubchem:181446
 BGC0001196	desotamide	fetched chem_struct from pubchem:181446
@@ -139,9 +139,9 @@ BGC0001278	trichodiene	fetched chem_struct from pubchem:114857
 BGC0001278	trichodiene	fetched chem_synonyms from pubchem:114857
 BGC0001305	fujikurins	replaced/updated
 BGC0001305	AC1LA93M	added from pubchem:54704427
-BGC0001305	5-(Hydroxymethyl)-3-(1-hydroxy-2-methylbutylidene)-6-methyloxane-2,4-dione	added from pubchem:132558392
-BGC0001305	3-(1-Hydroxy-2-methylbutylidene)-5,6-dimethyloxane-2,4-dione	added from pubchem:132558393
-BGC0001305	CHEMBL3597517	added from pubchem:122183676
+BGC0001305	Fujikurin B	added from pubchem:132558392
+BGC0001305	Fujikurin C	added from pubchem:132558393
+BGC0001305	Fujikurin D	added from pubchem:122183676
 BGC0001309	usnic acid	fetched mol_mass from pubchem:5646
 BGC0001309	usnic acid	fetched molecular_formula from pubchem:5646
 BGC0001309	usnic acid	fetched chem_struct from pubchem:5646
@@ -166,7 +166,7 @@ BGC0001462	avoparcin	fetched mol_mass from pubchem:16132294
 BGC0001548	citrulassin A	replaced/updated
 BGC0001548	((S)-2-((2S,5S,11S,14S,20S,23S)-20-(2-amino-2-oxoethyl)-2,5,11-triisobutyl-14-methyl-3,6,9,12,15,18,21,25-octaoxo-1,4,7,10,13,16,19,22-octaazacyclopentacosane-23-carboxamido)-5-ureidopentanoyl)-L-leucyl-L-valyl-L-leucyl-L-seryl-L-lysyl-L-asparagine	added from pubchem:124080860
 BGC0001553	clifednamide	replaced/updated
-BGC0001553	(3E,5S,7R,8R,10R,11R,12R,15R,16S,18E,25S)-11-Acetyl-2-hydroxy-10-methyl-21,26-diazapentacyclo[23.2.1.05,16.07,15.08,12]octacosa-1,3,13,18-tetraene-20,27,28-trione	added from pubchem:102048821
+BGC0001553	Clifednamide A	added from pubchem:102048821
 BGC0001559	crocagin A	replaced/updated
 BGC0001559	crocagin A	added from chemspider:59718412
 BGC0001559	crocagin B	replaced/updated
@@ -190,5 +190,5 @@ BGC0001614	hassallidin E	added mol_mass: 1409.7177
 BGC0001614	hassallidin E	added molecular_formula: C64H103N11O24
 BGC0001614	hassallidin E	added chem_struct: C/C=C1NC(C(NC(C(NC(C(C(OC(C(NC(C(N(C(CNC(C(NC\1=O)CCC(N)=O)=O)=O)C)C(OC2OC(C(C(C2O)O)O)CO)C)=O)CCC(N)=O)=O)C)NC(C(C(O)C)NC(C(C(CCCCCCCCCCCCC)O)O)=O)=O)=O)C(O)C)=O)Cc3ccc(O)cc3)=O
 BGC0001807	totopensamide	replaced/updated
-BGC0001807	(8S,9R,10S,11S,12R)-N-[(2R,3R)-1-[[(2S)-1-[[(2R,5S,11R,12R)-5-[(2S)-Butan-2-yl]-2-(2-chloro-3,5-dihydroxy-4-methylphenyl)-11-methyl-3,6,9,13-tetraoxo-1,4,7,10-tetrazacyclotridec-12-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]-11-[(2R,3R,4R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-methoxyoxan-2-yl]oxy-9,12-dihydroxy-4,6,8,10-tetramethyl-3-oxotridecanamide	added from pubchem:57409240
-BGC0001807	(8S,9R,10S,11S)-N-[(2R,3R)-1-[[(2S)-1-[[(2R,5S,11R,12R)-5-[(2S)-Butan-2-yl]-2-(2-chloro-3,5-dihydroxy-4-methylphenyl)-11-methyl-3,6,9,13-tetraoxo-1,4,7,10-tetrazacyclotridec-12-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]-9,11,12-trihydroxy-4,6,8,10-tetramethyl-3-oxotridecanamide	added from pubchem:101572704
+BGC0001807	Totopotensamide A	added from pubchem:57409240
+BGC0001807	Totopotensamide B	added from pubchem:101572704
