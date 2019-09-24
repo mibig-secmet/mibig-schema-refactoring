@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -17,8 +18,10 @@
                     "Antibacterial"
                 ],
                 "chem_struct": "O=C([C@H]1CSC(C2=CSC(C3=CSC(C(NC([C@@H]4CSC(C5=CSC(C6=CC=C(C(N[C@@H](CC(N)=O)C7=N[C@H](C(N/C8=C\\C)=O)CS7)=O)C([C@H](NC9=O)C)=N6)=N5)=N4)=O)=C)=N3)=N2)=N1)N[C@H](C(O)=O)CS[C@@](C)(C(N[C@@H](CCCCN)C(NCC(NC(C(N%10[C@H]9CCC%10)=O)=C)=O)=O)=O)NC8=O",
-                "compound": "cyclothiazomycin C",
-                "mass_spec_ion_type": "[M+H]+",
+                "compound": " Cyclothiazomycin C",
+                "database_id": [
+                    "pubchem:130317475"
+                ],
                 "mol_mass": 2310.1632,
                 "molecular_formula": "C100H8N34O13S13"
             }

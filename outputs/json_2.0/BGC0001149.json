@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -22,13 +23,17 @@
                         "moiety": "5,5-bicyclic carbamate"
                     }
                 ],
+                "chem_struct": "CCCCCCCCCCC[C@H](CC(=O)NC(=O)/C=C/1\\[C@@H]2CCCN2C(=O)O1)O[C@H]3[C@@H]([C@@H]([C@H]([C@@H](O3)C)O)O)O",
                 "chem_synonyms": [
                     "sb-253514"
                 ],
                 "compound": "brabantamide A",
                 "database_id": [
+                    "pubchem:129821380",
                     "chemspider:8274723"
-                ]
+                ],
+                "mol_mass": 561.3768,
+                "molecular_formula": "C28H7N3O11"
             }
         ],
         "genes": {

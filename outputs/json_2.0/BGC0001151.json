@@ -23,7 +23,7 @@
                         "moiety": "Unknown"
                     }
                 ],
-                "chem_struct": "CC(C)C(C(=O)NC(C(CC1CN2C(O1)CC2=O)O)C(=O)O)N",
+                "chem_struct": "CC(C)[C@@H](C(=O)NC(C(C[C@H]1CN2[C@@H](O1)CC2=O)O)C(=O)O)N",
                 "chem_targets": [
                     {
                         "target": "methionine biosynthesis"
@@ -31,10 +31,11 @@
                 ],
                 "compound": "valclavam",
                 "database_id": [
+                    "pubchem:441132",
                     "pubchem:126919"
                 ],
-                "mol_mass": 332.1882,
-                "molecular_formula": "C15N4O6"
+                "mol_mass": 335.2119,
+                "molecular_formula": "C15H3N4O6"
             },
             {
                 "chem_struct": "OCC[C@H]1CN2[C@H](CC2=O)O1",

@@ -3,7 +3,8 @@
         {
             "comments": [
                 "Migrated from v1.4",
-                "Updated compound(s) information (MIBiG Annotathon)"
+                "Updated compound(s) information (MIBiG Annotathon)",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -14,17 +15,63 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CCC(C)CC(C)C(=O)OC1(C(=O)C=C2C=C(OC=C2C1=O)C(=O)O)C",
+                "chem_struct": "CCC(C)CC(C)C(=O)OC1(C)C(=O)C=C2C=C(OC=C2C1=O)C(O)=O",
                 "chem_synonyms": [
                     "CHEBI:133852",
                     "7-[(2,4-dimethylhexanoyl)oxy]-7-methyl-6,8-dioxo-7,8-dihydro-6H-2-benzopyran-3-carboxylic acid"
                 ],
                 "compound": "azanigerone A",
                 "database_id": [
+                    "npatlas:15930",
                     "pubchem:122198269"
                 ],
                 "mol_mass": 364.2268,
                 "molecular_formula": "C21O7"
+            },
+            {
+                "chem_struct": "CCC(C)CC(C)C(=O)OC1(C)C(=O)C=C2C=C(CC(C)O)OC=C2C1=O",
+                "compound": "azanigerone B",
+                "database_id": [
+                    "npatlas:12732"
+                ],
+                "mol_mass": 372.2494,
+                "molecular_formula": "C23O6"
+            },
+            {
+                "chem_struct": "CCC(C)CC(C)C(=O)OC1(C)C(=O)C=C2C=C(OC=C2C1=O)C(O)C(C)O",
+                "compound": "azanigerone C",
+                "database_id": [
+                    "npatlas:6968"
+                ],
+                "mol_mass": 388.2488,
+                "molecular_formula": "C23O7"
+            },
+            {
+                "chem_struct": "CCC(C)CC(C)C(=O)OC1(C)C(=O)C=C2C=C(NC=C2C1=O)C(O)=O",
+                "compound": "azanigerone D",
+                "database_id": [
+                    "npatlas:16590"
+                ],
+                "mol_mass": 362.2341,
+                "molecular_formula": "C21NO6"
+            },
+            {
+                "chem_struct": "CC(O)CC1=CC2=CC(=O)C(C)(O)C(=O)C2=CO1",
+                "compound": "azanigerone E",
+                "database_id": [
+                    "npatlas:13983"
+                ],
+                "mol_mass": 260.162,
+                "molecular_formula": "C15O5"
+            },
+            {
+                "chem_struct": "CC(O)CC1=CC2=CC(=O)C(C)(OC(C)=O)C(=O)C2=CO1",
+                "compound": "azanigerone F",
+                "database_id": [
+                    "npatlas:15371"
+                ],
+                "mol_mass": 300.1834,
+                "molecular_formula": "C17O6"
             }
         ],
         "loci": {

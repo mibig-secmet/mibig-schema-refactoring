@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -14,10 +15,10 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CCCCCCC/C=C/C=C/C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@H]1C[C@H](CCNC(=O)/C=C\\[C@@H](NC1=O)C)O",
-                "compound": "glidobactin",
+                "chem_struct": "CCCCCCC/C=C/C=C/C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@H]1C[C@H](CCNC(=O)/C=C/[C@@H](NC1=O)C)O",
+                "compound": "glidobactin A",
                 "database_id": [
-                    "pubchem:6439229"
+                    "pubchem:6505332"
                 ],
                 "mol_mass": 481.3597,
                 "molecular_formula": "C27H5N4O6"

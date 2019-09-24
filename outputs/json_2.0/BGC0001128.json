@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -13,7 +14,19 @@
         ],
         "compounds": [
             {
-                "compound": "luminmide"
+                "chem_struct": "CC(C)C[C@@H]1C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N1)CC2=CC=CC=C2)CC(C)C)C(C)C)CC(C)C",
+                "compound": "GameXPeptide A",
+                "database_id": [
+                    "npatlas:16754"
+                ],
+                "mol_mass": 563.444,
+                "molecular_formula": "C34H5N5O5"
+            },
+            {
+                "chem_struct": "CC(C[C@@H]1C(N[C@@H](CC(C)C)C(N[C@H](C(C)C)C(N[C@@H](CC(C)C)C(N[C@H](CC(C)C)C(N1)=O)=O)=O)=O)=O)C",
+                "compound": "luminmide B",
+                "mol_mass": 503.389,
+                "molecular_formula": "C29H5N5O5"
             }
         ],
         "loci": {

@@ -2,7 +2,8 @@
     "changelog": [
         {
             "comments": [
-                "Migrated from v1.4"
+                "Migrated from v1.4",
+                "Updated compound(s) information (NPAtlas curation)"
             ],
             "version": "2.0"
         }
@@ -17,11 +18,13 @@
                 "chem_acts": [
                     "Antifungal"
                 ],
-                "chem_struct": "O=C(NCCC(O)C1C(O)=C(C(/C=C/2)=O)C(N1)=O)/C=C\\C[C@H]([C@]3([H])[C@]4([H])[C@@]5([H])[C@@](C[C@H](C=C)[C@@H]5C)([H])C3)[C@H]2CC4=O",
-                "compound": "frontalamide B",
-                "mass_spec_ion_type": "[M+H]+",
-                "mol_mass": 540.447,
-                "molecular_formula": "C34H8N2O6"
+                "chem_struct": "C[C@H]1[C@H](C[C@H]2[C@@H]1[C@H]3[C@H](C2)[C@H]4C/C=C\\C(=O)NCCC(C5C(=O)C(=C(/C=C/[C@@H]4CC3=O)O)C(=O)N5)O)C=C",
+                "compound": "Frontalamide B",
+                "database_id": [
+                    "pubchem:101515038"
+                ],
+                "mol_mass": 620.4958,
+                "molecular_formula": "C36H8N6O6"
             }
         ],
         "genes": {
